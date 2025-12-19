@@ -53,10 +53,10 @@ export default function Home() {
               <div className="flex-1">
                 <h1 className="text-5xl font-bold mb-3 text-foreground text-balance">Dr. Madhura Yadav</h1>
                 <p className="text-xl text-muted-foreground mb-6">
-                  Dean, Department Of Student Welfare | Manipal University Jaipur
+                  Dean, Student Welfare| Manipal University Jaipur
                 </p>
                 <div className="space-y-4 text-foreground leading-relaxed">
-                  <p className="text-lg">Architect - Planner | Sustainability Expert | UNESCO Certified Mentor</p>
+                  <p className="text-lg"> Professor in Architecture | UNESCO Certified Mentor</p>
                   <p>
                     An accomplished Architect Planner with over <strong>30 years</strong> of extensive experience in
                     Administration, Academics, and Research. Currently serving as the Dean of the Faculty of Design at
