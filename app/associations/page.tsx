@@ -47,3 +47,6 @@ export default function AssociationsPage() {
     </div>
   )
 }
+//awards images update
+//spiritual tab (with gurus)
+//international conferences

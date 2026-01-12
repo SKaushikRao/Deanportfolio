@@ -48,7 +48,6 @@ export default function Home() {
               className="object-cover"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/60" />
           </div>
 
           {/* Hero Content */}
@@ -74,18 +73,18 @@ export default function Home() {
                 <div className="bg-black/20 backdrop-blur-md rounded-2xl p-8 transition-all duration-300 hover:bg-black/30 hover:backdrop-blur-lg max-w-2xl lg:max-w-none">
                   <div className="space-y-6">
                     <div>
-                      <h1 className="text-5xl lg:text-7xl font-black text-gray-100 mb-4 leading-tight">
+                      <h1 className="text-5xl lg:text-7xl font-black text-foreground mb-4 leading-tight">
                         Dr. Madhura Yadav
                       </h1>
-                      <p className="text-xl lg:text-2xl font-bold text-gray-200">
+                      <p className="text-xl lg:text-2xl font-bold text-foreground">
                         Dean, Student Welfare | Manipal University Jaipur
                       </p>
                     </div>
                     
-                    <div className="space-y-4 text-gray-300">
+                    <div className="space-y-4 text-foreground">
                       <p className="text-lg lg:text-xl font-bold">Professor in Architecture | UNESCO Certified Mentor</p>
                       <p className="text-base lg:text-lg font-semibold leading-relaxed max-w-2xl">
-                        An accomplished Architect Planner with over <strong className="text-gray-100 font-black">30 years</strong> of extensive experience in Administration, Academics, and Research. Currently serving as the Dean of the Faculty of Design at Manipal University Jaipur, where she has been the founder head of all Design and Planning programs.
+                        An accomplished Architect Planner with over <strong className="text-foreground font-black">30 years</strong> of extensive experience in Administration, Academics, and Research. Currently serving as the Dean of the Faculty of Design at Manipal University Jaipur, where she has been the founder head of all Design and Planning programs.
                       </p>
                     </div>
 
@@ -94,7 +93,7 @@ export default function Home() {
                       <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 shadow-lg" asChild>
                         <Link href="/contact">Get in Touch</Link>
                       </Button>
-                      <Button size="lg" variant="outline" className="bg-transparent border-gray-300 text-gray-200 hover:bg-gray-200 hover:text-gray-900 px-8 py-3 rounded-full transition-all duration-300" asChild>
+                      <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-black px-8 py-3 rounded-full transition-all duration-300" asChild>
                         <Link href="/research">View Research</Link>
                       </Button>
                     </div>
@@ -106,8 +105,8 @@ export default function Home() {
 
           {/* Scroll Indicator */}
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-            <div className="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center">
-              <div className="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-pulse" />
+            <div className="w-6 h-10 border-2 border-foreground rounded-full flex justify-center">
+              <div className="w-1 h-3 bg-foreground rounded-full mt-2 animate-pulse" />
             </div>
           </div>
         </section>
@@ -123,36 +122,36 @@ export default function Home() {
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <Card className="group relative overflow-hidden bg-background border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <Card className="group relative overflow-hidden bg-blue-50 border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                  <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <CardContent className="p-8 relative z-10">
-                    <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
-                      <Target className="h-8 w-8 text-primary" />
+                    <div className="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Target className="h-8 w-8 text-blue-600" />
                     </div>
-                    <div className="text-5xl font-bold text-primary mb-4 group-hover:scale-105 transition-transform duration-300">30+</div>
-                    <p className="text-muted-foreground text-lg font-medium">Years of Professional Experience</p>
+                    <div className="text-5xl font-bold text-blue-600 mb-4 group-hover:scale-105 transition-transform duration-300">30+</div>
+                    <p className="text-blue-700 text-lg font-medium">Years of Professional Experience</p>
                   </CardContent>
                 </Card>
                 
-                <Card className="group relative overflow-hidden bg-background border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <Card className="group relative overflow-hidden bg-blue-50 border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                  <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <CardContent className="p-8 relative z-10">
-                    <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
-                      <Award className="h-8 w-8 text-primary" />
+                    <div className="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Award className="h-8 w-8 text-blue-600" />
                     </div>
-                    <div className="text-5xl font-bold text-primary mb-4 group-hover:scale-105 transition-transform duration-300">8</div>
-                    <p className="text-muted-foreground text-lg font-medium">Major Awards & Recognitions</p>
+                    <div className="text-5xl font-bold text-blue-600 mb-4 group-hover:scale-105 transition-transform duration-300">8</div>
+                    <p className="text-blue-700 text-lg font-medium">Major Awards & Recognitions</p>
                   </CardContent>
                 </Card>
                 
-                <Card className="group relative overflow-hidden bg-background border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <Card className="group relative overflow-hidden bg-blue-50 border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                  <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <CardContent className="p-8 relative z-10">
-                    <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
-                      <BookOpen className="h-8 w-8 text-primary" />
+                    <div className="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <BookOpen className="h-8 w-8 text-blue-600" />
                     </div>
-                    <div className="text-5xl font-bold text-primary mb-4 group-hover:scale-105 transition-transform duration-300">10</div>
-                    <p className="text-muted-foreground text-lg font-medium">Patents Published</p>
+                    <div className="text-5xl font-bold text-blue-600 mb-4 group-hover:scale-105 transition-transform duration-300">10</div>
+                    <p className="text-blue-700 text-lg font-medium">Patents Published</p>
                   </CardContent>
                 </Card>
               </div>
@@ -180,7 +179,7 @@ export default function Home() {
                       variant="secondary"
                       size="icon"
                       onClick={prevImage}
-                      className="rounded-full bg-gray-100/90 hover:bg-gray-100 shadow-lg transition-all duration-300 hover:scale-110"
+                      className="rounded-full bg-foreground/90 hover:bg-foreground shadow-lg transition-all duration-300 hover:scale-110"
                     >
                       <ChevronLeft className="h-6 w-6" />
                     </Button>
@@ -188,14 +187,14 @@ export default function Home() {
                       variant="secondary"
                       size="icon"
                       onClick={nextImage}
-                      className="rounded-full bg-gray-100/90 hover:bg-gray-100 shadow-lg transition-all duration-300 hover:scale-110"
+                      className="rounded-full bg-foreground/90 hover:bg-foreground shadow-lg transition-all duration-300 hover:scale-110"
                     >
                       <ChevronRight className="h-6 w-6" />
                     </Button>
                   </div>
 
                   {/* Image Counter */}
-                  <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-gray-900/80 text-gray-100 px-4 py-2 rounded-full text-sm">
+                  <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/80 text-white px-4 py-2 rounded-full text-sm">
                     {currentImageIndex + 1} / {galleryImages.length}
                   </div>
                 </div>

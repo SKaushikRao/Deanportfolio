@@ -3,10 +3,7 @@
   "/awards/page": "app/awards/page.js",
   "/contact/page": "app/contact/page.js",
   "/education/page": "app/education/page.js",
-  "/honors/page": "app/honors/page.js",
   "/page": "app/page.js",
-  "/papers/page": "app/papers/page.js",
-  "/professional-experience/page": "app/professional-experience/page.js",
   "/research/page": "app/research/page.js",
   "/teaching/page": "app/teaching/page.js"
 }
