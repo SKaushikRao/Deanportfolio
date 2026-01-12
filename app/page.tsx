@@ -53,9 +53,9 @@ export default function Home() {
 
           {/* Hero Content */}
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
-            <div className="flex flex-col lg:flex-row gap-12 items-center">
+            <div className="flex flex-col lg:flex-row gap-12 items-center justify-center">
               {/* Profile Image - Left Side */}
-              <div className={`relative group ${isLoaded ? 'animate-fade-in' : 'opacity-0'} -ml-8`}>
+              <div className={`relative group ${isLoaded ? 'animate-fade-in' : 'opacity-0'} flex-shrink-0`}>
                 <div className="relative w-80 h-96 rounded-2xl overflow-hidden shadow-2xl transition-all duration-700 group-hover:shadow-3xl group-hover:scale-105">
                   <Image
                     src="/images/image.png"
@@ -69,22 +69,22 @@ export default function Home() {
               </div>
 
               {/* Text Content - Right Side */}
-              <div className={`flex-1 text-center lg:text-left ${isLoaded ? 'animate-slide-in-right' : 'opacity-0'} mr-8`}>
+              <div className={`flex-1 text-center lg:text-left ${isLoaded ? 'animate-slide-in-right' : 'opacity-0'} min-w-0`}>
                 {/* Translucent Background */}
-                <div className="bg-black/20 backdrop-blur-md rounded-2xl p-8 transition-all duration-300 hover:bg-black/30 hover:backdrop-blur-lg">
+                <div className="bg-black/20 backdrop-blur-md rounded-2xl p-8 transition-all duration-300 hover:bg-black/30 hover:backdrop-blur-lg max-w-2xl lg:max-w-none">
                   <div className="space-y-6">
                     <div>
-                      <h1 className="text-6xl lg:text-8xl font-black text-gray-100 mb-4 leading-tight">
+                      <h1 className="text-5xl lg:text-7xl font-black text-gray-100 mb-4 leading-tight">
                         Dr. Madhura Yadav
                       </h1>
-                      <p className="text-2xl lg:text-3xl font-bold text-gray-200">
+                      <p className="text-xl lg:text-2xl font-bold text-gray-200">
                         Dean, Student Welfare | Manipal University Jaipur
                       </p>
                     </div>
                     
                     <div className="space-y-4 text-gray-300">
-                      <p className="text-xl lg:text-2xl font-bold">Professor in Architecture | UNESCO Certified Mentor</p>
-                      <p className="text-lg lg:text-xl font-semibold leading-relaxed max-w-2xl">
+                      <p className="text-lg lg:text-xl font-bold">Professor in Architecture | UNESCO Certified Mentor</p>
+                      <p className="text-base lg:text-lg font-semibold leading-relaxed max-w-2xl">
                         An accomplished Architect Planner with over <strong className="text-gray-100 font-black">30 years</strong> of extensive experience in Administration, Academics, and Research. Currently serving as the Dean of the Faculty of Design at Manipal University Jaipur, where she has been the founder head of all Design and Planning programs.
                       </p>
                     </div>
@@ -166,7 +166,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-6 text-foreground">Project Gallery</h2>
             <Card className="overflow-hidden">
               <CardContent className="p-0">
-                <div className="relative h-[512px] bg-muted">
+                <div className="relative h-[700px] bg-muted">
                   <Image
                     src={galleryImages[currentImageIndex].url || "/placeholder.svg"}
                     alt={galleryImages[currentImageIndex].alt}
