@@ -57,7 +57,7 @@ export default function Sidebar() {
 
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 h-full w-72 bg-sidebar border-r border-sidebar-border transition-transform duration-300 z-40 ${
+        className={`fixed top-0 left-0 h-full w-80 bg-sidebar border-r border-sidebar-border transition-transform duration-300 z-40 ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } lg:translate-x-0 overflow-y-auto`}
       >
@@ -114,7 +114,7 @@ export default function Sidebar() {
         </div>
       </aside>
 
-      {/* Overlay for mobile */}
+      {/* Mobile Sidebar Overlay */}
       {isSidebarOpen && (
         <div className="fixed inset-0 bg-black/50 z-30 lg:hidden" onClick={() => setIsSidebarOpen(false)} />
       )}

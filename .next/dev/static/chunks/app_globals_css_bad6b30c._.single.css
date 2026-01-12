@@ -84,8 +84,8 @@
     --leading-relaxed: 1.625;
     --default-transition-duration: .15s;
     --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
-    --default-font-family: "Geist", "Geist Fallback";
-    --default-mono-font-family: "Geist Mono", "Geist Mono Fallback";
+    --default-font-family: "Century Gothic";
+    --default-mono-font-family: "Century Gothic";
   }
 }
 
@@ -967,7 +967,7 @@
   }
 
   .font-sans {
-    font-family: Geist, Geist Fallback;
+    font-family: Century Gothic;
   }
 
   .text-2xl {

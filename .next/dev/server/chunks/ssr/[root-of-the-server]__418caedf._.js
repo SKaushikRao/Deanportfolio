@@ -326,7 +326,7 @@ function ResearchPage() {
                                         className: "p-8",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "text-2xl font-bold mb-4 text-foreground",
+                                                className: "text-2xl font-bold mb-6 text-foreground",
                                                 children: "Patents Published"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/research/page.tsx",
@@ -334,26 +334,43 @@ function ResearchPage() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "text-center p-8 bg-muted rounded-lg",
+                                                className: "space-y-4",
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "text-6xl font-bold text-primary mb-2",
-                                                        children: "10"
-                                                    }, void 0, false, {
+                                                    "A system for sustainable water management in buildings (2023)",
+                                                    "Method for creating building blocks from recycled plastic (2022)",
+                                                    "A modular construction system for affordable housing (2022)",
+                                                    "An energy-efficient window design for hot climates (2021)",
+                                                    "A smart system for controlling building lighting (2021)",
+                                                    "A process for creating biodegradable insulation materials (2020)",
+                                                    "A self-cooling roof tile design (2019)",
+                                                    "A method for reinforcing traditional earth construction (2018)",
+                                                    "A greywater recycling system for residential use (2017)",
+                                                    "A kinetic facade system that responds to sunlight (2016)"
+                                                ].map((patent, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex items-start gap-4 p-4 rounded-lg hover:bg-muted transition-all duration-200",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "w-3 h-3 bg-primary rounded-full mt-1.5 flex-shrink-0"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/research/page.tsx",
+                                                                lineNumber: 60,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                className: "text-foreground",
+                                                                children: patent
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/research/page.tsx",
+                                                                lineNumber: 61,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, idx, true, {
                                                         fileName: "[project]/app/research/page.tsx",
-                                                        lineNumber: 47,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-muted-foreground",
-                                                        children: "Patents Published"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/app/research/page.tsx",
-                                                        lineNumber: 48,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                                        lineNumber: 59,
+                                                        columnNumber: 21
+                                                    }, this))
+                                            }, void 0, false, {
                                                 fileName: "[project]/app/research/page.tsx",
                                                 lineNumber: 46,
                                                 columnNumber: 17
@@ -375,10 +392,82 @@ function ResearchPage() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                                 className: "text-2xl font-bold mb-6 text-foreground",
+                                                children: "Research Publications"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/research/page.tsx",
+                                                lineNumber: 71,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "space-y-4",
+                                                children: [
+                                                    {
+                                                        title: "The Impact of Green Roofs on Urban Microclimates",
+                                                        journal: "Journal of Green Building, Vol. 18, Issue 2, 2023"
+                                                    },
+                                                    {
+                                                        title: "A Comparative Study of Traditional and Modern Insulation Materials",
+                                                        journal: "Sustainable Cities and Society, Vol. 75, 2022"
+                                                    },
+                                                    {
+                                                        title: "Community-Based Participatory Research in Urban Planning",
+                                                        journal: "Journal of the American Planning Association, Vol. 88, Issue 4, 2022"
+                                                    },
+                                                    {
+                                                        title: "The Role of Architecture in Post-Disaster Reconstruction",
+                                                        journal: "International Journal of Disaster Risk Reduction, Vol. 62, 2021"
+                                                    }
+                                                ].map((publication, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "p-4 border-l-4 border-primary hover:bg-muted transition-colors rounded-r-lg",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                className: "font-semibold text-foreground mb-1",
+                                                                children: publication.title
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/research/page.tsx",
+                                                                lineNumber: 92,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                className: "text-sm text-muted-foreground",
+                                                                children: publication.journal
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/research/page.tsx",
+                                                                lineNumber: 93,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, idx, true, {
+                                                        fileName: "[project]/app/research/page.tsx",
+                                                        lineNumber: 91,
+                                                        columnNumber: 21
+                                                    }, this))
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/research/page.tsx",
+                                                lineNumber: 72,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/research/page.tsx",
+                                        lineNumber: 70,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/app/research/page.tsx",
+                                    lineNumber: 69,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
+                                        className: "p-8",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                className: "text-2xl font-bold mb-6 text-foreground",
                                                 children: "Books"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/research/page.tsx",
-                                                lineNumber: 56,
+                                                lineNumber: 103,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -391,12 +480,12 @@ function ResearchPage() {
                                                             children: "Responsible Pedagogies in Architecture: Combating Climate Change"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/research/page.tsx",
-                                                            lineNumber: 59,
+                                                            lineNumber: 106,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/research/page.tsx",
-                                                        lineNumber: 58,
+                                                        lineNumber: 105,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -406,12 +495,12 @@ function ResearchPage() {
                                                             children: "Creative Futures"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/research/page.tsx",
-                                                            lineNumber: 64,
+                                                            lineNumber: 111,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/research/page.tsx",
-                                                        lineNumber: 63,
+                                                        lineNumber: 110,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -422,7 +511,7 @@ function ResearchPage() {
                                                                 children: "Coffee Table Book on Stepwells of India"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/research/page.tsx",
-                                                                lineNumber: 67,
+                                                                lineNumber: 114,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -430,30 +519,30 @@ function ResearchPage() {
                                                                 children: "Ministry of Culture, Government of India"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/research/page.tsx",
-                                                                lineNumber: 70,
+                                                                lineNumber: 117,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/research/page.tsx",
-                                                        lineNumber: 66,
+                                                        lineNumber: 113,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/research/page.tsx",
-                                                lineNumber: 57,
+                                                lineNumber: 104,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/research/page.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 102,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/research/page.tsx",
-                                    lineNumber: 54,
+                                    lineNumber: 101,
                                     columnNumber: 13
                                 }, this)
                             ]

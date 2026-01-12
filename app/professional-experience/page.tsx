@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import Sidebar from "@/components/sidebar"
+import Image from "next/image"
 
 export default function ProfessionalExperiencePage() {
   return (
@@ -14,7 +15,56 @@ export default function ProfessionalExperiencePage() {
             <p className="text-2xl text-muted-foreground mt-4">30 Years</p>
           </div>
 
-          <div className="space-y-8">
+          <div className="space-y-12">
+            {/* Featured Projects */}
+            <div>
+              <h2 className="text-3xl font-bold mb-8 text-foreground">Featured Projects</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {[
+                  {
+                    title: "Sustainable Architecture",
+                    description: "Innovative and eco-friendly building design.",
+                    image: "/sustainable-architecture-building-design.jpg",
+                  },
+                  {
+                    title: "Heritage Conservation",
+                    description: "Preserving architectural history for future generations.",
+                    image: "/heritage-conservation-architecture.jpg",
+                  },
+                  {
+                    title: "University Campus Design",
+                    description: "Creating inspiring spaces for learning and growth.",
+                    image: "/university-campus-design.jpg",
+                  },
+                  {
+                    title: "Green Building Project",
+                    description: "A commitment to environmentally responsible construction.",
+                    image: "/green-building-project.jpg",
+                  },
+                  {
+                    title: "Bamboo Construction",
+                    description: "Exploring the versatility of sustainable materials.",
+                    image: "/bamboo-construction-project.jpg",
+                  },
+                ].map((project, idx) => (
+                  <Card key={idx} className="overflow-hidden">
+                    <div className="relative h-60 w-full">
+                      <Image
+                        src={project.image}
+                        alt={project.title}
+                        layout="fill"
+                        objectFit="cover"
+                      />
+                    </div>
+                    <CardContent className="p-6">
+                      <h3 className="text-lg font-semibold text-foreground mb-2">{project.title}</h3>
+                      <p className="text-sm text-muted-foreground">{project.description}</p>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </div>
+
             {/* Major Projects */}
             <Card>
               <CardContent className="p-8">

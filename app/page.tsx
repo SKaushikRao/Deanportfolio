@@ -1,15 +1,16 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { ChevronLeft, ChevronRight } from "lucide-react"
+import { ChevronLeft, ChevronRight, Award, BookOpen, Target } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Sidebar from "@/components/sidebar"
 
 export default function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
+  const [isLoaded, setIsLoaded] = useState(false)
 
   const galleryImages = [
     { url: "/sustainable-architecture-building-design.jpg", alt: "Sustainable Architecture" },
@@ -18,6 +19,10 @@ export default function Home() {
     { url: "/heritage-conservation-architecture.jpg", alt: "Heritage Conservation" },
     { url: "/bamboo-construction-project.jpg", alt: "Bamboo Construction" },
   ]
+
+  useEffect(() => {
+    setIsLoaded(true)
+  }, [])
 
   const nextImage = () => {
     setCurrentImageIndex((prev) => (prev + 1) % galleryImages.length)
@@ -31,72 +36,137 @@ export default function Home() {
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-72">
-        <div className="max-w-6xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
-          {/* Profile Header with Photo */}
-          <section className="mb-16">
-            <div className="flex flex-col md:flex-row gap-8 items-start">
-              {/* Profile Photo */}
-              <div className="relative group">
-                <div className="relative w-64 h-80 rounded-lg overflow-hidden shadow-lg transition-all duration-300 group-hover:shadow-2xl">
+      <main className="flex-1 lg:ml-80">
+        {/* Hero Section with Background */}
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+          {/* Background Image */}
+          <div className="absolute inset-0">
+            <Image
+              src="/children.png"
+              alt="Background"
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/60" />
+          </div>
+
+          {/* Hero Content */}
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+            <div className="flex flex-col lg:flex-row gap-12 items-center">
+              {/* Profile Image - Left Side */}
+              <div className={`relative group ${isLoaded ? 'animate-fade-in' : 'opacity-0'} -ml-8`}>
+                <div className="relative w-80 h-96 rounded-2xl overflow-hidden shadow-2xl transition-all duration-700 group-hover:shadow-3xl group-hover:scale-105">
                   <Image
                     src="/images/image.png"
                     alt="Dr. Madhura Yadav"
                     fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="object-cover"
                     priority
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
               </div>
 
-              {/* Profile Info */}
-              <div className="flex-1">
-                <h1 className="text-5xl font-bold mb-3 text-foreground text-balance">Dr. Madhura Yadav</h1>
-                <p className="text-xl text-muted-foreground mb-6">
-                  Dean, Student Welfare| Manipal University Jaipur
+              {/* Text Content - Right Side */}
+              <div className={`flex-1 text-center lg:text-left ${isLoaded ? 'animate-slide-in-right' : 'opacity-0'} mr-8`}>
+                {/* Translucent Background */}
+                <div className="bg-black/20 backdrop-blur-md rounded-2xl p-8 transition-all duration-300 hover:bg-black/30 hover:backdrop-blur-lg">
+                  <div className="space-y-6">
+                    <div>
+                      <h1 className="text-6xl lg:text-8xl font-black text-gray-100 mb-4 leading-tight">
+                        Dr. Madhura Yadav
+                      </h1>
+                      <p className="text-2xl lg:text-3xl font-bold text-gray-200">
+                        Dean, Student Welfare | Manipal University Jaipur
+                      </p>
+                    </div>
+                    
+                    <div className="space-y-4 text-gray-300">
+                      <p className="text-xl lg:text-2xl font-bold">Professor in Architecture | UNESCO Certified Mentor</p>
+                      <p className="text-lg lg:text-xl font-semibold leading-relaxed max-w-2xl">
+                        An accomplished Architect Planner with over <strong className="text-gray-100 font-black">30 years</strong> of extensive experience in Administration, Academics, and Research. Currently serving as the Dean of the Faculty of Design at Manipal University Jaipur, where she has been the founder head of all Design and Planning programs.
+                      </p>
+                    </div>
+
+                    {/* CTA Buttons */}
+                    <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                      <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 shadow-lg" asChild>
+                        <Link href="/contact">Get in Touch</Link>
+                      </Button>
+                      <Button size="lg" variant="outline" className="bg-transparent border-gray-300 text-gray-200 hover:bg-gray-200 hover:text-gray-900 px-8 py-3 rounded-full transition-all duration-300" asChild>
+                        <Link href="/research">View Research</Link>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Scroll Indicator */}
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+            <div className="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center">
+              <div className="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-pulse" />
+            </div>
+          </div>
+        </section>
+
+          {/* Key Highlights - Moved after hero */}
+          <section className="py-20 bg-muted/50">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">Professional Excellence</h2>
+                <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                  Three decades of impactful contributions to architecture, education, and sustainable development
                 </p>
-                <div className="space-y-4 text-foreground leading-relaxed">
-                  <p className="text-lg"> Professor in Architecture | UNESCO Certified Mentor</p>
-                  <p>
-                    An accomplished Architect Planner with over <strong>30 years</strong> of extensive experience in
-                    Administration, Academics, and Research. Currently serving as the Dean of the Faculty of Design at
-                    Manipal University Jaipur, where she has been the founder head of all Design and Planning programs.
-                  </p>
-                </div>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <Card className="group relative overflow-hidden bg-background border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <CardContent className="p-8 relative z-10">
+                    <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Target className="h-8 w-8 text-primary" />
+                    </div>
+                    <div className="text-5xl font-bold text-primary mb-4 group-hover:scale-105 transition-transform duration-300">30+</div>
+                    <p className="text-muted-foreground text-lg font-medium">Years of Professional Experience</p>
+                  </CardContent>
+                </Card>
+                
+                <Card className="group relative overflow-hidden bg-background border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <CardContent className="p-8 relative z-10">
+                    <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Award className="h-8 w-8 text-primary" />
+                    </div>
+                    <div className="text-5xl font-bold text-primary mb-4 group-hover:scale-105 transition-transform duration-300">8</div>
+                    <p className="text-muted-foreground text-lg font-medium">Major Awards & Recognitions</p>
+                  </CardContent>
+                </Card>
+                
+                <Card className="group relative overflow-hidden bg-background border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <CardContent className="p-8 relative z-10">
+                    <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <BookOpen className="h-8 w-8 text-primary" />
+                    </div>
+                    <div className="text-5xl font-bold text-primary mb-4 group-hover:scale-105 transition-transform duration-300">10</div>
+                    <p className="text-muted-foreground text-lg font-medium">Patents Published</p>
+                  </CardContent>
+                </Card>
               </div>
             </div>
           </section>
 
-          {/* Key Highlights */}
-          <section className="mb-16">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-                <CardContent className="p-6">
-                  <div className="text-4xl font-bold text-primary mb-2">30+</div>
-                  <p className="text-muted-foreground">Years of Professional Experience</p>
-                </CardContent>
-              </Card>
-              <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-                <CardContent className="p-6">
-                  <div className="text-4xl font-bold text-primary mb-2">8</div>
-                  <p className="text-muted-foreground">Major Awards & Recognitions</p>
-                </CardContent>
-              </Card>
-              <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-                <CardContent className="p-6">
-                  <div className="text-4xl font-bold text-primary mb-2">10</div>
-                  <p className="text-muted-foreground">Patents Published</p>
-                </CardContent>
-              </Card>
-            </div>
-          </section>
-
+        {/* Main Content Area */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           {/* Image Gallery */}
           <section className="mb-16">
             <h2 className="text-3xl font-bold mb-6 text-foreground">Project Gallery</h2>
             <Card className="overflow-hidden">
               <CardContent className="p-0">
-                <div className="relative h-96 bg-muted">
+                <div className="relative h-[512px] bg-muted">
                   <Image
                     src={galleryImages[currentImageIndex].url || "/placeholder.svg"}
                     alt={galleryImages[currentImageIndex].alt}
@@ -110,7 +180,7 @@ export default function Home() {
                       variant="secondary"
                       size="icon"
                       onClick={prevImage}
-                      className="rounded-full bg-white/90 hover:bg-white shadow-lg transition-all duration-300 hover:scale-110"
+                      className="rounded-full bg-gray-100/90 hover:bg-gray-100 shadow-lg transition-all duration-300 hover:scale-110"
                     >
                       <ChevronLeft className="h-6 w-6" />
                     </Button>
@@ -118,14 +188,14 @@ export default function Home() {
                       variant="secondary"
                       size="icon"
                       onClick={nextImage}
-                      className="rounded-full bg-white/90 hover:bg-white shadow-lg transition-all duration-300 hover:scale-110"
+                      className="rounded-full bg-gray-100/90 hover:bg-gray-100 shadow-lg transition-all duration-300 hover:scale-110"
                     >
                       <ChevronRight className="h-6 w-6" />
                     </Button>
                   </div>
 
                   {/* Image Counter */}
-                  <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/70 text-white px-4 py-2 rounded-full text-sm">
+                  <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-gray-900/80 text-gray-100 px-4 py-2 rounded-full text-sm">
                     {currentImageIndex + 1} / {galleryImages.length}
                   </div>
                 </div>
