@@ -42,20 +42,20 @@ export default function EducationPage() {
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-72">
+      <main className="flex-1 lg:ml-80">
         <div className="max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-foreground">Education Qualifications</h1>
+            <h1 className="text-6xl font-bold mb-4 text-foreground">Education Qualifications</h1>
             <div className="h-1 w-24 bg-primary rounded-full"></div>
           </div>
 
           <div className="space-y-6">
             {qualifications.map((qual, idx) => (
               <Card key={idx} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold text-primary mb-2 group-hover:underline">{qual.degree}</h3>
-                  <p className="text-foreground mb-1">{qual.institution}</p>
-                  {qual.note && <p className="text-sm text-muted-foreground italic">{qual.note}</p>}
+                <CardContent className="p-8">
+                  <h3 className="text-2xl font-semibold text-primary mb-3 group-hover:underline">{qual.degree}</h3>
+                  <p className="text-lg text-foreground mb-2">{qual.institution}</p>
+                  {qual.note && <p className="text-base text-muted-foreground italic">{qual.note}</p>}
                 </CardContent>
               </Card>
             ))}

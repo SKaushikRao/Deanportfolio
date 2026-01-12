@@ -6,34 +6,34 @@ export default function ResearchPage() {
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-72">
+      <main className="flex-1 lg:ml-80">
         <div className="max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-foreground">Research and Patents</h1>
+            <h1 className="text-6xl font-bold mb-4 text-foreground">Research and Patents</h1>
             <div className="h-1 w-24 bg-primary rounded-full"></div>
           </div>
 
           <div className="space-y-8">
             {/* Research Projects */}
             <Card>
-              <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Research Projects</h2>
-                <div className="space-y-4 text-foreground">
-                  <div className="p-4 bg-muted rounded-lg hover:bg-muted/70 transition-colors">
-                    <p className="font-semibold mb-2">Co-PI with University of Canada</p>
-                    <p className="text-sm">
+              <CardContent className="p-10">
+                <h2 className="text-3xl font-bold mb-6 text-foreground">Research Projects</h2>
+                <div className="space-y-4 text-lg text-foreground">
+                  <div className="p-6 bg-muted rounded-lg hover:bg-muted/70 transition-colors">
+                    <p className="font-semibold mb-2 text-lg">Co-PI with University of Canada</p>
+                    <p className="text-base">
                       Bridging Knowledge Cultures: The Knowledge for Change Global Consortium on Training of
                       Community-Based Participatory Research funded by Social Sciences and Humanities Research Council
                       Canada
                     </p>
-                    <span className="text-xs text-primary">Completed</span>
+                    <span className="text-sm text-primary">Completed</span>
                   </div>
-                  <div className="p-4 bg-muted rounded-lg hover:bg-muted/70 transition-colors">
-                    <p className="font-semibold mb-2">Principal Investigator for DST Projects</p>
-                    <span className="text-xs text-primary">Ongoing</span>
+                  <div className="p-6 bg-muted rounded-lg hover:bg-muted/70 transition-colors">
+                    <p className="font-semibold mb-2 text-lg">Principal Investigator for DST Projects</p>
+                    <span className="text-sm text-primary">Ongoing</span>
                   </div>
-                  <div className="p-4 bg-muted rounded-lg hover:bg-muted/70 transition-colors">
-                    <p className="font-semibold">Team member for Heritage Place Lab</p>
+                  <div className="p-6 bg-muted rounded-lg hover:bg-muted/70 transition-colors">
+                    <p className="font-semibold text-lg">Team member for Heritage Place Lab</p>
                   </div>
                 </div>
               </CardContent>
@@ -41,9 +41,9 @@ export default function ResearchPage() {
 
             {/* Patents */}
             <Card>
-              <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Patents Published</h2>
-                <div className="space-y-4">
+              <CardContent className="p-10">
+                <h2 className="text-3xl font-bold mb-6 text-foreground">Patents Published</h2>
+                <div className="space-y-4 text-lg">
                   {[
                     "A system for sustainable water management in buildings (2023)",
                     "Method for creating building blocks from recycled plastic (2022)",
