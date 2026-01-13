@@ -1,27 +1,9 @@
 "use client"
 
-import { useState, useEffect } from "react"
 import Sidebar from "@/components/sidebar"
-import CircularGallery from "@/components/CircularGallery"
-import { Card, CardContent } from "@/components/ui/card"
+import ImageGallery from "@/components/ImageGallery"
 
 export default function SpiritualityPage() {
-  const [galleryItems, setGalleryItems] = useState<Array<{ image: string; text: string }>>([])
-
-  useEffect(() => {
-    // Import images from the spirituality folder
-    const spiritualityImages = [
-      { image: "/spirituality/image1.jpg", text: "Spiritual Journey" },
-      { image: "/spirituality/image2.jpg", text: "Meditation Practice" },
-      { image: "/spirituality/image3.jpg", text: "Sacred Spaces" },
-      { image: "/spirituality/image4.jpg", text: "Spiritual Teachings" },
-      { image: "/spirituality/image5.jpg", text: "Inner Peace" },
-      { image: "/spirituality/image6.jpg", text: "Wisdom Traditions" },
-    ]
-    
-    setGalleryItems(spiritualityImages)
-  }, [])
-
   return (
     <div className="flex min-h-screen">
       <Sidebar />
@@ -33,48 +15,12 @@ export default function SpiritualityPage() {
             <div className="h-1 w-24 bg-primary rounded-full"></div>
           </div>
 
-          {/* Circular Gallery Section */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-semibold mb-8 text-foreground">Gallery</h2>
-            <div style={{ height: '600px', position: 'relative' }}>
-              <CircularGallery 
-                bend={3} 
-                textColor="#ffffff" 
-                borderRadius={0.05} 
-                scrollEase={0.02}
-                items={galleryItems}
-              />
-            </div>
-          </div>
-
-          {/* Grid Gallery Section */}
-          <div>
-            <h2 className="text-3xl font-semibold mb-8 text-foreground">All Images</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {galleryItems.map((item, index) => (
-                <Card key={index} className="overflow-hidden group hover:shadow-lg transition-shadow duration-300">
-                  <CardContent className="p-0">
-                    <div className="relative aspect-square">
-                      <img
-                        src={item.image}
-                        alt={item.text}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                        onError={(e) => {
-                          // Fallback to placeholder if image doesn't exist
-                          e.currentTarget.src = `https://picsum.photos/seed/spirituality${index}/400/400`
-                        }}
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <div className="absolute bottom-4 left-4 right-4">
-                          <p className="text-white font-medium text-sm">{item.text}</p>
-                        </div>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
+          <ImageGallery 
+            folder="spirituality"
+            title="Spiritual Journey"
+            galleryTitle="Spiritual Gallery"
+            gridTitle="All Spiritual Images"
+          />
         </div>
       </main>
     </div>

@@ -33,3 +33,61 @@ Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
 [00:20:40.962] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:23:46.380] Server  LOG      ✓ Compiled in 60ms
+[00:24:02.324] Server  LOG      ✓ Compiled in 58ms
+[00:24:24.169] Server  LOG      ✓ Compiled in 50ms
+[00:24:36.419] Server  LOG      ✓ Compiled in 78ms
+[00:25:01.743] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:02.555] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:26:02.555] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/community-outreach","route":"/community-outreach"}
+[00:26:02.555] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/community-outreach color: rgb(120, 120, 120) color: inherit {"dp":"/community-outreach","o":"http://localhost:3000/community-outreach","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768328852259}
+[00:26:29.404] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768328877622}
+[00:28:23.854] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:08.317] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:29:08.317] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/spirituality","route":"/spirituality"}
+[00:29:08.317] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768329038033}
+[00:30:28.775] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:18.113] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:31:18.113] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/spirituality","route":"/spirituality"}
+[00:31:18.113] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768329167115}
+[00:32:19.529] Server  LOG      ✓ Compiled in 95ms
+[00:32:37.400] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:37.615] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:32:37.615] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/spirituality","route":"/spirituality"}
+[00:32:37.615] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768329247375}
+[00:32:53.834] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768329263516}
+[00:32:58.494] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768329268216}
+[00:33:01.256] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768329270978}
+[00:35:14.821] Server  LOG      ✓ Compiled in 54ms
+[00:35:34.208] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:34.914] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:35:34.915] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/spirituality","route":"/spirituality"}
+[00:35:34.915] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768329424720}
+[00:36:25.443] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:26.080] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:36:26.080] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/spirituality","route":"/spirituality"}
+[00:36:26.080] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768329475886}
+[00:36:43.916] Browser WARN    Image with src "/sustainable-architecture-building-design.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:36:43.916] Browser WARN    Image with src "/sustainable-architecture-building-design.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:36:43.916] Browser WARN    Image with src "/heritage-conservation-architecture.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:36:43.916] Browser WARN    Image with src "/heritage-conservation-architecture.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:36:43.916] Browser WARN    Image with src "/university-campus-design.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:36:43.916] Browser WARN    Image with src "/university-campus-design.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:36:43.916] Browser WARN    Image with src "/green-building-project.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:36:43.916] Browser WARN    Image with src "/green-building-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:36:43.916] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:36:43.916] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:36:43.916] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768329493721}
+[00:36:45.092] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768329494883}
+[00:36:45.670] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768329495471}
+[00:36:46.899] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768329496296}
