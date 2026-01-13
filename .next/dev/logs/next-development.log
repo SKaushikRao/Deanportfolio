@@ -1,109 +1,35 @@
-[00:00:02.841] Server  LOG      ✓ Ready in 1826ms
-[00:00:13.032] Server  LOG      ○ Compiling / ...
-[00:00:17.896] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:18.350] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:18.350] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:18.350] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768201848185}
-[00:01:53.030] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768201942857}
-[00:01:53.630] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768201943443}
-[00:02:25.645] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768201975478}
-[00:02:26.255] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768201976070}
-[00:02:36.482] Browser WARN    Image with src "/architecture-excellence-award-ceremony.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:01.860] Server  LOG      ✓ Ready in 1253ms
+[00:01:02.572] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:02.938] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:02.938] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:02.938] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768327352741}
+[00:04:37.131] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768327566936}
+[00:04:38.477] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768327568278}
+[00:04:39.039] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768327568823}
+[00:14:07.760] Server  LOG      ✓ Compiled in 87ms
+[00:16:55.172] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:55.347] Browser LOG     [Vercel Web Analytics] Failed to load script from https://va.vercel-scripts.com/v1/script.debug.js. Please check if any ad blockers are enabled and try again.
+[00:16:56.113] Server  LOG      ✓ Compiled in 142ms
+[00:16:57.354] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:57.527] Browser LOG     [Vercel Web Analytics] Failed to load script from https://va.vercel-scripts.com/v1/script.debug.js. Please check if any ad blockers are enabled and try again.
+[00:19:32.930] Server  LOG      ✓ Compiled in 64ms
+[00:20:40.961] Browser WARN    Image with src "/sustainable-architecture-building-design.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:02:36.482] Browser WARN    Image with src "/architecture-excellence-award-ceremony.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:20:40.961] Browser WARN    Image with src "/sustainable-architecture-building-design.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:02:36.482] Browser WARN    Image with src "/green-building-council-recognition-certificate.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:20:40.961] Browser WARN    Image with src "/heritage-conservation-architecture.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:02:36.482] Browser WARN    Image with src "/green-building-council-recognition-certificate.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:20:40.961] Browser WARN    Image with src "/heritage-conservation-architecture.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:02:36.482] Browser WARN    Image with src "/international-architecture-conference-award.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:20:40.961] Browser WARN    Image with src "/university-campus-design.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:02:36.482] Browser WARN    Image with src "/international-architecture-conference-award.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:20:40.961] Browser WARN    Image with src "/university-campus-design.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:02:36.482] Browser WARN    Image with src "/professional-recognition-award-trophy.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:20:40.961] Browser WARN    Image with src "/green-building-project.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:02:36.482] Browser WARN    Image with src "/professional-recognition-award-trophy.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:20:40.961] Browser WARN    Image with src "/green-building-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:02:36.482] Browser WARN    Image with src "/academic-excellence-award-stage.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:20:40.961] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:02:36.482] Browser WARN    Image with src "/academic-excellence-award-stage.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:20:40.962] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:02:36.482] Browser WARN    Image with src "/education-leadership-award-presentation.jpg" has legacy prop "layout". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:02:36.482] Browser WARN    Image with src "/education-leadership-award-presentation.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:02:36.482] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768201986317}
-[00:02:41.889] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768201991700}
-[00:02:47.245] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768201997079}
-[00:02:49.122] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768201998955}
-[00:02:50.023] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768201999857}
-[00:02:54.690] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768202004521}
-[00:03:00.812] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768202010648}
-[00:03:01.654] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768202011469}
-[00:13:38.801] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768202648634}
-[00:13:43.408] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768202653227}
-[00:14:35.890] Server  LOG      ✓ Compiled in 73ms
-[00:17:29.412] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768202879246}
-[00:17:30.898] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768202880712}
-[00:26:15.021] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:26:15.352] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:26:15.352] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:26:15.352] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203405179}
-[00:27:07.676] Server  LOG      ✓ Compiled in 163ms
-[00:27:09.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:09.609] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:27:09.609] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:27:09.609] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203459446}
-[00:27:23.768] Server  LOG      ✓ Compiled in 138ms
-[00:27:25.776] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:25.970] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:27:25.970] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:27:25.970] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203475805}
-[00:27:30.198] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:30.403] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:27:30.403] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:27:30.403] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203480228}
-[00:28:22.710] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203532540}
-[00:28:32.430] Server  LOG      ✓ Compiled in 102ms
-[00:28:38.396] Server  LOG      ✓ Compiled in 69ms
-[00:29:04.946] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203574759}
-[00:29:59.881] Server  LOG      ✓ Compiled in 313ms
-[00:30:06.656] Server  LOG      ✓ Compiled in 43ms
-[00:30:11.592] Server  LOG      ✓ Compiled in 157ms
-[00:30:17.526] Server  LOG      ✓ Compiled in 287ms
-[00:31:01.154] Server  LOG      ✓ Compiled in 224ms
-[00:31:48.091] Server  LOG      ✓ Compiled in 39ms
-[00:34:31.547] Server  LOG      ✓ Compiled in 237ms
-[00:35:19.743] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203949559}
-[00:35:21.711] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203951531}
-[00:35:22.201] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203952029}
-[00:35:23.511] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203953334}
-[00:35:24.556] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203954377}
-[00:35:25.736] Browser WARN    Image with src "/architecture-excellence-award-ceremony.jpg" has legacy prop "layout". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:35:25.736] Browser WARN    Image with src "/architecture-excellence-award-ceremony.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:35:25.736] Browser WARN    Image with src "/green-building-council-recognition-certificate.jpg" has legacy prop "layout". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:35:25.736] Browser WARN    Image with src "/green-building-council-recognition-certificate.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:35:25.736] Browser WARN    Image with src "/international-architecture-conference-award.jpg" has legacy prop "layout". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:35:25.736] Browser WARN    Image with src "/international-architecture-conference-award.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:35:25.736] Browser WARN    Image with src "/professional-recognition-award-trophy.jpg" has legacy prop "layout". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:35:25.736] Browser WARN    Image with src "/professional-recognition-award-trophy.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:35:25.736] Browser WARN    Image with src "/academic-excellence-award-stage.jpg" has legacy prop "layout". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:35:25.736] Browser WARN    Image with src "/academic-excellence-award-stage.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:35:25.736] Browser WARN    Image with src "/education-leadership-award-presentation.jpg" has legacy prop "layout". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:35:25.736] Browser WARN    Image with src "/education-leadership-award-presentation.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
-Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:35:25.736] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203955566}
-[00:35:28.757] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768203958590}
-[00:36:00.250] Server  LOG      ✓ Compiled in 51ms
-[00:36:49.659] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1768204039469}

@@ -40,6 +40,10 @@ export default function Sidebar() {
     { id: "/honors", label: "Honors" },
     { id: "/papers", label: "Important Papers" },
     { id: "/professional-experience", label: "Professional Experience" },
+    { id: "/spirituality", label: "Spirituality" },
+    { id: "/media", label: "Press and Media Appearances" },
+    { id: "/hall-of-fame", label: "Famous Personalities" },
+    { id: "/community-outreach", label: "Community Outreach" },
     { id: "/contact", label: "Contact" },
   ]
 

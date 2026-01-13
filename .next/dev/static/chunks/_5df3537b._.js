@@ -288,6 +288,22 @@ function Sidebar() {
             label: "Professional Experience"
         },
         {
+            id: "/spirituality",
+            label: "Spirituality"
+        },
+        {
+            id: "/media",
+            label: "Press and Media Appearances"
+        },
+        {
+            id: "/hall-of-fame",
+            label: "Famous Personalities"
+        },
+        {
+            id: "/community-outreach",
+            label: "Community Outreach"
+        },
+        {
             id: "/contact",
             label: "Contact"
         }
@@ -303,18 +319,18 @@ function Sidebar() {
                     className: "h-6 w-6"
                 }, void 0, false, {
                     fileName: "[project]/components/sidebar.tsx",
-                    lineNumber: 55,
+                    lineNumber: 59,
                     columnNumber: 26
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                     className: "h-6 w-6"
                 }, void 0, false, {
                     fileName: "[project]/components/sidebar.tsx",
-                    lineNumber: 55,
+                    lineNumber: 59,
                     columnNumber: 54
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sidebar.tsx",
-                lineNumber: 49,
+                lineNumber: 53,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
@@ -330,7 +346,7 @@ function Sidebar() {
                                     children: "Dr. Madhura Yadav"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 67,
+                                    lineNumber: 71,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -338,13 +354,13 @@ function Sidebar() {
                                     children: "Portfolio"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 72,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sidebar.tsx",
-                            lineNumber: 66,
+                            lineNumber: 70,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -359,22 +375,22 @@ function Sidebar() {
                                             children: item.label
                                         }, void 0, false, {
                                             fileName: "[project]/components/sidebar.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 80,
                                             columnNumber: 19
                                         }, this)
                                     }, item.id, false, {
                                         fileName: "[project]/components/sidebar.tsx",
-                                        lineNumber: 75,
+                                        lineNumber: 79,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/sidebar.tsx",
-                                lineNumber: 73,
+                                lineNumber: 77,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/sidebar.tsx",
-                            lineNumber: 72,
+                            lineNumber: 76,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -391,7 +407,7 @@ function Sidebar() {
                                                 className: "h-4 w-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sidebar.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 106,
                                                 columnNumber: 19
                                             }, this),
                                             "Light Mode"
@@ -402,7 +418,7 @@ function Sidebar() {
                                                 className: "h-4 w-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sidebar.tsx",
-                                                lineNumber: 107,
+                                                lineNumber: 111,
                                                 columnNumber: 19
                                             }, this),
                                             "Dark Mode"
@@ -410,7 +426,7 @@ function Sidebar() {
                                     }, void 0, true)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 98,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -418,24 +434,24 @@ function Sidebar() {
                                     children: "© 2025 Dr. Madhura Yadav"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 116,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sidebar.tsx",
-                            lineNumber: 93,
+                            lineNumber: 97,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sidebar.tsx",
-                    lineNumber: 64,
+                    lineNumber: 68,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sidebar.tsx",
-                lineNumber: 59,
+                lineNumber: 63,
                 columnNumber: 7
             }, this),
             isSidebarOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -443,7 +459,7 @@ function Sidebar() {
                 onClick: ()=>setIsSidebarOpen(false)
             }, void 0, false, {
                 fileName: "[project]/components/sidebar.tsx",
-                lineNumber: 119,
+                lineNumber: 123,
                 columnNumber: 9
             }, this)
         ]
