@@ -50,3 +50,4 @@ export default function AssociationsPage() {
 //awards images update
 //spiritual tab (with gurus)
 //international conferences
+//community outreach (important) with the philanthropy aspect.

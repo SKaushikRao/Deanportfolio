@@ -288,6 +288,9 @@ function AssociationsPage() {
         columnNumber: 5
     }, this);
 } //awards images update
+ //spiritual tab (with gurus)
+ //international conferences
+ //community outreach (important) with the philanthropy aspect.
 }),
 "[project]/app/associations/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
 
