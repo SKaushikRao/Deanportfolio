@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import Sidebar from "@/components/sidebar"
 import Image from "next/image"
+//imagesupdates
 
 export default function AwardsPage() {
   const awards = [
