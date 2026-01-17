@@ -72,10 +72,6 @@
 
 @layer theme {
   :root, :host {
-    --color-blue-50: #eff6ff;
-    --color-blue-100: #dbeafe;
-    --color-blue-600: #155dfc;
-    --color-blue-700: #1447e6;
     --color-gray-200: #e5e7eb;
     --color-gray-300: #d1d5dc;
     --color-black: #000;
@@ -118,7 +114,6 @@
     --animate-bounce: bounce 1s infinite;
     --blur-sm: 8px;
     --blur-md: 12px;
-    --blur-lg: 16px;
     --default-transition-duration: .15s;
     --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     --default-font-family: "Dominik", sans-serif;
@@ -127,10 +122,6 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
-      --color-blue-50: lab(96.492% -1.14647 -5.11479);
-      --color-blue-100: lab(92.0301% -2.24757 -11.6453);
-      --color-blue-600: lab(44.0605% 29.0279 -86.0352);
-      --color-blue-700: lab(36.9089% 35.0961 -85.6872);
       --color-gray-200: lab(91.6229% -.159085 -2.26791);
       --color-gray-300: lab(85.1236% -.612259 -3.7138);
     }
@@ -423,14 +414,6 @@
 
   .inset-0 {
     inset: calc(var(--spacing) * 0);
-  }
-
-  .inset-x-0 {
-    inset-inline: calc(var(--spacing) * 0);
-  }
-
-  .-inset-y-20 {
-    inset-block: calc(var(--spacing) * -20);
   }
 
   .top-0 {
@@ -1014,10 +997,6 @@
     border-left-width: 4px;
   }
 
-  .border-foreground {
-    border-color: var(--foreground);
-  }
-
   .border-primary {
     border-color: var(--primary);
   }
@@ -1094,24 +1073,12 @@
     }
   }
 
-  .bg-blue-50 {
-    background-color: var(--color-blue-50);
-  }
-
-  .bg-blue-100 {
-    background-color: var(--color-blue-100);
-  }
-
   .bg-card {
     background-color: var(--card);
   }
 
   .bg-destructive {
     background-color: var(--destructive);
-  }
-
-  .bg-foreground {
-    background-color: var(--foreground);
   }
 
   .bg-foreground\/90 {
@@ -1140,16 +1107,6 @@
 
   .bg-muted {
     background-color: var(--muted);
-  }
-
-  .bg-muted\/50 {
-    background-color: var(--muted);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-muted\/50 {
-      background-color: color-mix(in oklab, var(--muted) 50%, transparent);
-    }
   }
 
   .bg-primary {
@@ -1183,16 +1140,6 @@
   @supports (color: color-mix(in lab, red, red)) {
     .bg-white\/50 {
       background-color: color-mix(in oklab, var(--color-white) 50%, transparent);
-    }
-  }
-
-  .bg-white\/90 {
-    background-color: #ffffffe6;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-white\/90 {
-      background-color: color-mix(in oklab, var(--color-white) 90%, transparent);
     }
   }
 
@@ -1234,18 +1181,8 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
-  .from-blue-100 {
-    --tw-gradient-from: var(--color-blue-100);
-    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-  }
-
   .from-gray-300 {
     --tw-gradient-from: var(--color-gray-300);
-    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-  }
-
-  .to-blue-50 {
-    --tw-gradient-to: var(--color-blue-50);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
@@ -1329,14 +1266,6 @@
 
   .py-20 {
     padding-block: calc(var(--spacing) * 20);
-  }
-
-  .py-40 {
-    padding-block: calc(var(--spacing) * 40);
-  }
-
-  .py-60 {
-    padding-block: calc(var(--spacing) * 60);
   }
 
   .py-80 {
@@ -1467,14 +1396,6 @@
 
   .text-black {
     color: var(--color-black);
-  }
-
-  .text-blue-600 {
-    color: var(--color-blue-600);
-  }
-
-  .text-blue-700 {
-    color: var(--color-blue-700);
   }
 
   .text-card-foreground {
@@ -1741,18 +1662,6 @@
   }
 
   @media (hover: hover) {
-    .hover\:bg-black\/30:hover {
-      background-color: #0000004d;
-    }
-
-    @supports (color: color-mix(in lab, red, red)) {
-      .hover\:bg-black\/30:hover {
-        background-color: color-mix(in oklab, var(--color-black) 30%, transparent);
-      }
-    }
-  }
-
-  @media (hover: hover) {
     .hover\:bg-destructive\/90:hover {
       background-color: var(--destructive);
     }
@@ -1886,14 +1795,6 @@
     }
   }
 
-  @media (hover: hover) {
-    .hover\:backdrop-blur-lg:hover {
-      --tw-backdrop-blur: blur(var(--blur-lg));
-      -webkit-backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
-      backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
-    }
-  }
-
   .focus-visible\:border-ring:focus-visible {
     border-color: var(--ring);
   }
@@ -2006,12 +1907,6 @@
   @media (min-width: 64rem) {
     .lg\:hidden {
       display: none;
-    }
-  }
-
-  @media (min-width: 64rem) {
-    .lg\:max-w-none {
-      max-width: none;
     }
   }
 

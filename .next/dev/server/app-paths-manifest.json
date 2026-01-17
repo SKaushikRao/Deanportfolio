@@ -1,13 +1,3 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/associations/page": "app/associations/page.js",
-  "/community-outreach/page": "app/community-outreach/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/education/page": "app/education/page.js",
-  "/media/page": "app/media/page.js",
-  "/page": "app/page.js",
-  "/papers/page": "app/papers/page.js",
-  "/professional-experience/page": "app/professional-experience/page.js",
-  "/spirituality/page": "app/spirituality/page.js",
-  "/teaching/page": "app/teaching/page.js"
+  "/page": "app/page.js"
 }
