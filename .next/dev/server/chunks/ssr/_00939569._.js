@@ -1001,95 +1001,27 @@ __turbopack_context__.s([
     ()=>ImageGallery
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CircularGallery$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/CircularGallery.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/card.tsx [app-ssr] (ecmascript)");
 "use client";
 ;
 ;
 ;
-;
 function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "All Images" }) {
-    const [galleryItems, setGalleryItems] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        // Function to load images from a folder
-        const loadImagesFromFolder = async ()=>{
-            try {
-                // Since we can't directly read directories in the browser,
-                // we'll create a comprehensive list of possible images
-                const imageExtensions = [
-                    'jpg',
-                    'jpeg',
-                    'png',
-                    'gif',
-                    'webp',
-                    'bmp'
-                ];
-                const possibleImages = [];
-                // Try to load images with common naming patterns
-                for(let i = 1; i <= 50; i++){
-                    for (const ext of imageExtensions){
-                        const imagePath = `/${folder}/${i}.${ext}`;
-                        const img = new Image();
-                        img.onload = ()=>{
-                            // Only add if image loads successfully
-                            if (!possibleImages.some((item)=>item.image === imagePath)) {
-                                possibleImages.push({
-                                    image: imagePath,
-                                    text: `${title} ${i}`
-                                });
-                                setGalleryItems([
-                                    ...possibleImages
-                                ]);
-                            }
-                        };
-                        img.onerror = ()=>{
-                        // Image doesn't exist, continue
-                        };
-                        img.src = imagePath;
-                    }
-                    // Also try common naming patterns
-                    const commonNames = [
-                        'image',
-                        'img',
-                        'photo',
-                        'pic'
-                    ];
-                    for (const name of commonNames){
-                        for (const ext of imageExtensions){
-                            const imagePath = `/${folder}/${name}${i}.${ext}`;
-                            const img = new Image();
-                            img.onload = ()=>{
-                                if (!possibleImages.some((item)=>item.image === imagePath)) {
-                                    possibleImages.push({
-                                        image: imagePath,
-                                        text: `${title} ${i}`
-                                    });
-                                    setGalleryItems([
-                                        ...possibleImages
-                                    ]);
-                                }
-                            };
-                            img.onerror = ()=>{
-                            // Image doesn't exist, continue
-                            };
-                            img.src = imagePath;
-                        }
-                    }
-                }
-                // Set initial empty array
-                setGalleryItems(possibleImages);
-            } catch (error) {
-                console.error('Error loading images:', error);
-                // Fallback to empty array
-                setGalleryItems([]);
-            }
-        };
-        loadImagesFromFolder();
-    }, [
-        folder,
-        title
-    ]);
+    // Static image paths for circular gallery (15 images)
+    const circularGalleryItems = Array.from({
+        length: 15
+    }, (_, i)=>({
+            image: `/${folder}/image${i + 1}.jpeg`,
+            text: `${title} ${i + 1}`
+        }));
+    // Static image paths for grid gallery (20 images)
+    const gridGalleryItems = Array.from({
+        length: 20
+    }, (_, i)=>({
+            image: `/${folder}/image${i + 1}.jpeg`,
+            text: `${title} ${i + 1}`
+        }));
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1100,7 +1032,7 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                         children: galleryTitle
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 98,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1113,21 +1045,21 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                             textColor: "#ffffff",
                             borderRadius: 0.05,
                             scrollEase: 0.02,
-                            items: galleryItems
+                            items: circularGalleryItems
                         }, void 0, false, {
                             fileName: "[project]/components/ImageGallery.tsx",
-                            lineNumber: 100,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 99,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ImageGallery.tsx",
-                lineNumber: 97,
+                lineNumber: 35,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1137,12 +1069,12 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                         children: gridTitle
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 112,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this),
-                    galleryItems.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
-                        children: galleryItems.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
+                        children: gridGalleryItems.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
                                 className: "overflow-hidden group hover:shadow-lg transition-shadow duration-300",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
                                     className: "p-0",
@@ -1153,14 +1085,15 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                                                 src: item.image,
                                                 alt: item.text,
                                                 className: "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300",
+                                                loading: "lazy",
                                                 onError: (e)=>{
                                                     // Fallback to placeholder if image doesn't exist
                                                     e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`;
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ImageGallery.tsx",
-                                                lineNumber: 119,
-                                                columnNumber: 21
+                                                lineNumber: 56,
+                                                columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300",
@@ -1171,85 +1104,44 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                                                         children: item.text
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ImageGallery.tsx",
-                                                        lineNumber: 130,
-                                                        columnNumber: 25
+                                                        lineNumber: 68,
+                                                        columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ImageGallery.tsx",
-                                                    lineNumber: 129,
-                                                    columnNumber: 23
+                                                    lineNumber: 67,
+                                                    columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ImageGallery.tsx",
-                                                lineNumber: 128,
-                                                columnNumber: 21
+                                                lineNumber: 66,
+                                                columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ImageGallery.tsx",
-                                        lineNumber: 118,
-                                        columnNumber: 19
+                                        lineNumber: 55,
+                                        columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/ImageGallery.tsx",
-                                    lineNumber: 117,
-                                    columnNumber: 17
+                                    lineNumber: 54,
+                                    columnNumber: 15
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/components/ImageGallery.tsx",
-                                lineNumber: 116,
-                                columnNumber: 15
+                                lineNumber: 53,
+                                columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 114,
-                        columnNumber: 11
-                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-center py-12",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-muted-foreground text-lg",
-                                children: [
-                                    "No images found in the ",
-                                    folder,
-                                    " folder."
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/ImageGallery.tsx",
-                                lineNumber: 140,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-muted-foreground text-sm mt-2",
-                                children: [
-                                    "Add images to the ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
-                                        children: [
-                                            "public/",
-                                            folder
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/ImageGallery.tsx",
-                                        lineNumber: 142,
-                                        columnNumber: 33
-                                    }, this),
-                                    " directory to see them here."
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/ImageGallery.tsx",
-                                lineNumber: 141,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 139,
-                        columnNumber: 11
+                        lineNumber: 51,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ImageGallery.tsx",
-                lineNumber: 111,
+                lineNumber: 49,
                 columnNumber: 7
             }, this)
         ]

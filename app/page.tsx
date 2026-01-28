@@ -66,25 +66,26 @@ export default function Home() {
                     className="object-cover"
                     priority
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  {/* Translucent overlay */}
+                  <div className="absolute inset-0 bg-black/20 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
               </div>
 
               {/* Text Content - Right Side */}
-              <div className={`flex-1 text-center lg:text-left ${isLoaded ? 'animate-slide-in-right' : 'opacity-0'} min-w-0`}>
+              <div className={`flex-1 text-center lg:text-left ${isLoaded ? 'animate-slide-in-right' : 'opacity-0'} min-w-0 lg:ml-3`}>
                 <div className="space-y-6">
                   <div>
-                    <h1 className="text-5xl lg:text-7xl font-black text-white mb-4 leading-tight">
+                    <h1 className="text-6xl lg:text-7xl font-black text-white mb-4 leading-tight whitespace-nowrap">
                       Dr. Madhura Yadav
                     </h1>
-                    <p className="text-xl lg:text-2xl font-bold text-white">
+                    <p className="text-2xl lg:text-3xl font-bold text-white">
                       Dean, Student Welfare | Manipal University Jaipur
                     </p>
                   </div>
                   
                   <div className="space-y-4 text-white">
-                    <p className="text-lg lg:text-xl font-bold">Professor in Architecture | UNESCO Certified Mentor</p>
-                    <p className="text-base lg:text-lg font-semibold leading-relaxed max-w-2xl">
+                    <p className="text-xl lg:text-2xl font-bold">Professor in Architecture | UNESCO Certified Mentor</p>
+                    <p className="text-lg lg:text-xl font-semibold leading-relaxed max-w-2xl">
                       An accomplished Architect Planner with over <strong className="text-white font-black">30 years</strong> of extensive experience in Administration, Academics, and Research. Currently serving as the Dean of the Faculty of Design at Manipal University Jaipur, where she has been the founder head of all Design and Planning programs.
                     </p>
                   </div>
@@ -121,6 +122,8 @@ export default function Home() {
                 fill
                 className="object-cover"
               />
+              {/* Translucent overlay */}
+              <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" />
               {/* Overlay for better text readability */}
               <div className="absolute inset-0 bg-black/40" />
             </div>
@@ -182,6 +185,8 @@ export default function Home() {
                 fill
                 className="object-cover scale-x-[-1]" // Mirror effect
               />
+              {/* Translucent overlay */}
+              <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" />
               {/* Overlay for better content visibility */}
               <div className="absolute inset-0 bg-black/30" />
             </div>
@@ -195,7 +200,7 @@ export default function Home() {
                       src={galleryImages[currentImageIndex].url || "/placeholder.svg"}
                       alt={galleryImages[currentImageIndex].alt}
                       fill
-                      className="object-cover transition-opacity duration-500"
+                      className="object-cover transition-opacity duration-500 grayscale"
                     />
 
                     {/* Navigation Arrows */}
@@ -237,7 +242,7 @@ export default function Home() {
                               : "opacity-60 hover:opacity-100 hover:scale-105"
                           }`}
                         >
-                          <Image src={img.url || "/placeholder.svg"} alt={img.alt} fill className="object-cover" />
+                          <Image src={img.url || "/placeholder.svg"} alt={img.alt} fill className="object-cover grayscale" />
                         </button>
                       ))}
                     </div>
@@ -249,42 +254,42 @@ export default function Home() {
 
           {/* Key Contributions */}
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 text-foreground">Key Contributions</h2>
+            <h2 className="text-4xl font-bold mb-6 text-gray-400 text-center">Key Contributions</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+              <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gray-200">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-3 text-primary">Sustainability Expertise</h3>
-                  <p className="text-foreground leading-relaxed">
+                  <h3 className="text-xl font-semibold mb-3 text-black">Sustainability Expertise</h3>
+                  <p className="text-gray-800 leading-relaxed">
                     Delivered keynote addresses on Sustainable Architecture & Planning, Smart Villages, and Sustainable
                     Rural Development across various universities and government organizations.
                   </p>
                 </CardContent>
               </Card>
 
-              <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+              <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gray-200">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-3 text-primary">Bamboo Advocacy</h3>
-                  <p className="text-foreground leading-relaxed">
+                  <h3 className="text-xl font-semibold mb-3 text-black">Bamboo Advocacy</h3>
+                  <p className="text-gray-800 leading-relaxed">
                     Active proponent of bamboo, focusing on its application in construction, furniture, and skill
                     development. Contributed to the Indian Standard code for Bamboo.
                   </p>
                 </CardContent>
               </Card>
 
-              <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+              <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gray-200">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-3 text-primary">Urban Planning Leadership</h3>
-                  <p className="text-foreground leading-relaxed">
+                  <h3 className="text-xl font-semibold mb-3 text-black">Urban Planning Leadership</h3>
+                  <p className="text-gray-800 leading-relaxed">
                     Led the development of City Development Plans, Heritage Conservation of Forts, and Slum
                     Rehabilitation Projects in Maharashtra.
                   </p>
                 </CardContent>
               </Card>
 
-              <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+              <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gray-200">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-3 text-primary">Research & Publications</h3>
-                  <p className="text-foreground leading-relaxed">
+                  <h3 className="text-xl font-semibold mb-3 text-black">Research & Publications</h3>
+                  <p className="text-gray-800 leading-relaxed">
                     Published 10 patents and extensively in international journals and conferences. Currently mentoring
                     PhD scholars on sustainability themes.
                   </p>
@@ -295,15 +300,15 @@ export default function Home() {
 
           {/* Quick Links */}
           <section>
-            <h2 className="text-3xl font-bold mb-6 text-foreground">Explore More</h2>
+            <h2 className="text-4xl font-bold mb-6 text-gray-400 text-center">Explore More</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               <Link href="/education">
-                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-primary group-hover:underline">
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">
                       Education Qualifications
                     </h3>
-                    <p className="text-sm text-muted-foreground mt-2">
+                    <p className="text-sm text-gray-800 mt-2">
                       Ph.D., M.Plann., B.Arch. and more certifications
                     </p>
                   </CardContent>
@@ -311,48 +316,48 @@ export default function Home() {
               </Link>
 
               <Link href="/teaching">
-                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-primary group-hover:underline">Teaching Experience</h3>
-                    <p className="text-sm text-muted-foreground mt-2">30 years U.G., 20 years P.G. & Research</p>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Teaching Experience</h3>
+                    <p className="text-sm text-gray-800 mt-2">30 years U.G., 20 years P.G. & Research</p>
                   </CardContent>
                 </Card>
               </Link>
 
               <Link href="/awards">
-                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-primary group-hover:underline">Awards & Recognition</h3>
-                    <p className="text-sm text-muted-foreground mt-2">View all prestigious awards received</p>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Awards & Recognition</h3>
+                    <p className="text-sm text-gray-800 mt-2">View all prestigious awards received</p>
                   </CardContent>
                 </Card>
               </Link>
 
               <Link href="/research">
-                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-primary group-hover:underline">Research & Patents</h3>
-                    <p className="text-sm text-muted-foreground mt-2">Publications, patents, and research projects</p>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Research & Patents</h3>
+                    <p className="text-sm text-gray-800 mt-2">Publications, patents, and research projects</p>
                   </CardContent>
                 </Card>
               </Link>
 
               <Link href="/professional-experience">
-                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-primary group-hover:underline">
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">
                       Professional Experience
                     </h3>
-                    <p className="text-sm text-muted-foreground mt-2">Major projects and consultancy work</p>
+                    <p className="text-sm text-gray-800 mt-2">Major projects and consultancy work</p>
                   </CardContent>
                 </Card>
               </Link>
 
               <Link href="/contact">
-                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-primary group-hover:underline">Get in Touch</h3>
-                    <p className="text-sm text-muted-foreground mt-2">Contact information and social links</p>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Get in Touch</h3>
+                    <p className="text-sm text-gray-800 mt-2">Contact information and social links</p>
                   </CardContent>
                 </Card>
               </Link>

@@ -24,20 +24,20 @@ export default function AssociationsPage() {
       <main className="flex-1 lg:ml-72">
         <div className="max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-foreground">Professional Associations</h1>
-            <div className="h-1 w-24 bg-primary rounded-full"></div>
+            <h1 className="text-5xl font-bold mb-4 text-gray-400 text-center">Professional Associations</h1>
+            <div className="h-1 w-24 bg-gray-400 rounded-full mx-auto"></div>
           </div>
 
-          <Card>
+          <Card className="bg-gray-200">
             <CardContent className="p-8">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {associations.map((association, idx) => (
                   <div
                     key={idx}
-                    className="flex items-start gap-3 p-3 rounded-md hover:bg-muted transition-colors duration-200"
+                    className="flex items-start gap-3 p-3 rounded-md hover:bg-gray-300 transition-colors duration-200"
                   >
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                    <p className="text-foreground">{association}</p>
+                    <div className="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0"></div>
+                    <p className="text-gray-800">{association}</p>
                   </div>
                 ))}
               </div>
