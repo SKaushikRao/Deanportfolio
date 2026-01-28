@@ -15,6 +15,7 @@ export default function AssociationsPage() {
     "Expert member for Bureau of Indian standards (BIS)",
     "Member of ICOMOS",
   ]
+  //changes
 
   return (
     <div className="flex min-h-screen">
