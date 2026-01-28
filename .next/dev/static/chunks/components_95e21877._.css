@@ -128,4 +128,16 @@
   box-shadow: 0 2px 4px #0003;
 }
 
-/*# sourceMappingURL=components_FlowingMenu_6c7bb71e.css.map*/
+/* [project]/components/CircularGallery.css [app-client] (css) */
+.circular-gallery {
+  cursor: grab;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circular-gallery:active {
+  cursor: grabbing;
+}
+
+/*# sourceMappingURL=components_95e21877._.css.map*/
