@@ -7,18 +7,32 @@ export default function ProfessionalExperiencePage() {
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-72">
-        <div className="max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
+      <main className="flex-1 lg:ml-72 relative">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/pic_1.jpg"
+            alt="Professional Experience Background"
+            fill
+            className="object-cover"
+          />
+          {/* Translucent overlay */}
+          <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" />
+          {/* Overlay for better text readability */}
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
+        
+        <div className="relative z-10 max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-foreground">Professional Experience</h1>
-            <div className="h-1 w-24 bg-primary rounded-full"></div>
-            <p className="text-2xl text-muted-foreground mt-4">30 Years</p>
+            <h1 className="text-5xl font-bold mb-4 text-[#f09d05] text-center">Professional Experience</h1>
+            <div className="h-1 w-24 bg-[#f09d05] rounded-full mx-auto"></div>
+            <p className="text-2xl text-white/80 mt-4 text-center">30 Years</p>
           </div>
 
           <div className="space-y-12">
             {/* Featured Projects */}
             <div>
-              <h2 className="text-3xl font-bold mb-8 text-foreground">Featured Projects</h2>
+              <h2 className="text-3xl font-bold mb-8 text-white">Featured Projects</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {[
                   {
@@ -47,7 +61,7 @@ export default function ProfessionalExperiencePage() {
                     image: "/bamboo-construction-project.jpg",
                   },
                 ].map((project, idx) => (
-                  <Card key={idx} className="overflow-hidden">
+                  <Card key={idx} className="overflow-hidden bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
                     <div className="relative h-60 w-full">
                       <Image
                         src={project.image}
@@ -57,8 +71,8 @@ export default function ProfessionalExperiencePage() {
                       />
                     </div>
                     <CardContent className="p-6">
-                      <h3 className="text-lg font-semibold text-foreground mb-2">{project.title}</h3>
-                      <p className="text-sm text-muted-foreground">{project.description}</p>
+                      <h3 className="text-lg font-semibold text-white mb-2">{project.title}</h3>
+                      <p className="text-sm text-white/80">{project.description}</p>
                     </CardContent>
                   </Card>
                 ))}
@@ -66,26 +80,26 @@ export default function ProfessionalExperiencePage() {
             </div>
 
             {/* Major Projects */}
-            <Card>
+<Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Major Projects</h2>
+                <h2 className="text-2xl font-bold mb-6 text-white">Major Projects</h2>
                 <div className="space-y-4">
-                  <div className="group p-4 border-l-4 border-primary hover:bg-muted transition-colors rounded-r-lg">
-                    <h3 className="font-semibold text-foreground mb-2 group-hover:text-primary">
+                  <div className="group p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg">
+                    <h3 className="font-semibold text-white mb-2 group-hover:text-white/80">
                       ISKCON Temples - Team Leader
                     </h3>
-                    <p className="text-sm text-muted-foreground">Shri Ganganagar & Jhunjhunu, Rajasthan</p>
+                    <p className="text-sm text-white/80">Shri Ganganagar & Jhunjhunu, Rajasthan</p>
                   </div>
-                  <div className="group p-4 border-l-4 border-primary hover:bg-muted transition-colors rounded-r-lg">
-                    <h3 className="font-semibold text-foreground mb-2 group-hover:text-primary">
+                  <div className="group p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg">
+                    <h3 className="font-semibold text-white mb-2 group-hover:text-white/80">
                       City Palace Jaipur Garden - Team Leader
                     </h3>
                   </div>
-                  <div className="group p-4 border-l-4 border-primary hover:bg-muted transition-colors rounded-r-lg">
-                    <h3 className="font-semibold text-foreground mb-2 group-hover:text-primary">
+                  <div className="group p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg">
+                    <h3 className="font-semibold text-white mb-2 group-hover:text-white/80">
                       Consultant - MIT Aurangabad
                     </h3>
-                    <ul className="text-sm text-muted-foreground mt-2 space-y-1 ml-4">
+                    <ul className="text-sm text-white/80 mt-2 space-y-1 ml-4">
                       <li>• Institute of sericulture at Takli</li>
                       <li>• Residential layout for staff quarters</li>
                       <li>• Hostel buildings</li>
@@ -98,9 +112,9 @@ export default function ProfessionalExperiencePage() {
             </Card>
 
             {/* Individual Projects */}
-            <Card>
+<Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Individual Projects</h2>
+                <h2 className="text-2xl font-bold mb-6 text-white">Individual Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {[
                     "Slum Rehabilitation Scheme at Kamala, Dist: Solapur",
@@ -113,9 +127,9 @@ export default function ProfessionalExperiencePage() {
                     "Global Meditorium at Ranchi for Brahmakumaris",
                     "Renovation of Ajmer Retreat center",
                   ].map((project, idx) => (
-                    <div key={idx} className="flex items-start gap-2 p-3 rounded-md hover:bg-muted transition-colors">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0"></div>
-                      <p className="text-sm text-foreground">{project}</p>
+                    <div key={idx} className="flex items-start gap-2 p-3 rounded-md hover:bg-white/10 transition-colors">
+                      <div className="w-2 h-2 bg-white rounded-full mt-1.5 flex-shrink-0"></div>
+                      <p className="text-sm text-white">{project}</p>
                     </div>
                   ))}
                 </div>
@@ -123,18 +137,18 @@ export default function ProfessionalExperiencePage() {
             </Card>
 
             {/* Healthcare */}
-            <Card>
+<Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Healthcare / Hospitals</h2>
+                <h2 className="text-2xl font-bold mb-6 text-white">Healthcare / Hospitals</h2>
                 <div className="space-y-3">
                   {[
                     "Hospital cum residence at Bhoom, dist: Osmanabad",
                     "Superspeciality Hospital at Ahmednagar",
                     "100 bedded ICU building at Barshi, dist. Solapur",
                   ].map((project, idx) => (
-                    <div key={idx} className="flex items-start gap-3 p-3 rounded-md hover:bg-muted transition-colors">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0"></div>
-                      <p className="text-foreground">{project}</p>
+                    <div key={idx} className="flex items-start gap-3 p-3 rounded-md hover:bg-white/10 transition-colors">
+                      <div className="w-2 h-2 bg-white rounded-full mt-1.5 flex-shrink-0"></div>
+                      <p className="text-white">{project}</p>
                     </div>
                   ))}
                 </div>
@@ -142,13 +156,13 @@ export default function ProfessionalExperiencePage() {
             </Card>
 
             {/* Planning */}
-            <Card>
+<Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Urban Planning</h2>
+                <h2 className="text-2xl font-bold mb-6 text-white">Urban Planning</h2>
                 <div className="space-y-3">
-                  <div className="p-4 bg-muted rounded-lg">
-                    <p className="font-semibold text-foreground mb-2">Team Leader - City Development Plans</p>
-                    <ul className="text-sm text-muted-foreground space-y-1">
+                  <div className="p-4 bg-white/10 rounded-lg">
+                    <p className="font-semibold text-white mb-2">Team Leader - City Development Plans</p>
+                    <ul className="text-sm text-white/80 space-y-1">
                       <li>• City of Akot (Nov. 2010)</li>
                       <li>• City of Amrawati (Feb. 2011)</li>
                     </ul>
@@ -158,17 +172,17 @@ export default function ProfessionalExperiencePage() {
             </Card>
 
             {/* Heritage Conservation */}
-            <Card>
+<Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Heritage Conservation</h2>
-                <p className="text-foreground mb-4">Team Leader for conservation of four forts of Maharashtra:</p>
+                <h2 className="text-2xl font-bold mb-6 text-white">Heritage Conservation</h2>
+                <p className="text-white mb-4">Team Leader for conservation of four forts of Maharashtra:</p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {["Paranda Fort", "Naldurg Fort", "Ausa Fort", "Mahur Fort"].map((fort, idx) => (
                     <div
                       key={idx}
-                      className="p-4 bg-muted rounded-lg text-center hover:bg-primary hover:text-primary-foreground transition-colors group"
+                      className="p-4 bg-white/10 rounded-lg text-center hover:bg-white hover:text-primary-foreground transition-colors group"
                     >
-                      <p className="font-semibold">{fort}</p>
+                      <p className="font-semibold text-white">{fort}</p>
                     </div>
                   ))}
                 </div>
@@ -176,18 +190,18 @@ export default function ProfessionalExperiencePage() {
             </Card>
 
             {/* Green Buildings */}
-            <Card>
+<Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Green Buildings</h2>
+                <h2 className="text-2xl font-bold mb-6 text-white">Green Buildings</h2>
                 <div className="space-y-3">
                   {[
                     "Marathwada Autocluster, Aurangabad",
                     "Residential Towers at Mumbai",
                     "Industrial Building at Bhiwadi, Rajasthan",
                   ].map((project, idx) => (
-                    <div key={idx} className="flex items-start gap-3 p-3 rounded-md hover:bg-muted transition-colors">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0"></div>
-                      <p className="text-foreground">{project}</p>
+                    <div key={idx} className="flex items-start gap-3 p-3 rounded-md hover:bg-white/10 transition-colors">
+                      <div className="w-2 h-2 bg-white rounded-full mt-1.5 flex-shrink-0"></div>
+                      <p className="text-white">{project}</p>
                     </div>
                   ))}
                 </div>
@@ -195,10 +209,10 @@ export default function ProfessionalExperiencePage() {
             </Card>
 
             {/* Energy Audit */}
-            <Card>
+<Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Energy Audit</h2>
-                <p className="text-muted-foreground mb-4">Worked as a team member for energy audit of:</p>
+                <h2 className="text-2xl font-bold mb-6 text-white">Energy Audit</h2>
+                <p className="text-white/80 mb-4">Worked as a team member for energy audit of:</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {[
                     "Mantralaya, Mumbai",
@@ -206,9 +220,9 @@ export default function ProfessionalExperiencePage() {
                     "High Court, Aurangabad",
                     "High Court, Nagpur",
                   ].map((building, idx) => (
-                    <div key={idx} className="flex items-start gap-2 p-3 rounded-md hover:bg-muted transition-colors">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-1.5 flex-shrink-0"></div>
-                      <p className="text-foreground">{building}</p>
+                    <div key={idx} className="flex items-start gap-2 p-3 rounded-md hover:bg-white/10 transition-colors">
+                      <div className="w-2 h-2 bg-white rounded-full mt-1.5 flex-shrink-0"></div>
+                      <p className="text-white">{building}</p>
                     </div>
                   ))}
                 </div>
@@ -216,10 +230,10 @@ export default function ProfessionalExperiencePage() {
             </Card>
 
             {/* Countries Visited */}
-            <Card>
+<Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">International Exposure</h2>
-                <p className="text-muted-foreground mb-4">Countries Visited:</p>
+                <h2 className="text-2xl font-bold mb-6 text-white">International Exposure</h2>
+                <p className="text-white/80 mb-4">Countries Visited:</p>
                 <div className="flex flex-wrap gap-2">
                   {[
                     "United States of America",
@@ -234,7 +248,7 @@ export default function ProfessionalExperiencePage() {
                   ].map((country, idx) => (
                     <span
                       key={idx}
-                      className="px-4 py-2 bg-muted rounded-full text-sm text-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                      className="px-4 py-2 bg-white/10 rounded-full text-sm text-white hover:bg-white hover:text-primary-foreground transition-colors"
                     >
                       {country}
                     </span>

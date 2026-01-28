@@ -35,16 +35,30 @@ export default function AwardsPage() {
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-72">
-        <div className="max-w-7xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
+      <main className="flex-1 lg:ml-72 relative">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/pic_1.jpg"
+            alt="Awards Background"
+            fill
+            className="object-cover"
+          />
+          {/* Translucent overlay */}
+          <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" />
+          {/* Overlay for better text readability */}
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-gray-400 text-center">Awards</h1>
-            <div className="h-1 w-24 bg-gray-400 rounded-full mx-auto"></div>
+            <h1 className="text-5xl font-bold mb-4 text-[#f09d05] text-center">Awards</h1>
+            <div className="h-1 w-24 bg-[#f09d05] rounded-full mx-auto"></div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {awards.map((award, idx) => (
-              <Card key={idx} className="overflow-hidden bg-gray-200">
+              <Card key={idx} className="overflow-hidden bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
                 <div className="relative h-60 w-full">
                   <Image
                     src={award.image}
@@ -54,7 +68,7 @@ export default function AwardsPage() {
                   />
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-lg font-semibold text-black">
+                  <h3 className="text-lg font-semibold text-white">
                     {award.title}
                   </h3>
                 </CardContent>

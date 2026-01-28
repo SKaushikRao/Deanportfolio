@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import Sidebar from "@/components/sidebar"
+import Image from "next/image"
 
 export default function HonorsPage() {
   const honors = [
@@ -28,23 +29,37 @@ export default function HonorsPage() {
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-72">
-        <div className="max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
+      <main className="flex-1 lg:ml-72 relative">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/pic_1.jpg"
+            alt="Honors Background"
+            fill
+            className="object-cover"
+          />
+          {/* Translucent overlay */}
+          <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" />
+          {/* Overlay for better text readability */}
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
+        
+        <div className="relative z-10 max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-foreground">Honors</h1>
-            <div className="h-1 w-24 bg-primary rounded-full"></div>
+            <h1 className="text-5xl font-bold mb-4 text-[#f09d05] text-center">Honors</h1>
+            <div className="h-1 w-24 bg-[#f09d05] rounded-full mx-auto"></div>
           </div>
 
-          <Card>
+          <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
             <CardContent className="p-8">
               <div className="space-y-3">
                 {honors.map((honor, idx) => (
                   <div
                     key={idx}
-                    className="group flex items-start gap-4 p-4 rounded-lg hover:bg-muted transition-all duration-200 hover:-translate-y-0.5"
+                    className="group flex items-start gap-4 p-4 rounded-lg hover:bg-white/10 transition-all duration-200 hover:-translate-y-0.5"
                   >
-                    <div className="w-3 h-3 bg-primary rounded-full mt-1.5 flex-shrink-0 group-hover:scale-125 transition-transform"></div>
-                    <p className="text-foreground leading-relaxed">{honor}</p>
+                    <div className="w-3 h-3 bg-white rounded-full mt-1.5 flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                    <p className="text-white leading-relaxed">{honor}</p>
                   </div>
                 ))}
               </div>

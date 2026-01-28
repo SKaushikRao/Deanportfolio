@@ -1,48 +1,63 @@
 import { Card, CardContent } from "@/components/ui/card"
 import Sidebar from "@/components/sidebar"
+import Image from "next/image"
 
 export default function ResearchPage() {
   return (
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-80">
-        <div className="max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
+      <main className="flex-1 lg:ml-80 relative">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/pic_1.jpg"
+            alt="Research Background"
+            fill
+            className="object-cover"
+          />
+          {/* Translucent overlay */}
+          <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" />
+          {/* Overlay for better text readability */}
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
+        
+        <div className="relative z-10 max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-6xl font-bold mb-4 text-foreground">Research and Patents</h1>
-            <div className="h-1 w-24 bg-primary rounded-full"></div>
+            <h1 className="text-6xl font-bold mb-4 text-[#f09d05] text-center">Research and Patents</h1>
+            <div className="h-1 w-24 bg-[#f09d05] rounded-full mx-auto"></div>
           </div>
 
           <div className="space-y-8">
             {/* Research Projects */}
-            <Card>
+            <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-10">
-                <h2 className="text-3xl font-bold mb-6 text-foreground">Research Projects</h2>
-                <div className="space-y-4 text-lg text-foreground">
-                  <div className="p-6 bg-muted rounded-lg hover:bg-muted/70 transition-colors">
-                    <p className="font-semibold mb-2 text-lg">Co-PI with University of Canada</p>
-                    <p className="text-base">
+                <h2 className="text-3xl font-bold mb-6 text-white">Research Projects</h2>
+                <div className="space-y-4 text-lg text-white">
+                  <div className="p-6 bg-white/10 rounded-lg hover:bg-white/20 transition-colors">
+                    <p className="font-semibold mb-2 text-lg text-white">Co-PI with University of Canada</p>
+                    <p className="text-base text-white/90">
                       Bridging Knowledge Cultures: The Knowledge for Change Global Consortium on Training of
                       Community-Based Participatory Research funded by Social Sciences and Humanities Research Council
                       Canada
                     </p>
-                    <span className="text-sm text-primary">Completed</span>
+                    <span className="text-sm text-white/80">Completed</span>
                   </div>
-                  <div className="p-6 bg-muted rounded-lg hover:bg-muted/70 transition-colors">
-                    <p className="font-semibold mb-2 text-lg">Principal Investigator for DST Projects</p>
-                    <span className="text-sm text-primary">Ongoing</span>
+                  <div className="p-6 bg-white/10 rounded-lg hover:bg-white/20 transition-colors">
+                    <p className="font-semibold mb-2 text-lg text-white">Principal Investigator for DST Projects</p>
+                    <span className="text-sm text-white/80">Ongoing</span>
                   </div>
-                  <div className="p-6 bg-muted rounded-lg hover:bg-muted/70 transition-colors">
-                    <p className="font-semibold text-lg">Team member for Heritage Place Lab</p>
+                  <div className="p-6 bg-white/10 rounded-lg hover:bg-white/20 transition-colors">
+                    <p className="font-semibold text-lg text-white">Team member for Heritage Place Lab</p>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
             {/* Patents */}
-            <Card>
+            <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-10">
-                <h2 className="text-3xl font-bold mb-6 text-foreground">Patents Published</h2>
+                <h2 className="text-3xl font-bold mb-6 text-white">Patents Published</h2>
                 <div className="space-y-4 text-lg">
                   {[
                     "A system for sustainable water management in buildings (2023)",
@@ -56,9 +71,9 @@ export default function ResearchPage() {
                     "A greywater recycling system for residential use (2017)",
                     "A kinetic facade system that responds to sunlight (2016)",
                   ].map((patent, idx) => (
-                    <div key={idx} className="flex items-start gap-4 p-4 rounded-lg hover:bg-muted transition-all duration-200">
-                      <div className="w-3 h-3 bg-primary rounded-full mt-1.5 flex-shrink-0"></div>
-                      <p className="text-foreground">{patent}</p>
+                    <div key={idx} className="flex items-start gap-4 p-4 rounded-lg hover:bg-white/10 transition-all duration-200">
+                      <div className="w-3 h-3 bg-white rounded-full mt-1.5 flex-shrink-0"></div>
+                      <p className="text-white">{patent}</p>
                     </div>
                   ))}
                 </div>
@@ -66,9 +81,9 @@ export default function ResearchPage() {
             </Card>
 
             {/* Research Publications */}
-            <Card>
+            <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Research Publications</h2>
+                <h2 className="text-2xl font-bold mb-6 text-white">Research Publications</h2>
                 <div className="space-y-4">
                   {[
                     {
@@ -88,9 +103,9 @@ export default function ResearchPage() {
                       journal: "International Journal of Disaster Risk Reduction, Vol. 62, 2021",
                     },
                   ].map((publication, idx) => (
-                    <div key={idx} className="p-4 border-l-4 border-primary hover:bg-muted transition-colors rounded-r-lg">
-                      <h3 className="font-semibold text-foreground mb-1">{publication.title}</h3>
-                      <p className="text-sm text-muted-foreground">{publication.journal}</p>
+                    <div key={idx} className="p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg">
+                      <h3 className="font-semibold text-white mb-1">{publication.title}</h3>
+                      <p className="text-sm text-white/80">{publication.journal}</p>
                     </div>
                   ))}
                 </div>
@@ -98,23 +113,23 @@ export default function ResearchPage() {
             </Card>
 
             {/* Books */}
-            <Card>
+            <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Books</h2>
+                <h2 className="text-2xl font-bold mb-6 text-white">Books</h2>
                 <div className="space-y-4">
-                  <div className="group p-4 border-l-4 border-primary hover:bg-muted transition-colors rounded-r-lg">
-                    <h3 className="font-semibold text-foreground group-hover:text-primary">
+                  <div className="group p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg">
+                    <h3 className="font-semibold text-white group-hover:text-white/80">
                       Responsible Pedagogies in Architecture: Combating Climate Change
                     </h3>
                   </div>
-                  <div className="group p-4 border-l-4 border-primary hover:bg-muted transition-colors rounded-r-lg">
-                    <h3 className="font-semibold text-foreground group-hover:text-primary">Creative Futures</h3>
+                  <div className="group p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg">
+                    <h3 className="font-semibold text-white group-hover:text-white/80">Creative Futures</h3>
                   </div>
-                  <div className="group p-4 border-l-4 border-primary hover:bg-muted transition-colors rounded-r-lg">
-                    <h3 className="font-semibold text-foreground group-hover:text-primary">
+                  <div className="group p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg">
+                    <h3 className="font-semibold text-white group-hover:text-white/80">
                       Coffee Table Book on Stepwells of India
                     </h3>
-                    <p className="text-sm text-muted-foreground mt-1">Ministry of Culture, Government of India</p>
+                    <p className="text-sm text-white/80 mt-1">Ministry of Culture, Government of India</p>
                   </div>
                 </div>
               </CardContent>

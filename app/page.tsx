@@ -137,36 +137,36 @@ export default function Home() {
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <Card className="group relative overflow-hidden bg-gray-200/90 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                <Card className="group relative overflow-hidden bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
                   <div className="absolute inset-0 bg-gradient-to-br from-gray-300 to-gray-200 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <CardContent className="p-8 relative z-10">
                     <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
                       <Target className="h-8 w-8 text-black" />
                     </div>
-                    <div className="text-5xl font-bold text-black mb-4 group-hover:scale-105 transition-transform duration-300">30+</div>
-                    <p className="text-black text-lg font-medium">Years of Professional Experience</p>
+                    <div className="text-5xl font-bold text-white mb-4 group-hover:scale-105 transition-transform duration-300">30+</div>
+                    <p className="text-white text-lg font-medium">Years of Professional Experience</p>
                   </CardContent>
                 </Card>
                 
-                <Card className="group relative overflow-hidden bg-gray-200/90 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                <Card className="group relative overflow-hidden bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
                   <div className="absolute inset-0 bg-gradient-to-br from-gray-300 to-gray-200 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <CardContent className="p-8 relative z-10">
                     <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
                       <Award className="h-8 w-8 text-black" />
                     </div>
-                    <div className="text-5xl font-bold text-black mb-4 group-hover:scale-105 transition-transform duration-300">8</div>
-                    <p className="text-black text-lg font-medium">Major Awards & Recognitions</p>
+                    <div className="text-5xl font-bold text-white mb-4 group-hover:scale-105 transition-transform duration-300">8</div>
+                    <p className="text-white text-lg font-medium">Major Awards & Recognitions</p>
                   </CardContent>
                 </Card>
                 
-                <Card className="group relative overflow-hidden bg-gray-200/90 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                <Card className="group relative overflow-hidden bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
                   <div className="absolute inset-0 bg-gradient-to-br from-gray-300 to-gray-200 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <CardContent className="p-8 relative z-10">
                     <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
                       <BookOpen className="h-8 w-8 text-black" />
                     </div>
-                    <div className="text-5xl font-bold text-black mb-4 group-hover:scale-105 transition-transform duration-300">10</div>
-                    <p className="text-black text-lg font-medium">Patents Published</p>
+                    <div className="text-5xl font-bold text-white mb-4 group-hover:scale-105 transition-transform duration-300">10</div>
+                    <p className="text-white text-lg font-medium">Patents Published</p>
                   </CardContent>
                 </Card>
               </div>

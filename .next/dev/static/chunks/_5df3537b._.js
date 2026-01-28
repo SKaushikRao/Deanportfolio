@@ -847,7 +847,7 @@ function Home() {
                                         className: "grid grid-cols-1 md:grid-cols-3 gap-8",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                                                className: "group relative overflow-hidden bg-gray-200/90 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2",
+                                                className: "group relative overflow-hidden bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "absolute inset-0 bg-gradient-to-br from-gray-300 to-gray-200 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -874,7 +874,7 @@ function Home() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "text-5xl font-bold text-black mb-4 group-hover:scale-105 transition-transform duration-300",
+                                                                className: "text-5xl font-bold text-white mb-4 group-hover:scale-105 transition-transform duration-300",
                                                                 children: "30+"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
@@ -882,7 +882,7 @@ function Home() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "text-black text-lg font-medium",
+                                                                className: "text-white text-lg font-medium",
                                                                 children: "Years of Professional Experience"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
@@ -902,7 +902,7 @@ function Home() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                                                className: "group relative overflow-hidden bg-gray-200/90 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2",
+                                                className: "group relative overflow-hidden bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "absolute inset-0 bg-gradient-to-br from-gray-300 to-gray-200 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -929,7 +929,7 @@ function Home() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "text-5xl font-bold text-black mb-4 group-hover:scale-105 transition-transform duration-300",
+                                                                className: "text-5xl font-bold text-white mb-4 group-hover:scale-105 transition-transform duration-300",
                                                                 children: "8"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
@@ -937,7 +937,7 @@ function Home() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "text-black text-lg font-medium",
+                                                                className: "text-white text-lg font-medium",
                                                                 children: "Major Awards & Recognitions"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
@@ -957,7 +957,7 @@ function Home() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                                                className: "group relative overflow-hidden bg-gray-200/90 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2",
+                                                className: "group relative overflow-hidden bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "absolute inset-0 bg-gradient-to-br from-gray-300 to-gray-200 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -984,7 +984,7 @@ function Home() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "text-5xl font-bold text-black mb-4 group-hover:scale-105 transition-transform duration-300",
+                                                                className: "text-5xl font-bold text-white mb-4 group-hover:scale-105 transition-transform duration-300",
                                                                 children: "10"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
@@ -992,7 +992,7 @@ function Home() {
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "text-black text-lg font-medium",
+                                                                className: "text-white text-lg font-medium",
                                                                 children: "Patents Published"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
