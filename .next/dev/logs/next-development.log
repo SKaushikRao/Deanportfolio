@@ -110,3 +110,453 @@ Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
 [00:12:45.636] Server  LOG      ✓ Compiled in 106ms
 [00:12:49.513] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576174952}
 [00:12:51.603] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576177616}
+[00:13:35.497] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576221492}
+[00:14:07.414] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576253432}
+[00:14:08.482] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576254497}
+[00:14:08.771] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576254786}
+[00:14:48.491] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576294508}
+[00:14:49.258] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576295256}
+[00:14:50.128] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576296145}
+[00:14:53.221] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576299236}
+[00:14:53.980] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576299997}
+[00:14:54.823] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576300840}
+[00:14:56.103] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576302122}
+[00:14:59.263] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576305254}
+[00:15:03.247] Server  LOG      ✓ Compiled in 314ms
+[00:15:07.551] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576313568}
+[00:15:08.515] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576314525}
+[00:15:09.170] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576315183}
+[00:15:09.766] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576315782}
+[00:15:10.276] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576316292}
+[00:15:10.962] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576316980}
+[00:15:11.533] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576317548}
+[00:15:12.794] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576318811}
+[00:15:14.226] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576319764}
+[00:15:15.026] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576321043}
+[00:15:15.758] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576321766}
+[00:15:33.931] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576339945}
+[00:15:34.942] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576340956}
+[00:16:46.677] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576412692}
+[00:21:00.960] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576666973}
+[00:21:02.804] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576668807}
+[00:21:04.099] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769576670113}
+[00:27:18.113] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577044131}
+[00:28:28.177] Server  LOG      ✓ Compiled in 185ms
+[00:28:28.595] Browser ERROR   ./components/FlowingMenu.tsx:1:18
+Ecmascript file had an error
+> 1 | import { useRef, useEffect, useState } from 'react';
+    |                  ^^^^^^^^^
+  2 | import { gsap } from 'gsap';
+  3 |
+  4 | import './FlowingMenu.css';
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/FlowingMenu.tsx
+    ./app/education/page.tsx
+[00:28:28.595] Browser ERROR   ./components/FlowingMenu.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useRef, useEffect, useState } from 'react';
+    |          ^^^^^^
+  2 | import { gsap } from 'gsap';
+  3 |
+  4 | import './FlowingMenu.css';
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/FlowingMenu.tsx
+    ./app/education/page.tsx
+[00:28:28.595] Browser ERROR   ./components/FlowingMenu.tsx:1:29
+Ecmascript file had an error
+> 1 | import { useRef, useEffect, useState } from 'react';
+    |                             ^^^^^^^^
+  2 | import { gsap } from 'gsap';
+  3 |
+  4 | import './FlowingMenu.css';
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/FlowingMenu.tsx
+    ./app/education/page.tsx
+[00:28:46.347] Server  LOG      ✓ Compiled in 128ms
+[00:28:46.449] Browser ERROR   ./components/FlowingMenu.tsx:1:18
+Ecmascript file had an error
+> 1 | import { useRef, useEffect, useState } from 'react';
+    |                  ^^^^^^^^^
+  2 | import { gsap } from 'gsap';
+  3 |
+  4 | import './FlowingMenu.css';
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/FlowingMenu.tsx
+    ./app/education/page.tsx
+[00:28:46.449] Browser ERROR   ./components/FlowingMenu.tsx:1:10
+Ecmascript file had an error
+> 1 | import { useRef, useEffect, useState } from 'react';
+    |          ^^^^^^
+  2 | import { gsap } from 'gsap';
+  3 |
+  4 | import './FlowingMenu.css';
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/FlowingMenu.tsx
+    ./app/education/page.tsx
+[00:28:46.449] Browser ERROR   ./components/FlowingMenu.tsx:1:29
+Ecmascript file had an error
+> 1 | import { useRef, useEffect, useState } from 'react';
+    |                             ^^^^^^^^
+  2 | import { gsap } from 'gsap';
+  3 |
+  4 | import './FlowingMenu.css';
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./components/FlowingMenu.tsx
+    ./app/education/page.tsx
+[00:29:31.832] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577177849}
+[00:29:34.857] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577180875}
+[00:33:00.794] Server  LOG      ✓ Compiled in 121ms
+[00:34:21.978] Server  LOG      ✓ Compiled in 38ms
+[00:34:25.848] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577471858}
+[00:34:36.689] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577482687}
+[00:34:44.912] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577490926}
+[00:34:45.609] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577491610}
+[00:34:50.882] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577496900}
+[00:35:57.358] Server  LOG      ✓ Compiled in 41ms
+[00:36:14.356] Server  ERROR    ⨯ ./app/associations/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AssociationsPage() {
+  5 |   const associations = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.357] Server  ERROR    ⨯ ./app/associations/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AssociationsPage() {
+  5 |   const associations = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.359] Server  ERROR    ⨯ ./app/education/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function EducationPage() {
+  5 |   const qualifications = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.361] Server  ERROR    ⨯ ./app/education/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function EducationPage() {
+  5 |   const qualifications = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.363] Server  ERROR    ⨯ ./app/education/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function EducationPage() {
+  5 |   const qualifications = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.364] Server  ERROR    ⨯ ./app/education/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function EducationPage() {
+  5 |   const qualifications = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.366] Server  ERROR    ⨯ ./app/education/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function EducationPage() {
+  5 |   const qualifications = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.367] Server  ERROR    ⨯ ./app/education/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function EducationPage() {
+  5 |   const qualifications = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.368] Server  ERROR    ⨯ ./app/associations/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AssociationsPage() {
+  5 |   const associations = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.371] Server  ERROR    ⨯ ./app/associations/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AssociationsPage() {
+  5 |   const associations = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.372] Server  ERROR    ⨯ ./app/associations/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AssociationsPage() {
+  5 |   const associations = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.373] Server  ERROR    ⨯ ./app/associations/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AssociationsPage() {
+  5 |   const associations = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.401] Server  LOG      ✓ Compiled in 145ms
+[00:36:14.523] Server  ERROR    ⨯ ./app/associations/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AssociationsPage() {
+  5 |   const associations = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.525] Server  ERROR    ⨯ ./app/associations/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AssociationsPage() {
+  5 |   const associations = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.527] Server  ERROR    ⨯ ./app/associations/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AssociationsPage() {
+  5 |   const associations = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.528] Server  ERROR    ⨯ ./app/associations/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AssociationsPage() {
+  5 |   const associations = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:36:14.561] Server  LOG      ✓ Compiled in 58ms
+[00:36:15.147] Browser ERROR   ./app/education/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function EducationPage() {
+  5 |   const qualifications = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:36:15.147] Browser ERROR   ./app/associations/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AssociationsPage() {
+  5 |   const associations = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:36:15.147] Browser ERROR   ./app/associations/page.tsx:2:1
+Module not found: Can't resolve '@/components/FlowingMenu'
+  1 | import Sidebar from "@/components/sidebar"
+> 2 | import FlowingMenu from "@/components/FlowingMenu"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AssociationsPage() {
+  5 |   const associations = [
+
+Import map: aliased to relative './components/FlowingMenu' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:36:18.410] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577584425}
+[00:36:19.165] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577585181}
+[00:36:19.699] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577585715}
+[00:36:33.060] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577599079}
+[00:36:34.167] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577600185}
+[00:36:34.775] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577600790}
+[00:36:35.440] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577601455}
+[00:36:37.693] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577603689}
+[00:36:38.489] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577604506}
+[00:36:39.088] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577605104}
+[00:36:39.631] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577605647}
+[00:36:40.247] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577606263}
+[00:36:41.100] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577607118}
+[00:36:41.493] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577607488}
+[00:37:25.853] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577651867}
+[00:37:26.537] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577652533}
+[00:37:29.850] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577655867}
+[00:37:30.495] Server  LOG      ✓ Compiled in 231ms
+[00:37:31.210] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577656762}
+[00:37:32.460] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577658468}
+[00:37:33.067] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577659081}
+[00:37:33.668] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577659685}
+[00:37:34.903] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577660919}
+[00:37:35.693] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577661710}
+[00:37:36.365] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577662359}
+[00:37:42.566] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577668582}
+[00:37:43.935] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577669927}
+[00:37:51.328] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577677337}
+[00:37:52.341] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577678350}
+[00:37:53.230] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577679243}
+[00:37:53.861] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577679864}
+[00:37:54.468] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577680476}
+[00:37:54.945] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1769577680945}

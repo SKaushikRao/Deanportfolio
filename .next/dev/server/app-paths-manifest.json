@@ -3,6 +3,7 @@
   "/associations/page": "app/associations/page.js",
   "/awards/page": "app/awards/page.js",
   "/community-outreach/page": "app/community-outreach/page.js",
+  "/contact/page": "app/contact/page.js",
   "/education/page": "app/education/page.js",
   "/hall-of-fame/page": "app/hall-of-fame/page.js",
   "/honors/page": "app/honors/page.js",
