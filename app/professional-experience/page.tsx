@@ -32,7 +32,7 @@ export default function ProfessionalExperiencePage() {
           <div className="space-y-12">
             {/* Featured Projects */}
             <div>
-              <h2 className="text-3xl font-bold mb-8 text-white">Featured Projects</h2>
+              <h2 className="text-3xl font-bold mb-8 text-[#809949]">Featured Projects</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {[
                   {
@@ -60,6 +60,11 @@ export default function ProfessionalExperiencePage() {
                     description: "Exploring the versatility of sustainable materials.",
                     image: "/bamboo-construction-project.jpg",
                   },
+                  {
+                    title: "Urban Planning Solutions",
+                    description: "Designing sustainable cities for the future.",
+                    image: "/arc.jpg",
+                  },
                 ].map((project, idx) => (
                   <Card key={idx} className="overflow-hidden bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
                     <div className="relative h-60 w-full">
@@ -68,11 +73,15 @@ export default function ProfessionalExperiencePage() {
                         alt={project.title}
                         layout="fill"
                         objectFit="cover"
+                        className="grayscale"
                       />
                     </div>
-                    <CardContent className="p-6">
+                    <CardContent className="p-6 text-center">
                       <h3 className="text-lg font-semibold text-white mb-2">{project.title}</h3>
                       <p className="text-sm text-white/80">{project.description}</p>
+                      <div className="mt-4 flex justify-center">
+                        <div className="w-3 h-3 bg-[#809949]"></div>
+                      </div>
                     </CardContent>
                   </Card>
                 ))}
@@ -82,20 +91,20 @@ export default function ProfessionalExperiencePage() {
             {/* Major Projects */}
 <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-white">Major Projects</h2>
+                <h2 className="text-2xl font-bold mb-6 text-[#809949]">Major Projects</h2>
                 <div className="space-y-4">
-                  <div className="group p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg">
+                  <div className="group p-4 border-l-4 border-[#809949] hover:bg-white/10 transition-colors rounded-r-lg">
                     <h3 className="font-semibold text-white mb-2 group-hover:text-white/80">
                       ISKCON Temples - Team Leader
                     </h3>
                     <p className="text-sm text-white/80">Shri Ganganagar & Jhunjhunu, Rajasthan</p>
                   </div>
-                  <div className="group p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg">
+                  <div className="group p-4 border-l-4 border-[#809949] hover:bg-white/10 transition-colors rounded-r-lg">
                     <h3 className="font-semibold text-white mb-2 group-hover:text-white/80">
                       City Palace Jaipur Garden - Team Leader
                     </h3>
                   </div>
-                  <div className="group p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg">
+                  <div className="group p-4 border-l-4 border-[#809949] hover:bg-white/10 transition-colors rounded-r-lg">
                     <h3 className="font-semibold text-white mb-2 group-hover:text-white/80">
                       Consultant - MIT Aurangabad
                     </h3>
@@ -114,7 +123,7 @@ export default function ProfessionalExperiencePage() {
             {/* Individual Projects */}
 <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-white">Individual Projects</h2>
+                <h2 className="text-2xl font-bold mb-6 text-[#809949]">Individual Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {[
                     "Slum Rehabilitation Scheme at Kamala, Dist: Solapur",
@@ -139,7 +148,7 @@ export default function ProfessionalExperiencePage() {
             {/* Healthcare */}
 <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-white">Healthcare / Hospitals</h2>
+                <h2 className="text-2xl font-bold mb-6 text-[#809949]">Healthcare / Hospitals</h2>
                 <div className="space-y-3">
                   {[
                     "Hospital cum residence at Bhoom, dist: Osmanabad",
@@ -158,7 +167,7 @@ export default function ProfessionalExperiencePage() {
             {/* Planning */}
 <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-white">Urban Planning</h2>
+                <h2 className="text-2xl font-bold mb-6 text-[#809949]">Urban Planning</h2>
                 <div className="space-y-3">
                   <div className="p-4 bg-white/10 rounded-lg">
                     <p className="font-semibold text-white mb-2">Team Leader - City Development Plans</p>
@@ -174,7 +183,7 @@ export default function ProfessionalExperiencePage() {
             {/* Heritage Conservation */}
 <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-white">Heritage Conservation</h2>
+                <h2 className="text-2xl font-bold mb-6 text-[#809949]">Heritage Conservation</h2>
                 <p className="text-white mb-4">Team Leader for conservation of four forts of Maharashtra:</p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {["Paranda Fort", "Naldurg Fort", "Ausa Fort", "Mahur Fort"].map((fort, idx) => (
@@ -192,7 +201,7 @@ export default function ProfessionalExperiencePage() {
             {/* Green Buildings */}
 <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-white">Green Buildings</h2>
+                <h2 className="text-2xl font-bold mb-6 text-[#809949]">Green Buildings</h2>
                 <div className="space-y-3">
                   {[
                     "Marathwada Autocluster, Aurangabad",
@@ -211,7 +220,7 @@ export default function ProfessionalExperiencePage() {
             {/* Energy Audit */}
 <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-white">Energy Audit</h2>
+                <h2 className="text-2xl font-bold mb-6 text-[#809949]">Energy Audit</h2>
                 <p className="text-white/80 mb-4">Worked as a team member for energy audit of:</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   {[
@@ -232,7 +241,7 @@ export default function ProfessionalExperiencePage() {
             {/* Countries Visited */}
 <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6 text-white">International Exposure</h2>
+                <h2 className="text-2xl font-bold mb-6 text-[#809949]">International Exposure</h2>
                 <p className="text-white/80 mb-4">Countries Visited:</p>
                 <div className="flex flex-wrap gap-2">
                   {[
@@ -257,6 +266,9 @@ export default function ProfessionalExperiencePage() {
               </CardContent>
             </Card>
           </div>
+          
+          {/* Decorative line at the bottom */}
+          <div className="mt-12 h-0.5 bg-[#809949] w-full max-w-4xl mx-auto"></div>
         </div>
       </main>
     </div>
