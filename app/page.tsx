@@ -60,7 +60,7 @@ export default function Home() {
               <div className={`relative group ${isLoaded ? 'animate-fade-in' : 'opacity-0'} flex-shrink-0`}>
                 <div className="relative w-80 h-96 rounded-2xl overflow-hidden shadow-2xl transition-all duration-700 group-hover:shadow-3xl group-hover:scale-105">
                   <Image
-                    src="/images/image.png"
+                    src="/images/image.jpg"
                     alt="Dr. Madhura Yadav"
                     fill
                     className="object-cover"
