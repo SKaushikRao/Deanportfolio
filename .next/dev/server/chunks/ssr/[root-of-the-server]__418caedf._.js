@@ -229,7 +229,7 @@ function ResearchPage() {
                                 className: "mb-12",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        className: "text-6xl font-bold mb-4 text-white text-center",
+                                        className: "text-6xl font-bold mb-4 text-[#809949] text-center",
                                         children: "Research and Patents"
                                     }, void 0, false, {
                                         fileName: "[project]/app/research/page.tsx",
@@ -237,7 +237,7 @@ function ResearchPage() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "h-1 w-24 bg-white rounded-full mx-auto"
+                                        className: "h-1 w-24 bg-[#809949] rounded-full mx-auto"
                                     }, void 0, false, {
                                         fileName: "[project]/app/research/page.tsx",
                                         lineNumber: 28,
@@ -258,7 +258,7 @@ function ResearchPage() {
                                             className: "p-10",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                    className: "text-3xl font-bold mb-6 text-white",
+                                                    className: "text-3xl font-bold mb-6 text-[#809949]",
                                                     children: "Research Projects"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/research/page.tsx",
@@ -364,7 +364,7 @@ function ResearchPage() {
                                             className: "p-10",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                    className: "text-3xl font-bold mb-6 text-white",
+                                                    className: "text-3xl font-bold mb-6 text-[#809949]",
                                                     children: "Patents Published"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/research/page.tsx",
@@ -388,7 +388,7 @@ function ResearchPage() {
                                                             className: "flex items-start gap-4 p-4 rounded-lg hover:bg-white/10 transition-all duration-200",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "w-3 h-3 bg-white rounded-full mt-1.5 flex-shrink-0"
+                                                                    className: "w-3 h-3 bg-[#809949] rounded-full mt-1.5 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/research/page.tsx",
                                                                     lineNumber: 75,
@@ -430,7 +430,7 @@ function ResearchPage() {
                                             className: "p-8",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                    className: "text-2xl font-bold mb-6 text-white",
+                                                    className: "text-2xl font-bold mb-6 text-[#809949]",
                                                     children: "Research Publications"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/research/page.tsx",
@@ -457,7 +457,7 @@ function ResearchPage() {
                                                             journal: "International Journal of Disaster Risk Reduction, Vol. 62, 2021"
                                                         }
                                                     ].map((publication, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg",
+                                                            className: "p-4 border-l-4 border-[#809949] hover:bg-white/10 transition-colors rounded-r-lg",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                     className: "font-semibold text-white mb-1",
@@ -503,7 +503,7 @@ function ResearchPage() {
                                             className: "p-8",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                    className: "text-2xl font-bold mb-6 text-white",
+                                                    className: "text-2xl font-bold mb-6 text-[#809949]",
                                                     children: "Books"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/research/page.tsx",
@@ -514,7 +514,7 @@ function ResearchPage() {
                                                     className: "space-y-4",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "group p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg",
+                                                            className: "group p-4 border-l-4 border-[#809949] hover:bg-white/10 transition-colors rounded-r-lg",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 className: "font-semibold text-white group-hover:text-white/80",
                                                                 children: "Responsible Pedagogies in Architecture: Combating Climate Change"
@@ -529,7 +529,7 @@ function ResearchPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "group p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg",
+                                                            className: "group p-4 border-l-4 border-[#809949] hover:bg-white/10 transition-colors rounded-r-lg",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                 className: "font-semibold text-white group-hover:text-white/80",
                                                                 children: "Creative Futures"
@@ -544,7 +544,7 @@ function ResearchPage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "group p-4 border-l-4 border-white hover:bg-white/10 transition-colors rounded-r-lg",
+                                                            className: "group p-4 border-l-4 border-[#809949] hover:bg-white/10 transition-colors rounded-r-lg",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                     className: "font-semibold text-white group-hover:text-white/80",
@@ -589,6 +589,13 @@ function ResearchPage() {
                             }, void 0, true, {
                                 fileName: "[project]/app/research/page.tsx",
                                 lineNumber: 31,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-12 h-0.5 bg-[#809949] w-full max-w-4xl mx-auto"
+                            }, void 0, false, {
+                                fileName: "[project]/app/research/page.tsx",
+                                lineNumber: 140,
                                 columnNumber: 11
                             }, this)
                         ]

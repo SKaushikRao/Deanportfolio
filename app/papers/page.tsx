@@ -76,8 +76,8 @@ export default function PapersPage() {
         
         <div className="relative z-10 max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-[#f09d05] text-center">Important Papers</h1>
-            <div className="h-1 w-24 bg-[#f09d05] rounded-full mx-auto"></div>
+            <h1 className="text-5xl font-bold mb-4 text-[#e6b815] text-center">Important Papers</h1>
+            <div className="h-1 w-24 bg-[#e6b815] rounded-full mx-auto"></div>
             <p className="text-white/80 mt-4">29+ published papers in international journals and conferences</p>
           </div>
 
@@ -86,7 +86,7 @@ export default function PapersPage() {
               <Card key={idx} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
                 <CardContent className="p-6">
                   <div className="flex gap-6">
-                    <div className="text-2xl font-bold text-white min-w-[80px]">{paper.year}</div>
+                    <div className="text-2xl font-bold text-[#e6b815] min-w-[80px]">{paper.year}</div>
                     <div className="flex-1">
                       <h3 className="text-lg font-semibold text-white mb-2 leading-snug group-hover:text-white/80 transition-colors">
                         {paper.title}
@@ -107,6 +107,9 @@ export default function PapersPage() {
               </p>
             </CardContent>
           </Card>
+          
+          {/* Decorative line at the bottom */}
+          <div className="mt-12 h-0.5 bg-[#e6b815] w-full max-w-4xl mx-auto"></div>
         </div>
       </main>
     </div>

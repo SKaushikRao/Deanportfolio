@@ -52,8 +52,8 @@ export default function AwardsPage() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-[#f09d05] text-center">Awards</h1>
-            <div className="h-1 w-24 bg-[#f09d05] rounded-full mx-auto"></div>
+            <h1 className="text-5xl font-bold mb-4 text-[#e6b815] text-center">Awards</h1>
+            <div className="h-1 w-24 bg-[#e6b815] rounded-full mx-auto"></div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -67,14 +67,20 @@ export default function AwardsPage() {
                     objectFit="cover"
                   />
                 </div>
-                <CardContent className="p-6">
+                <CardContent className="p-6 text-center">
                   <h3 className="text-lg font-semibold text-white">
                     {award.title}
                   </h3>
+                  <div className="mt-4 flex justify-center">
+                    <div className="w-3 h-3 bg-[#e6b815]"></div>
+                  </div>
                 </CardContent>
               </Card>
             ))}
           </div>
+          
+          {/* Decorative line at the bottom */}
+          <div className="mt-12 h-0.5 bg-[#e6b815] w-full max-w-4xl mx-auto"></div>
         </div>
       </main>
     </div>

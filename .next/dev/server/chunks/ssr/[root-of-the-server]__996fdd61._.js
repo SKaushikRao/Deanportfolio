@@ -250,7 +250,7 @@ function HonorsPage() {
                                 className: "mb-12",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        className: "text-5xl font-bold mb-4 text-white text-center",
+                                        className: "text-5xl font-bold mb-4 text-[#a1574c] text-center",
                                         children: "Honors"
                                     }, void 0, false, {
                                         fileName: "[project]/app/honors/page.tsx",
@@ -258,7 +258,7 @@ function HonorsPage() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "h-1 w-24 bg-white rounded-full mx-auto"
+                                        className: "h-1 w-24 bg-[#a1574c] rounded-full mx-auto"
                                     }, void 0, false, {
                                         fileName: "[project]/app/honors/page.tsx",
                                         lineNumber: 50,
@@ -280,7 +280,7 @@ function HonorsPage() {
                                                 className: "group flex items-start gap-4 p-4 rounded-lg hover:bg-white/10 transition-all duration-200 hover:-translate-y-0.5",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "w-3 h-3 bg-white rounded-full mt-1.5 flex-shrink-0 group-hover:scale-125 transition-transform"
+                                                        className: "w-3 h-3 bg-[#a1574c] rounded-full mt-1.5 flex-shrink-0 group-hover:scale-125 transition-transform"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/honors/page.tsx",
                                                         lineNumber: 61,
@@ -313,6 +313,13 @@ function HonorsPage() {
                             }, void 0, false, {
                                 fileName: "[project]/app/honors/page.tsx",
                                 lineNumber: 53,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-12 h-0.5 bg-[#a1574c] w-full max-w-4xl mx-auto"
+                            }, void 0, false, {
+                                fileName: "[project]/app/honors/page.tsx",
+                                lineNumber: 70,
                                 columnNumber: 11
                             }, this)
                         ]

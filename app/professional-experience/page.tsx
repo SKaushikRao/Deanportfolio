@@ -24,8 +24,8 @@ export default function ProfessionalExperiencePage() {
         
         <div className="relative z-10 max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-[#f09d05] text-center">Professional Experience</h1>
-            <div className="h-1 w-24 bg-[#f09d05] rounded-full mx-auto"></div>
+            <h1 className="text-5xl font-bold mb-4 text-[#809949] text-center">Professional Experience</h1>
+            <div className="h-1 w-24 bg-[#809949] rounded-full mx-auto"></div>
             <p className="text-2xl text-white/80 mt-4 text-center">30 Years</p>
           </div>
 

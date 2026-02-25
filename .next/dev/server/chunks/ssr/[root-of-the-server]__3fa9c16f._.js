@@ -229,7 +229,7 @@ function TeachingPage() {
                                 className: "mb-12",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        className: "text-6xl font-bold mb-4 text-white text-center",
+                                        className: "text-6xl font-bold mb-4 text-[#a1574c] text-center",
                                         children: "Teaching Experience"
                                     }, void 0, false, {
                                         fileName: "[project]/app/teaching/page.tsx",
@@ -237,7 +237,7 @@ function TeachingPage() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "h-1 w-24 bg-white rounded-full mx-auto"
+                                        className: "h-1 w-24 bg-[#a1574c] rounded-full mx-auto"
                                     }, void 0, false, {
                                         fileName: "[project]/app/teaching/page.tsx",
                                         lineNumber: 28,
@@ -387,7 +387,7 @@ function TeachingPage() {
                                             className: "p-10",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                    className: "text-3xl font-bold mb-6 text-white",
+                                                    className: "text-3xl font-bold mb-6 text-[#a1574c]",
                                                     children: "Research Guidance"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/teaching/page.tsx",
@@ -500,7 +500,7 @@ function TeachingPage() {
                                             className: "p-10",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                    className: "text-3xl font-bold mb-6 text-white",
+                                                    className: "text-3xl font-bold mb-6 text-[#a1574c]",
                                                     children: "Academic Leadership"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/teaching/page.tsx",
@@ -566,6 +566,13 @@ function TeachingPage() {
                             }, void 0, true, {
                                 fileName: "[project]/app/teaching/page.tsx",
                                 lineNumber: 57,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-12 h-0.5 bg-[#a1574c] w-full max-w-4xl mx-auto"
+                            }, void 0, false, {
+                                fileName: "[project]/app/teaching/page.tsx",
+                                lineNumber: 94,
                                 columnNumber: 11
                             }, this)
                         ]

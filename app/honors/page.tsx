@@ -46,8 +46,8 @@ export default function HonorsPage() {
         
         <div className="relative z-10 max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-[#f09d05] text-center">Honors</h1>
-            <div className="h-1 w-24 bg-[#f09d05] rounded-full mx-auto"></div>
+            <h1 className="text-5xl font-bold mb-4 text-[#a1574c] text-center">Honors</h1>
+            <div className="h-1 w-24 bg-[#a1574c] rounded-full mx-auto"></div>
           </div>
 
           <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
@@ -58,13 +58,16 @@ export default function HonorsPage() {
                     key={idx}
                     className="group flex items-start gap-4 p-4 rounded-lg hover:bg-white/10 transition-all duration-200 hover:-translate-y-0.5"
                   >
-                    <div className="w-3 h-3 bg-white rounded-full mt-1.5 flex-shrink-0 group-hover:scale-125 transition-transform"></div>
+                    <div className="w-3 h-3 bg-[#a1574c] rounded-full mt-1.5 flex-shrink-0 group-hover:scale-125 transition-transform"></div>
                     <p className="text-white leading-relaxed">{honor}</p>
                   </div>
                 ))}
               </div>
             </CardContent>
           </Card>
+          
+          {/* Decorative line at the bottom */}
+          <div className="mt-12 h-0.5 bg-[#a1574c] w-full max-w-4xl mx-auto"></div>
         </div>
       </main>
     </div>

@@ -1029,6 +1029,10 @@
     border-left-width: 4px;
   }
 
+  .border-\[\#809949\] {
+    border-color: #809949;
+  }
+
   .border-primary {
     border-color: var(--primary);
   }
@@ -1048,6 +1052,26 @@
   .bg-\[\#3d3a37\]\/90 {
     background-color: #3d3a37e6;
     background-color: lab(24.6492% .86391 2.35912 / .9);
+  }
+
+  .bg-\[\#9c483b\] {
+    background-color: #9c483b;
+  }
+
+  .bg-\[\#36421b\] {
+    background-color: #36421b;
+  }
+
+  .bg-\[\#809949\] {
+    background-color: #809949;
+  }
+
+  .bg-\[\#a1574c\] {
+    background-color: #a1574c;
+  }
+
+  .bg-\[\#e6b815\] {
+    background-color: #e6b815;
   }
 
   .bg-\[\#f09d05\] {
@@ -1445,6 +1469,26 @@
 
   .whitespace-nowrap {
     white-space: nowrap;
+  }
+
+  .text-\[\#9c483b\] {
+    color: #9c483b;
+  }
+
+  .text-\[\#36421b\] {
+    color: #36421b;
+  }
+
+  .text-\[\#809949\] {
+    color: #809949;
+  }
+
+  .text-\[\#a1574c\] {
+    color: #a1574c;
+  }
+
+  .text-\[\#e6b815\] {
+    color: #e6b815;
   }
 
   .text-\[\#f09d05\] {

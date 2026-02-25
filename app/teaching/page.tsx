@@ -24,8 +24,8 @@ export default function TeachingPage() {
         
         <div className="relative z-10 max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-6xl font-bold mb-4 text-[#f09d05] text-center">Teaching Experience</h1>
-            <div className="h-1 w-24 bg-[#f09d05] rounded-full mx-auto"></div>
+            <h1 className="text-6xl font-bold mb-4 text-[#a1574c] text-center">Teaching Experience</h1>
+            <div className="h-1 w-24 bg-[#a1574c] rounded-full mx-auto"></div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
@@ -57,7 +57,7 @@ export default function TeachingPage() {
           <div className="space-y-6">
             <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-10">
-                <h2 className="text-3xl font-bold mb-6 text-white">Research Guidance</h2>
+                <h2 className="text-3xl font-bold mb-6 text-[#a1574c]">Research Guidance</h2>
                 <div className="space-y-4">
                   <div className="flex items-center gap-4">
                     <div className="text-4xl font-bold text-white">10</div>
@@ -78,7 +78,7 @@ export default function TeachingPage() {
 
             <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-10">
-                <h2 className="text-3xl font-bold mb-6 text-white">Academic Leadership</h2>
+                <h2 className="text-3xl font-bold mb-6 text-[#a1574c]">Academic Leadership</h2>
                 <div className="space-y-3 text-lg text-white">
                   <p>• Founder Head of Design and Planning programs at Manipal University Jaipur</p>
                   <p>• Trained in Academy Leadership by ASHRAE, USA</p>
@@ -89,6 +89,9 @@ export default function TeachingPage() {
               </CardContent>
             </Card>
           </div>
+          
+          {/* Decorative line at the bottom */}
+          <div className="mt-12 h-0.5 bg-[#a1574c] w-full max-w-4xl mx-auto"></div>
         </div>
       </main>
     </div>
