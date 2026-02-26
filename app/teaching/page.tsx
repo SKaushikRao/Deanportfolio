@@ -31,7 +31,7 @@ export default function TeachingPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-10 text-center">
-                <div className="text-6xl font-bold text-white mb-3">30</div>
+                <div className="text-6xl font-bold text-white mb-3">32</div>
                 <p className="text-lg text-white">Years</p>
                 <p className="text-lg text-white font-semibold mt-2">U.G. Level</p>
               </CardContent>
@@ -39,7 +39,7 @@ export default function TeachingPage() {
 
             <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">
               <CardContent className="p-10 text-center">
-                <div className="text-6xl font-bold text-white mb-3">20</div>
+                <div className="text-6xl font-bold text-white mb-3">22</div>
                 <p className="text-lg text-white">Years</p>
                 <p className="text-lg text-white font-semibold mt-2">P.G. Level</p>
               </CardContent>

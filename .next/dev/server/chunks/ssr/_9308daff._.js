@@ -144,7 +144,7 @@ function Sidebar() {
         },
         {
             id: "/honors",
-            label: "Honors"
+            label: "Awards and Honors"
         },
         {
             id: "/papers",
@@ -160,11 +160,11 @@ function Sidebar() {
         },
         {
             id: "/media",
-            label: "Press and Media Appearances"
+            label: "Books"
         },
         {
             id: "/hall-of-fame",
-            label: "Famous Personalities"
+            label: "Hall of Fame"
         },
         {
             id: "/community-outreach",
@@ -179,21 +179,21 @@ function Sidebar() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                 variant: "ghost",
-                size: "icon",
-                className: "fixed top-4 left-4 z-50 lg:hidden",
+                size: "lg",
+                className: "fixed top-4 left-4 z-50 lg:hidden bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 p-3",
                 onClick: ()=>setIsSidebarOpen(!isSidebarOpen),
                 children: isSidebarOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
-                    className: "h-6 w-6"
+                    className: "h-10 w-10 text-white"
                 }, void 0, false, {
                     fileName: "[project]/components/sidebar.tsx",
                     lineNumber: 59,
                     columnNumber: 26
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
-                    className: "h-6 w-6"
+                    className: "h-10 w-10 text-white"
                 }, void 0, false, {
                     fileName: "[project]/components/sidebar.tsx",
                     lineNumber: 59,
-                    columnNumber: 54
+                    columnNumber: 67
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sidebar.tsx",

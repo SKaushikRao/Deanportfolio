@@ -37,12 +37,12 @@ export default function Sidebar() {
     { id: "/teaching", label: "Teaching Experience" },
     { id: "/awards", label: "Awards" },
     { id: "/research", label: "Research and Patents" },
-    { id: "/honors", label: "Honors" },
+    { id: "/honors", label: "Awards and Honors" },
     { id: "/papers", label: "Important Papers" },
     { id: "/professional-experience", label: "Professional Experience" },
     { id: "/spirituality", label: "Spirituality" },
-    { id: "/media", label: "Press and Media Appearances" },
-    { id: "/hall-of-fame", label: "Famous Personalities" },
+    { id: "/media", label: "Books" },
+    { id: "/hall-of-fame", label: "Hall of Fame" },
     { id: "/community-outreach", label: "Community Outreach" },
     { id: "/contact", label: "Contact" },
   ]
@@ -52,11 +52,11 @@ export default function Sidebar() {
       {/* Mobile Menu Button */}
       <Button
         variant="ghost"
-        size="icon"
-        className="fixed top-4 left-4 z-50 lg:hidden"
+        size="lg"
+        className="fixed top-4 left-4 z-50 lg:hidden bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 p-3"
         onClick={() => setIsSidebarOpen(!isSidebarOpen)}
       >
-        {isSidebarOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+        {isSidebarOpen ? <X className="h-10 w-10 text-white" /> : <Menu className="h-10 w-10 text-white" />}
       </Button>
 
       {/* Sidebar */}

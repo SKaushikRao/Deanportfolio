@@ -144,7 +144,7 @@ function Sidebar() {
         },
         {
             id: "/honors",
-            label: "Honors"
+            label: "Awards and Honors"
         },
         {
             id: "/papers",
@@ -160,11 +160,11 @@ function Sidebar() {
         },
         {
             id: "/media",
-            label: "Press and Media Appearances"
+            label: "Books"
         },
         {
             id: "/hall-of-fame",
-            label: "Famous Personalities"
+            label: "Hall of Fame"
         },
         {
             id: "/community-outreach",
@@ -179,21 +179,21 @@ function Sidebar() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                 variant: "ghost",
-                size: "icon",
-                className: "fixed top-4 left-4 z-50 lg:hidden",
+                size: "lg",
+                className: "fixed top-4 left-4 z-50 lg:hidden bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 p-3",
                 onClick: ()=>setIsSidebarOpen(!isSidebarOpen),
                 children: isSidebarOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
-                    className: "h-6 w-6"
+                    className: "h-10 w-10 text-white"
                 }, void 0, false, {
                     fileName: "[project]/components/sidebar.tsx",
                     lineNumber: 59,
                     columnNumber: 26
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
-                    className: "h-6 w-6"
+                    className: "h-10 w-10 text-white"
                 }, void 0, false, {
                     fileName: "[project]/components/sidebar.tsx",
                     lineNumber: 59,
-                    columnNumber: 54
+                    columnNumber: 67
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sidebar.tsx",
@@ -1008,18 +1008,42 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$
 ;
 ;
 function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "All Images" }) {
-    // Static image paths for circular gallery (15 images)
+    // Determine image count based on folder
+    const getImageCount = ()=>{
+        if (folder === "books") return 5;
+        if (folder === "Hall of fame") return 24;
+        if (folder === "community-outreach") return 12;
+        if (folder === "honors_awards") return 15;
+        return 15 // Default for other folders like spirituality
+        ;
+    };
+    // Determine file extension based on folder
+    const getFileExtension = ()=>{
+        if (folder === "Hall of fame") return ".jpeg";
+        return ".jpeg" // Default for all folders
+        ;
+    };
+    const imageCount = getImageCount();
+    const fileExtension = getFileExtension();
+    // Helper function to get image path
+    const getImagePath = (index)=>{
+        if (folder === "Hall of fame") {
+            return `/${folder}/imag${index + 1}${fileExtension}`;
+        }
+        return `/${folder}/image${index + 1}${fileExtension}`;
+    };
+    // Static image paths for circular gallery
     const circularGalleryItems = Array.from({
-        length: 15
+        length: imageCount
     }, (_, i)=>({
-            image: `/${folder}/image${i + 1}.jpeg`,
+            image: getImagePath(i),
             text: `${title} ${i + 1}`
         }));
-    // Static image paths for grid gallery (20 images)
+    // Static image paths for grid gallery
     const gridGalleryItems = Array.from({
-        length: 20
+        length: imageCount
     }, (_, i)=>({
-            image: `/${folder}/image${i + 1}.jpeg`,
+            image: getImagePath(i),
             text: `${title} ${i + 1}`
         }));
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -1028,18 +1052,19 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                 className: "mb-16",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl font-semibold mb-8 text-foreground",
+                        className: "text-2xl sm:text-3xl font-semibold mb-6 sm:mb-8 text-white",
                         children: galleryTitle
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 36,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
-                            height: '600px',
+                            height: '400px',
                             position: 'relative'
                         },
+                        className: "sm:h-[500px] lg:h-[600px]",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CircularGallery$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             bend: 3,
                             textColor: "#ffffff",
@@ -1048,29 +1073,29 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                             items: circularGalleryItems
                         }, void 0, false, {
                             fileName: "[project]/components/ImageGallery.tsx",
-                            lineNumber: 38,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 37,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ImageGallery.tsx",
-                lineNumber: 35,
+                lineNumber: 61,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl font-semibold mb-8 text-foreground",
+                    gridTitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-2xl sm:text-3xl font-semibold mb-6 sm:mb-8 text-white",
                         children: gridTitle
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 50,
-                        columnNumber: 9
+                        lineNumber: 77,
+                        columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8",
@@ -1092,7 +1117,7 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ImageGallery.tsx",
-                                                lineNumber: 56,
+                                                lineNumber: 84,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1104,44 +1129,44 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                                                         children: item.text
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ImageGallery.tsx",
-                                                        lineNumber: 68,
+                                                        lineNumber: 96,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ImageGallery.tsx",
-                                                    lineNumber: 67,
+                                                    lineNumber: 95,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ImageGallery.tsx",
-                                                lineNumber: 66,
+                                                lineNumber: 94,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ImageGallery.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 83,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/ImageGallery.tsx",
-                                    lineNumber: 54,
+                                    lineNumber: 82,
                                     columnNumber: 15
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/components/ImageGallery.tsx",
-                                lineNumber: 53,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 51,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ImageGallery.tsx",
-                lineNumber: 49,
+                lineNumber: 75,
                 columnNumber: 7
             }, this)
         ]

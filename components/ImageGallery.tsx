@@ -17,15 +17,41 @@ export default function ImageGallery({
   galleryTitle = "Gallery", 
   gridTitle = "All Images" 
 }: ImageGalleryProps) {
-  // Static image paths for circular gallery (15 images)
-  const circularGalleryItems = Array.from({ length: 15 }, (_, i) => ({
-    image: `/${folder}/image${i + 1}.jpeg`,
+  // Determine image count based on folder
+  const getImageCount = () => {
+    if (folder === "books") return 5
+    if (folder === "Hall of fame") return 24
+    if (folder === "community-outreach") return 12
+    if (folder === "honors_awards") return 15
+    return 15 // Default for other folders like spirituality
+  }
+
+  // Determine file extension based on folder
+  const getFileExtension = () => {
+    if (folder === "Hall of fame") return ".jpeg"
+    return ".jpeg" // Default for all folders
+  }
+
+  const imageCount = getImageCount()
+  const fileExtension = getFileExtension()
+
+  // Helper function to get image path
+  const getImagePath = (index: number) => {
+    if (folder === "Hall of fame") {
+      return `/${folder}/imag${index + 1}${fileExtension}`
+    }
+    return `/${folder}/image${index + 1}${fileExtension}`
+  }
+
+  // Static image paths for circular gallery
+  const circularGalleryItems = Array.from({ length: imageCount }, (_, i) => ({
+    image: getImagePath(i),
     text: `${title} ${i + 1}`
   }))
 
-  // Static image paths for grid gallery (20 images)
-  const gridGalleryItems = Array.from({ length: 20 }, (_, i) => ({
-    image: `/${folder}/image${i + 1}.jpeg`,
+  // Static image paths for grid gallery
+  const gridGalleryItems = Array.from({ length: imageCount }, (_, i) => ({
+    image: getImagePath(i),
     text: `${title} ${i + 1}`
   }))
 
@@ -33,8 +59,8 @@ export default function ImageGallery({
     <>
       {/* Circular Gallery Section */}
       <div className="mb-16">
-        <h2 className="text-3xl font-semibold mb-8 text-foreground">{galleryTitle}</h2>
-        <div style={{ height: '600px', position: 'relative' }}>
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-6 sm:mb-8 text-white">{galleryTitle}</h2>
+        <div style={{ height: '400px', position: 'relative' }} className="sm:h-[500px] lg:h-[600px]">
           <CircularGallery 
             bend={3} 
             textColor="#ffffff" 
@@ -47,7 +73,9 @@ export default function ImageGallery({
 
       {/* Grid Gallery Section */}
       <div>
-        <h2 className="text-3xl font-semibold mb-8 text-foreground">{gridTitle}</h2>
+        {gridTitle && (
+          <h2 className="text-2xl sm:text-3xl font-semibold mb-6 sm:mb-8 text-white">{gridTitle}</h2>
+        )}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
           {gridGalleryItems.map((item, index) => (
             <Card key={index} className="overflow-hidden group hover:shadow-lg transition-shadow duration-300">

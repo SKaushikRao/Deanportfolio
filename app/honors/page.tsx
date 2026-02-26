@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import Sidebar from "@/components/sidebar"
 import Image from "next/image"
+import ImageGallery from "@/components/ImageGallery"
 
 export default function HonorsPage() {
   const honors = [
@@ -34,7 +35,7 @@ export default function HonorsPage() {
         <div className="absolute inset-0">
           <Image
             src="/pic_1.jpg"
-            alt="Honors Background"
+            alt="Awards and Honors Background"
             fill
             className="object-cover"
           />
@@ -46,8 +47,18 @@ export default function HonorsPage() {
         
         <div className="relative z-10 max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-[#a1574c] text-center">Honors</h1>
+            <h1 className="text-5xl font-bold mb-4 text-[#a1574c] text-center">Awards and Honors</h1>
             <div className="h-1 w-24 bg-[#a1574c] rounded-full mx-auto"></div>
+          </div>
+
+          {/* Awards and Honors Gallery */}
+          <div className="mb-16">
+            <ImageGallery 
+              folder="honors_awards"
+              title="Award"
+              galleryTitle="Awards and Honors Gallery"
+              gridTitle=""
+            />
           </div>
 
           <Card className="bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl">

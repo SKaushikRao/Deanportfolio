@@ -245,7 +245,7 @@ function ProfessionalExperiencePage() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-2xl text-white/80 mt-4 text-center",
-                                        children: "30 Years"
+                                        children: "32 Years"
                                     }, void 0, false, {
                                         fileName: "[project]/app/professional-experience/page.tsx",
                                         lineNumber: 29,
@@ -261,121 +261,111 @@ function ProfessionalExperiencePage() {
                                 className: "space-y-12",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "text-3xl font-bold mb-8 text-[#809949]",
-                                                children: "Featured Projects"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/professional-experience/page.tsx",
-                                                lineNumber: 35,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
-                                                children: [
-                                                    {
-                                                        title: "Sustainable Architecture",
-                                                        description: "Innovative and eco-friendly building design.",
-                                                        image: "/sustainable-architecture-building-design.jpg"
-                                                    },
-                                                    {
-                                                        title: "Heritage Conservation",
-                                                        description: "Preserving architectural history for future generations.",
-                                                        image: "/heritage-conservation-architecture.jpg"
-                                                    },
-                                                    {
-                                                        title: "University Campus Design",
-                                                        description: "Creating inspiring spaces for learning and growth.",
-                                                        image: "/university-campus-design.jpg"
-                                                    },
-                                                    {
-                                                        title: "Green Building Project",
-                                                        description: "A commitment to environmentally responsible construction.",
-                                                        image: "/green-building-project.jpg"
-                                                    },
-                                                    {
-                                                        title: "Bamboo Construction",
-                                                        description: "Exploring the versatility of sustainable materials.",
-                                                        image: "/bamboo-construction-project.jpg"
-                                                    },
-                                                    {
-                                                        title: "Urban Planning Solutions",
-                                                        description: "Designing sustainable cities for the future.",
-                                                        image: "/arc.jpg"
-                                                    }
-                                                ].map((project, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
-                                                        className: "overflow-hidden bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "relative h-60 w-full",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                    src: project.image,
-                                                                    alt: project.title,
-                                                                    layout: "fill",
-                                                                    objectFit: "cover",
-                                                                    className: "grayscale"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 71,
-                                                                    columnNumber: 23
-                                                                }, this)
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+                                            children: [
+                                                {
+                                                    title: "Sustainable Architecture",
+                                                    description: "Innovative and eco-friendly building design.",
+                                                    image: "/sustainable-architecture-building-design.jpg"
+                                                },
+                                                {
+                                                    title: "Heritage Conservation",
+                                                    description: "Preserving architectural history for future generations.",
+                                                    image: "/heritage-conservation-architecture.jpg"
+                                                },
+                                                {
+                                                    title: "University Campus Design",
+                                                    description: "Creating inspiring spaces for learning and growth.",
+                                                    image: "/university-campus-design.jpg"
+                                                },
+                                                {
+                                                    title: "Green Building Project",
+                                                    description: "A commitment to environmentally responsible construction.",
+                                                    image: "/green-building-project.jpg"
+                                                },
+                                                {
+                                                    title: "Bamboo Construction",
+                                                    description: "Exploring the versatility of sustainable materials.",
+                                                    image: "/bamboo-construction-project.jpg"
+                                                },
+                                                {
+                                                    title: "Urban Planning Solutions",
+                                                    description: "Designing sustainable cities for the future.",
+                                                    image: "/arc.jpg"
+                                                }
+                                            ].map((project, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
+                                                    className: "overflow-hidden bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "relative h-60 w-full",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: project.image,
+                                                                alt: project.title,
+                                                                layout: "fill",
+                                                                objectFit: "cover",
+                                                                className: "grayscale"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/professional-experience/page.tsx",
                                                                 lineNumber: 70,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
-                                                                className: "p-6 text-center",
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                        className: "text-lg font-semibold text-white mb-2",
-                                                                        children: project.title
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/professional-experience/page.tsx",
-                                                                        lineNumber: 80,
-                                                                        columnNumber: 23
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                        className: "text-sm text-white/80",
-                                                                        children: project.description
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/app/professional-experience/page.tsx",
-                                                                        lineNumber: 81,
-                                                                        columnNumber: 23
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "mt-4 flex justify-center",
-                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                            className: "w-3 h-3 bg-[#809949]"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/app/professional-experience/page.tsx",
-                                                                            lineNumber: 83,
-                                                                            columnNumber: 25
-                                                                        }, this)
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/professional-experience/page.tsx",
+                                                            lineNumber: 69,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
+                                                            className: "p-6 text-center",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                    className: "text-lg font-semibold text-white mb-2",
+                                                                    children: project.title
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/professional-experience/page.tsx",
+                                                                    lineNumber: 79,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "text-sm text-white/80",
+                                                                    children: project.description
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/professional-experience/page.tsx",
+                                                                    lineNumber: 80,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "mt-4 flex justify-center",
+                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "w-3 h-3 bg-[#809949]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/professional-experience/page.tsx",
                                                                         lineNumber: 82,
-                                                                        columnNumber: 23
+                                                                        columnNumber: 25
                                                                     }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/app/professional-experience/page.tsx",
-                                                                lineNumber: 79,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, idx, true, {
-                                                        fileName: "[project]/app/professional-experience/page.tsx",
-                                                        lineNumber: 69,
-                                                        columnNumber: 19
-                                                    }, this))
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/professional-experience/page.tsx",
-                                                lineNumber: 36,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/professional-experience/page.tsx",
+                                                                    lineNumber: 81,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/app/professional-experience/page.tsx",
+                                                            lineNumber: 78,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, idx, true, {
+                                                    fileName: "[project]/app/professional-experience/page.tsx",
+                                                    lineNumber: 68,
+                                                    columnNumber: 19
+                                                }, this))
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/professional-experience/page.tsx",
+                                            lineNumber: 35,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
                                         fileName: "[project]/app/professional-experience/page.tsx",
                                         lineNumber: 34,
                                         columnNumber: 13
@@ -390,7 +380,7 @@ function ProfessionalExperiencePage() {
                                                     children: "Major Projects"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 94,
+                                                    lineNumber: 93,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -404,7 +394,7 @@ function ProfessionalExperiencePage() {
                                                                     children: "ISKCON Temples - Team Leader"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 97,
+                                                                    lineNumber: 96,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -412,13 +402,13 @@ function ProfessionalExperiencePage() {
                                                                     children: "Shri Ganganagar & Jhunjhunu, Rajasthan"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 100,
+                                                                    lineNumber: 99,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                            lineNumber: 96,
+                                                            lineNumber: 95,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -428,12 +418,12 @@ function ProfessionalExperiencePage() {
                                                                 children: "City Palace Jaipur Garden - Team Leader"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/professional-experience/page.tsx",
-                                                                lineNumber: 103,
+                                                                lineNumber: 102,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                            lineNumber: 102,
+                                                            lineNumber: 101,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -444,7 +434,7 @@ function ProfessionalExperiencePage() {
                                                                     children: "Consultant - MIT Aurangabad"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 108,
+                                                                    lineNumber: 107,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -454,64 +444,64 @@ function ProfessionalExperiencePage() {
                                                                             children: "• Institute of sericulture at Takli"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                                            lineNumber: 112,
+                                                                            lineNumber: 111,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                             children: "• Residential layout for staff quarters"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                                            lineNumber: 113,
+                                                                            lineNumber: 112,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                             children: "• Hostel buildings"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                                            lineNumber: 114,
+                                                                            lineNumber: 113,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                             children: "• MIT polytechnic college at Bulandshahar, Uttar Pradesh"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                                            lineNumber: 115,
+                                                                            lineNumber: 114,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                             children: "• Redevelopment of Nath Mandir Parisar at Paithan"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                                            lineNumber: 116,
+                                                                            lineNumber: 115,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 111,
+                                                                    lineNumber: 110,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                            lineNumber: 107,
+                                                            lineNumber: 106,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 95,
+                                                    lineNumber: 94,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                            lineNumber: 93,
+                                            lineNumber: 92,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/professional-experience/page.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 91,
                                         columnNumber: 1
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
@@ -524,7 +514,7 @@ function ProfessionalExperiencePage() {
                                                     children: "Individual Projects"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 126,
+                                                    lineNumber: 125,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -546,7 +536,7 @@ function ProfessionalExperiencePage() {
                                                                     className: "w-2 h-2 bg-white rounded-full mt-1.5 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 140,
+                                                                    lineNumber: 139,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -554,29 +544,29 @@ function ProfessionalExperiencePage() {
                                                                     children: project
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 141,
+                                                                    lineNumber: 140,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, idx, true, {
                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                            lineNumber: 139,
+                                                            lineNumber: 138,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 126,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                            lineNumber: 125,
+                                            lineNumber: 124,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/professional-experience/page.tsx",
-                                        lineNumber: 124,
+                                        lineNumber: 123,
                                         columnNumber: 1
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
@@ -589,7 +579,7 @@ function ProfessionalExperiencePage() {
                                                     children: "Healthcare / Hospitals"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 151,
+                                                    lineNumber: 150,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -605,7 +595,7 @@ function ProfessionalExperiencePage() {
                                                                     className: "w-2 h-2 bg-white rounded-full mt-1.5 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 159,
+                                                                    lineNumber: 158,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -613,29 +603,29 @@ function ProfessionalExperiencePage() {
                                                                     children: project
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 160,
+                                                                    lineNumber: 159,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, idx, true, {
                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                            lineNumber: 158,
+                                                            lineNumber: 157,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 152,
+                                                    lineNumber: 151,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                            lineNumber: 150,
+                                            lineNumber: 149,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/professional-experience/page.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 148,
                                         columnNumber: 1
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
@@ -648,7 +638,7 @@ function ProfessionalExperiencePage() {
                                                     children: "Urban Planning"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 170,
+                                                    lineNumber: 169,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -661,7 +651,7 @@ function ProfessionalExperiencePage() {
                                                                 children: "Team Leader - City Development Plans"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/professional-experience/page.tsx",
-                                                                lineNumber: 173,
+                                                                lineNumber: 172,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -671,42 +661,42 @@ function ProfessionalExperiencePage() {
                                                                         children: "• City of Akot (Nov. 2010)"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/professional-experience/page.tsx",
-                                                                        lineNumber: 175,
+                                                                        lineNumber: 174,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                                         children: "• City of Amrawati (Feb. 2011)"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/professional-experience/page.tsx",
-                                                                        lineNumber: 176,
+                                                                        lineNumber: 175,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/professional-experience/page.tsx",
-                                                                lineNumber: 174,
+                                                                lineNumber: 173,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/professional-experience/page.tsx",
-                                                        lineNumber: 172,
+                                                        lineNumber: 171,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 171,
+                                                    lineNumber: 170,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                            lineNumber: 169,
+                                            lineNumber: 168,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/professional-experience/page.tsx",
-                                        lineNumber: 168,
+                                        lineNumber: 167,
                                         columnNumber: 1
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
@@ -719,7 +709,7 @@ function ProfessionalExperiencePage() {
                                                     children: "Heritage Conservation"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 186,
+                                                    lineNumber: 185,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -727,7 +717,7 @@ function ProfessionalExperiencePage() {
                                                     children: "Team Leader for conservation of four forts of Maharashtra:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 187,
+                                                    lineNumber: 186,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -744,28 +734,28 @@ function ProfessionalExperiencePage() {
                                                                 children: fort
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/professional-experience/page.tsx",
-                                                                lineNumber: 194,
+                                                                lineNumber: 193,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, idx, false, {
                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                            lineNumber: 190,
+                                                            lineNumber: 189,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 188,
+                                                    lineNumber: 187,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                            lineNumber: 185,
+                                            lineNumber: 184,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/professional-experience/page.tsx",
-                                        lineNumber: 184,
+                                        lineNumber: 183,
                                         columnNumber: 1
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
@@ -778,7 +768,7 @@ function ProfessionalExperiencePage() {
                                                     children: "Green Buildings"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 204,
+                                                    lineNumber: 203,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -794,7 +784,7 @@ function ProfessionalExperiencePage() {
                                                                     className: "w-2 h-2 bg-white rounded-full mt-1.5 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 212,
+                                                                    lineNumber: 211,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -802,29 +792,29 @@ function ProfessionalExperiencePage() {
                                                                     children: project
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 213,
+                                                                    lineNumber: 212,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, idx, true, {
                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                            lineNumber: 211,
+                                                            lineNumber: 210,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 205,
+                                                    lineNumber: 204,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                            lineNumber: 203,
+                                            lineNumber: 202,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/professional-experience/page.tsx",
-                                        lineNumber: 202,
+                                        lineNumber: 201,
                                         columnNumber: 1
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
@@ -837,7 +827,7 @@ function ProfessionalExperiencePage() {
                                                     children: "Energy Audit"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 223,
+                                                    lineNumber: 222,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -845,7 +835,7 @@ function ProfessionalExperiencePage() {
                                                     children: "Worked as a team member for energy audit of:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 224,
+                                                    lineNumber: 223,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -862,7 +852,7 @@ function ProfessionalExperiencePage() {
                                                                     className: "w-2 h-2 bg-white rounded-full mt-1.5 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 233,
+                                                                    lineNumber: 232,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -870,29 +860,29 @@ function ProfessionalExperiencePage() {
                                                                     children: building
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                                    lineNumber: 234,
+                                                                    lineNumber: 233,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, idx, true, {
                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                            lineNumber: 232,
+                                                            lineNumber: 231,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 225,
+                                                    lineNumber: 224,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                            lineNumber: 222,
+                                            lineNumber: 221,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/professional-experience/page.tsx",
-                                        lineNumber: 221,
+                                        lineNumber: 220,
                                         columnNumber: 1
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
@@ -905,7 +895,7 @@ function ProfessionalExperiencePage() {
                                                     children: "International Exposure"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 244,
+                                                    lineNumber: 243,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -913,7 +903,7 @@ function ProfessionalExperiencePage() {
                                                     children: "Countries Visited:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 245,
+                                                    lineNumber: 244,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -933,23 +923,23 @@ function ProfessionalExperiencePage() {
                                                             children: country
                                                         }, idx, false, {
                                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                                            lineNumber: 258,
+                                                            lineNumber: 257,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/professional-experience/page.tsx",
-                                                    lineNumber: 246,
+                                                    lineNumber: 245,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/professional-experience/page.tsx",
-                                            lineNumber: 243,
+                                            lineNumber: 242,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/professional-experience/page.tsx",
-                                        lineNumber: 242,
+                                        lineNumber: 241,
                                         columnNumber: 1
                                     }, this)
                                 ]
@@ -962,7 +952,7 @@ function ProfessionalExperiencePage() {
                                 className: "mt-12 h-0.5 bg-[#809949] w-full max-w-4xl mx-auto"
                             }, void 0, false, {
                                 fileName: "[project]/app/professional-experience/page.tsx",
-                                lineNumber: 271,
+                                lineNumber: 270,
                                 columnNumber: 11
                             }, this)
                         ]
