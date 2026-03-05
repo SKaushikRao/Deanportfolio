@@ -1,194 +1,156 @@
-[00:00:02.056] Server  LOG      ✓ Ready in 1495ms
-[00:00:06.062] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.309] Browser WARN    Image with src "http://localhost:3000/sustainable-architecture-building-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:06.615] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:06.615] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:06.615] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098367069} /_vercel/insights/view
-[00:00:13.288] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098373278} /_vercel/insights/view
-[00:01:04.173] Server  LOG      ✓ Compiled in 127ms
-[00:01:07.243] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098427105} /_vercel/insights/view
-[00:01:08.556] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098428359} /_vercel/insights/view
-[00:01:08.776] Server  LOG      ✓ Compiled in 83ms
-[00:01:11.862] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098431774} /_vercel/insights/view
-[00:01:13.961] Browser WARN    Image with src "/sustainable-architecture-building-design.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:01.382] Server  LOG      ✓ Ready in 955ms
+[00:00:11.705] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.974] Browser WARN    Image with src "http://localhost:3000/sustainable-architecture-building-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:00:12.102] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:12.102] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:12.102] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670197456} /_vercel/insights/view
+[00:00:21.979] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670207327} /_vercel/insights/view
+[00:00:24.097] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670209055} /_vercel/insights/view
+[00:00:25.971] Browser WARN    Image with src "/architecture-excellence-award-ceremony.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:01:13.961] Browser WARN    Image with src "/sustainable-architecture-building-design.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:00:25.971] Browser WARN    Image with src "/architecture-excellence-award-ceremony.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:01:13.961] Browser WARN    Image with src "/heritage-conservation-architecture.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:25.971] Browser WARN    Image with src "/green-building-council-recognition-certificate.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:01:13.961] Browser WARN    Image with src "/heritage-conservation-architecture.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:00:25.971] Browser WARN    Image with src "/green-building-council-recognition-certificate.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:01:13.961] Browser WARN    Image with src "/university-campus-design.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:25.971] Browser WARN    Image with src "/international-architecture-conference-award.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:01:13.961] Browser WARN    Image with src "/university-campus-design.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:00:25.971] Browser WARN    Image with src "/international-architecture-conference-award.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:01:13.961] Browser WARN    Image with src "/green-building-project.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:25.971] Browser WARN    Image with src "/professional-recognition-award-trophy.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:01:13.961] Browser WARN    Image with src "/green-building-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:00:25.971] Browser WARN    Image with src "/professional-recognition-award-trophy.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:01:13.961] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:25.971] Browser WARN    Image with src "/academic-excellence-award-stage.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:01:13.961] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:00:25.971] Browser WARN    Image with src "/academic-excellence-award-stage.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:01:13.961] Browser WARN    Image with src "/arc.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:25.971] Browser WARN    Image with src "/education-leadership-award-presentation.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:01:13.961] Browser WARN    Image with src "/arc.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:00:25.971] Browser WARN    Image with src "/education-leadership-award-presentation.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:01:13.961] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098434412} /_vercel/insights/view
-[00:01:15.444] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098435308} /_vercel/insights/view
-[00:01:32.771] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098453182} /_vercel/insights/view
-[00:01:35.223] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098455669} /_vercel/insights/view
-[00:01:36.997] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098457449} /_vercel/insights/view
-[00:01:45.242] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098465106} /_vercel/insights/view
-[00:04:27.021] Server  LOG      ✓ Compiled in 57ms
-[00:05:14.865] Server  LOG      ✓ Compiled in 60ms
-[00:06:37.407] Server  LOG      ✓ Compiled in 41ms
-[00:07:17.634] Server  LOG      ✓ Compiled in 37ms
-[00:07:54.642] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:55.159] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:07:55.159] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/media","route":"/media"}
-[00:07:55.159] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098835607} /_vercel/insights/view
-[00:08:01.671] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098841927} /_vercel/insights/view
-[00:08:04.122] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098844393} /_vercel/insights/view
-[00:08:05.271] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098845468} /_vercel/insights/view
-[00:08:12.378] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098852658} /_vercel/insights/view
-[00:09:59.991] Server  LOG      ✓ Compiled in 43ms
-[00:10:10.657] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:11.362] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:10:11.362] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/spirituality","route":"/spirituality"}
-[00:10:11.362] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098971809} /_vercel/insights/view
-[00:10:28.205] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772098988052} /_vercel/insights/view
-[00:11:15.262] Server  LOG      ✓ Compiled in 41ms
-[00:11:22.248] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:23.004] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:11:23.004] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/hall-of-fame","route":"/hall-of-fame"}
-[00:11:23.004] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099043400} /_vercel/insights/view
-[00:11:54.498] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:55.296] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:11:55.296] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/hall-of-fame","route":"/hall-of-fame"}
-[00:11:55.296] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099075647} /_vercel/insights/view
-[00:11:56.721] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:57.282] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:11:57.282] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/hall-of-fame","route":"/hall-of-fame"}
-[00:11:57.282] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099077302} /_vercel/insights/view
-[00:12:48.390] Server  LOG      ✓ Compiled in 33ms
-[00:12:57.951] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099138189} /_vercel/insights/view
-[00:12:59.788] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/community-outreach color: rgb(120, 120, 120) color: inherit {"dp":"/community-outreach","o":"http://localhost:3000/community-outreach","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099139696} /_vercel/insights/view
-[00:13:50.392] Server  LOG      ✓ Compiled in 40ms
-[00:13:54.365] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099194819} /_vercel/insights/view
-[00:13:58.711] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099199164} /_vercel/insights/view
-[00:13:59.704] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099200152} /_vercel/insights/view
-[00:14:05.910] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099206355} /_vercel/insights/view
-[00:14:07.129] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099207574} /_vercel/insights/view
-[00:14:07.797] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099208251} /_vercel/insights/view
-[00:14:09.318] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099209765} /_vercel/insights/view
-[00:14:24.930] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099225381} /_vercel/insights/view
-[00:14:26.474] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099226492} /_vercel/insights/view
-[00:14:27.173] Browser WARN    Image with src "/sustainable-architecture-building-design.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:25.971] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670211324} /_vercel/insights/view
+[00:00:31.280] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670216274} /_vercel/insights/view
+[00:00:31.632] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670216986} /_vercel/insights/view
+[00:00:33.009] Browser WARN    Image with src "/sustainable-architecture-building-design.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:14:27.173] Browser WARN    Image with src "/sustainable-architecture-building-design.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:00:33.009] Browser WARN    Image with src "/sustainable-architecture-building-design.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:14:27.173] Browser WARN    Image with src "/heritage-conservation-architecture.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:33.009] Browser WARN    Image with src "/heritage-conservation-architecture.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:14:27.173] Browser WARN    Image with src "/heritage-conservation-architecture.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:00:33.009] Browser WARN    Image with src "/heritage-conservation-architecture.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:14:27.173] Browser WARN    Image with src "/university-campus-design.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:33.009] Browser WARN    Image with src "/university-campus-design.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:14:27.173] Browser WARN    Image with src "/university-campus-design.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:00:33.009] Browser WARN    Image with src "/university-campus-design.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:14:27.173] Browser WARN    Image with src "/green-building-project.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:33.009] Browser WARN    Image with src "/green-building-project.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:14:27.173] Browser WARN    Image with src "/green-building-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:00:33.009] Browser WARN    Image with src "/green-building-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:14:27.173] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:33.009] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:14:27.173] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:00:33.009] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:14:27.173] Browser WARN    Image with src "/arc.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:33.009] Browser WARN    Image with src "/arc.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:14:27.173] Browser WARN    Image with src "/arc.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:00:33.009] Browser WARN    Image with src "/arc.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:14:27.173] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099227627} /_vercel/insights/view
-[00:14:30.620] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099230622} /_vercel/insights/view
-[00:14:31.433] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099231877} /_vercel/insights/view
-[00:15:28.573] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099288622} /_vercel/insights/view
-[00:15:30.536] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099290989} /_vercel/insights/view
-[00:15:31.190] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099291637} /_vercel/insights/view
-[00:15:32.203] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099292655} /_vercel/insights/view
-[00:15:33.996] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099294450} /_vercel/insights/view
-[00:15:35.354] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099295804} /_vercel/insights/view
-[00:20:49.794] Server  LOG      ✓ Compiled in 34ms
-[00:20:55.054] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099615508} /_vercel/insights/view
-[00:21:20.498] Server  LOG      ✓ Compiled in 126ms
-[00:21:26.590] Server  LOG      ✓ Compiled in 38ms
-[00:21:31.362] Server  LOG      ✓ Compiled in 43ms
-[00:21:38.204] Server  LOG      ✓ Compiled in 66ms
-[00:21:56.274] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099676285} /_vercel/insights/view
-[00:22:01.979] Server  LOG      ✓ Compiled in 105ms
-[00:22:07.742] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099688018} /_vercel/insights/view
-[00:22:12.777] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099692530} /_vercel/insights/view
-[00:22:18.549] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099699002} /_vercel/insights/view
-[00:22:20.243] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099700277} /_vercel/insights/view
-[00:22:21.008] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099701463} /_vercel/insights/view
-[00:22:22.828] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099703282} /_vercel/insights/view
-[00:22:25.534] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099705490} /_vercel/insights/view
-[00:22:27.737] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099707772} /_vercel/insights/view
-[00:23:15.385] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099755181} /_vercel/insights/view
-[00:23:28.815] Server  LOG      ✓ Compiled in 35ms
-[00:23:44.423] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099784433} /_vercel/insights/view
-[00:25:00.631] Server  LOG      ✓ Compiled in 40ms
-[00:25:07.987] Server  LOG      ✓ Compiled in 45ms
-[00:26:10.151] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099930604} /_vercel/insights/view
-[00:26:10.542] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099930986} /_vercel/insights/view
-[00:26:12.142] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099932045} /_vercel/insights/view
-[00:26:12.307] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099932756} /_vercel/insights/view
-[00:26:13.358] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099933630} /_vercel/insights/view
-[00:26:14.918] Server  LOG      ✓ Compiled in 71ms
-[00:26:16.417] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099935270} /_vercel/insights/view
-[00:26:27.647] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/community-outreach color: rgb(120, 120, 120) color: inherit {"dp":"/community-outreach","o":"http://localhost:3000/community-outreach","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099947524} /_vercel/insights/view
-[00:26:31.061] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099951504} /_vercel/insights/view
-[00:26:33.531] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772099953896} /_vercel/insights/view
-[00:26:33.531] Browser WARN    Image with src "http://localhost:3000/sustainable-architecture-building-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:26:34.458] Browser WARN    Image with src "http://localhost:3000/university-campus-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:26:34.458] Browser WARN    Image with src "http://localhost:3000/bamboo-construction-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:26:34.458] Browser WARN    Image with src "http://localhost:3000/green-building-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:26:34.458] Browser WARN    Image with src "http://localhost:3000/heritage-conservation-architecture.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:27:38.311] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100018759} /_vercel/insights/view
-[00:27:39.224] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100019678} /_vercel/insights/view
-[00:27:39.761] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100020210} /_vercel/insights/view
-[00:27:40.453] Browser WARN    Image with src "/architecture-excellence-award-ceremony.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:00:33.009] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670218364} /_vercel/insights/view
+[00:00:35.220] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670220102} /_vercel/insights/view
+[00:00:37.937] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670223152} /_vercel/insights/view
+[00:00:40.408] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670225157} /_vercel/insights/view
+[00:00:42.805] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/community-outreach color: rgb(120, 120, 120) color: inherit {"dp":"/community-outreach","o":"http://localhost:3000/community-outreach","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670227751} /_vercel/insights/view
+[00:00:58.258] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670243611} /_vercel/insights/view
+[00:01:17.117] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/community-outreach color: rgb(120, 120, 120) color: inherit {"dp":"/community-outreach","o":"http://localhost:3000/community-outreach","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670262105} /_vercel/insights/view
+[00:01:18.492] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670263155} /_vercel/insights/view
+[00:01:18.874] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670264095} /_vercel/insights/view
+[00:01:20.067] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670264967} /_vercel/insights/view
+[00:01:20.869] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670266221} /_vercel/insights/view
+[00:01:22.508] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670267853} /_vercel/insights/view
+[00:01:24.057] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670268998} /_vercel/insights/view
+[00:01:24.161] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670269516} /_vercel/insights/view
+[00:01:25.769] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670270726} /_vercel/insights/view
+[00:01:25.874] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670271230} /_vercel/insights/view
+[00:01:27.524] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670272310} /_vercel/insights/view
+[00:05:36.670] Server  LOG      ✓ Compiled in 75ms
+[00:05:48.159] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:49.328] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:49.328] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/hall-of-fame","route":"/hall-of-fame"}
+[00:05:49.328] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670534674} /_vercel/insights/view
+[00:06:24.454] Server  LOG      ✓ Compiled in 46ms
+[00:06:53.381] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670598593} /_vercel/insights/view
+[00:06:54.613] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670599570} /_vercel/insights/view
+[00:06:55.654] Browser WARN    Image with src "/sustainable-architecture-building-design.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:27:40.453] Browser WARN    Image with src "/architecture-excellence-award-ceremony.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:06:55.654] Browser WARN    Image with src "/sustainable-architecture-building-design.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:27:40.453] Browser WARN    Image with src "/green-building-council-recognition-certificate.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:06:55.654] Browser WARN    Image with src "/heritage-conservation-architecture.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:27:40.453] Browser WARN    Image with src "/green-building-council-recognition-certificate.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:06:55.654] Browser WARN    Image with src "/heritage-conservation-architecture.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:27:40.453] Browser WARN    Image with src "/international-architecture-conference-award.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:06:55.654] Browser WARN    Image with src "/university-campus-design.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:27:40.453] Browser WARN    Image with src "/international-architecture-conference-award.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:06:55.654] Browser WARN    Image with src "/university-campus-design.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:27:40.453] Browser WARN    Image with src "/professional-recognition-award-trophy.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:06:55.654] Browser WARN    Image with src "/green-building-project.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:27:40.453] Browser WARN    Image with src "/professional-recognition-award-trophy.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:06:55.654] Browser WARN    Image with src "/green-building-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:27:40.453] Browser WARN    Image with src "/academic-excellence-award-stage.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:06:55.654] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:27:40.453] Browser WARN    Image with src "/academic-excellence-award-stage.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:06:55.654] Browser WARN    Image with src "/bamboo-construction-project.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:27:40.453] Browser WARN    Image with src "/education-leadership-award-presentation.jpg" has legacy prop "layout". Did you forget to run the codemod?
+[00:06:55.654] Browser WARN    Image with src "/arc.jpg" has legacy prop "layout". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:27:40.453] Browser WARN    Image with src "/education-leadership-award-presentation.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+[00:06:55.654] Browser WARN    Image with src "/arc.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
 Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
-[00:27:40.453] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100020903} /_vercel/insights/view
-[00:27:42.167] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100022061} /_vercel/insights/view
-[00:27:42.710] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100023152} /_vercel/insights/view
-[00:27:44.137] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100024108} /_vercel/insights/view
-[00:27:44.663] Server  LOG      ✓ Compiled in 60ms
-[00:28:08.474] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100048913} /_vercel/insights/view
-[00:28:15.553] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100056002} /_vercel/insights/view
-[00:28:17.251] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100057683} /_vercel/insights/view
-[00:28:19.395] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100059842} /_vercel/insights/view
-[00:28:20.868] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100061301} /_vercel/insights/view
-[00:28:23.092] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100063546} /_vercel/insights/view
-[00:28:27.816] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772100068249} /_vercel/insights/view
+[00:06:55.654] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670601002} /_vercel/insights/view
+[00:07:24.588] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670629937} /_vercel/insights/view
+[00:07:29.604] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670634589} /_vercel/insights/view
+[00:07:34.665] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670640020} /_vercel/insights/view
+[00:07:37.341] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670642693} /_vercel/insights/view
+[00:07:37.996] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670643272} /_vercel/insights/view
+[00:07:37.996] Browser WARN    Image with src "http://localhost:3000/sustainable-architecture-building-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:07:47.425] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670652775} /_vercel/insights/view
+[00:07:49.461] Browser WARN    Image with src "/architecture-excellence-award-ceremony.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:49.461] Browser WARN    Image with src "/architecture-excellence-award-ceremony.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:49.461] Browser WARN    Image with src "/green-building-council-recognition-certificate.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:49.461] Browser WARN    Image with src "/green-building-council-recognition-certificate.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:49.461] Browser WARN    Image with src "/international-architecture-conference-award.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:49.461] Browser WARN    Image with src "/international-architecture-conference-award.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:49.461] Browser WARN    Image with src "/professional-recognition-award-trophy.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:49.461] Browser WARN    Image with src "/professional-recognition-award-trophy.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:49.461] Browser WARN    Image with src "/academic-excellence-award-stage.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:49.461] Browser WARN    Image with src "/academic-excellence-award-stage.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:49.461] Browser WARN    Image with src "/education-leadership-award-presentation.jpg" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:49.461] Browser WARN    Image with src "/education-leadership-award-presentation.jpg" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+[00:07:49.461] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670654807} /_vercel/insights/view
+[00:07:53.200] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670658551} /_vercel/insights/view
+[00:07:57.785] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/honors color: rgb(120, 120, 120) color: inherit {"dp":"/honors","o":"http://localhost:3000/honors","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670662818} /_vercel/insights/view
+[00:08:04.767] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670670117} /_vercel/insights/view
+[00:08:08.480] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/professional-experience color: rgb(120, 120, 120) color: inherit {"dp":"/professional-experience","o":"http://localhost:3000/professional-experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670673830} /_vercel/insights/view
+[00:08:15.045] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/spirituality color: rgb(120, 120, 120) color: inherit {"dp":"/spirituality","o":"http://localhost:3000/spirituality","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670680014} /_vercel/insights/view
+[00:08:30.663] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670695866} /_vercel/insights/view
+[00:08:39.649] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670703995} /_vercel/insights/view
+[00:08:42.469] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/community-outreach color: rgb(120, 120, 120) color: inherit {"dp":"/community-outreach","o":"http://localhost:3000/community-outreach","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670707423} /_vercel/insights/view
+[00:08:52.073] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670717391} /_vercel/insights/view
+[00:08:53.441] Browser WARN    Image with src "http://localhost:3000/university-campus-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:08:53.441] Browser WARN    Image with src "http://localhost:3000/heritage-conservation-architecture.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:08:53.441] Browser WARN    Image with src "http://localhost:3000/bamboo-construction-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:08:53.441] Browser WARN    Image with src "http://localhost:3000/green-building-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:08:54.932] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670720280} /_vercel/insights/view
+[00:08:56.768] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772670722094} /_vercel/insights/view

@@ -1011,7 +1011,8 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
     // Determine image count based on folder
     const getImageCount = ()=>{
         if (folder === "books") return 5;
-        if (folder === "Hall of fame") return 24;
+        if (folder === "Hall of fame") return 38 // 24 imag + 14 img from international
+        ;
         if (folder === "community-outreach") return 12;
         if (folder === "honors_awards") return 15;
         return 15 // Default for other folders like spirituality
@@ -1028,7 +1029,13 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
     // Helper function to get image path
     const getImagePath = (index)=>{
         if (folder === "Hall of fame") {
-            return `/${folder}/imag${index + 1}${fileExtension}`;
+            // First 24 images use "imag" naming from Hall of fame folder, next 14 use "img" naming from international folder
+            if (index < 24) {
+                return `/Hall of fame/imag${index + 1}${fileExtension}`;
+            } else {
+                return `/international/img${index - 23}${fileExtension}` // img1 to img14 from international folder
+                ;
+            }
         }
         return `/${folder}/image${index + 1}${fileExtension}`;
     };
@@ -1056,7 +1063,7 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                         children: galleryTitle
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 62,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1073,18 +1080,18 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                             items: circularGalleryItems
                         }, void 0, false, {
                             fileName: "[project]/components/ImageGallery.tsx",
-                            lineNumber: 64,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 63,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ImageGallery.tsx",
-                lineNumber: 61,
+                lineNumber: 66,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1094,7 +1101,7 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                         children: gridTitle
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 77,
+                        lineNumber: 82,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1117,7 +1124,7 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ImageGallery.tsx",
-                                                lineNumber: 84,
+                                                lineNumber: 89,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1129,44 +1136,44 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                                                         children: item.text
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ImageGallery.tsx",
-                                                        lineNumber: 96,
+                                                        lineNumber: 101,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ImageGallery.tsx",
-                                                    lineNumber: 95,
+                                                    lineNumber: 100,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ImageGallery.tsx",
-                                                lineNumber: 94,
+                                                lineNumber: 99,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ImageGallery.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 88,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/ImageGallery.tsx",
-                                    lineNumber: 82,
+                                    lineNumber: 87,
                                     columnNumber: 15
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/components/ImageGallery.tsx",
-                                lineNumber: 81,
+                                lineNumber: 86,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 79,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ImageGallery.tsx",
-                lineNumber: 75,
+                lineNumber: 80,
                 columnNumber: 7
             }, this)
         ]
