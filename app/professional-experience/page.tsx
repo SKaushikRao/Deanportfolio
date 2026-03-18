@@ -26,7 +26,7 @@ export default function ProfessionalExperiencePage() {
           <div className="mb-12">
             <h1 className="text-5xl font-bold mb-4 text-[#809949] text-center">Professional Experience</h1>
             <div className="h-1 w-24 bg-[#809949] rounded-full mx-auto"></div>
-            <p className="text-2xl text-white/80 mt-4 text-center">32 Years</p>
+            <p className="text-2xl text-white/80 mt-4 text-center">30+ Years</p>
           </div>
 
           <div className="space-y-12">

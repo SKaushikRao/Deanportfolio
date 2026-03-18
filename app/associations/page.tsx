@@ -15,6 +15,9 @@ export default function AssociationsPage() {
     "Member and Student activity chair of ISHRAE Rajasthan Chapter",
     "Expert member for Bureau of Indian standards (BIS)",
     "Member of ICOMOS",
+    "NITI Aayog Expert Member",
+    "Indian Building Congress (IBC) Member",
+    "General Secretary for Indian Building Congress, Rajasthan Chapter",
   ]
   //changes
 

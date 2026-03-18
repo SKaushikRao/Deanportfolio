@@ -47,7 +47,7 @@ export default function HonorsPage() {
         
         <div className="relative z-10 max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-[#a1574c] text-center">Awards and Honors</h1>
+            <h1 className="text-5xl font-bold mb-4 text-[#a1574c] text-center">Honors</h1>
             <div className="h-1 w-24 bg-[#a1574c] rounded-full mx-auto"></div>
           </div>
 
@@ -56,7 +56,7 @@ export default function HonorsPage() {
             <ImageGallery 
               folder="honors_awards"
               title="Award"
-              galleryTitle="Awards and Honors Gallery"
+              galleryTitle="Honors Gallery"
               gridTitle=""
             />
           </div>

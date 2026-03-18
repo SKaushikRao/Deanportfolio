@@ -289,7 +289,7 @@ function HonorsPage() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                         className: "text-5xl font-bold mb-4 text-[#a1574c] text-center",
-                                        children: "Awards and Honors"
+                                        children: "Honors"
                                     }, void 0, false, {
                                         fileName: "[project]/app/honors/page.tsx",
                                         lineNumber: 50,
@@ -313,7 +313,7 @@ function HonorsPage() {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ImageGallery$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                     folder: "honors_awards",
                                     title: "Award",
-                                    galleryTitle: "Awards and Honors Gallery",
+                                    galleryTitle: "Honors Gallery",
                                     gridTitle: ""
                                 }, void 0, false, {
                                     fileName: "[project]/app/honors/page.tsx",

@@ -28,7 +28,7 @@ export default function SpiritualityPage() {
         
         <div className="relative z-10 max-w-full mx-auto px-2 py-12 lg:px-4 lg:py-16">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold mb-4 text-white text-center">Spirituality</h1>
+            <h1 className="text-5xl font-bold mb-4 text-white text-center">Blessings and Guidance</h1>
             <div className="h-1 w-24 bg-white rounded-full mx-auto"></div>
           </div>
 

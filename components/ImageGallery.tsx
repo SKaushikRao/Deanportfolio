@@ -20,32 +20,52 @@ export default function ImageGallery({
   // Determine image count based on folder
   const getImageCount = () => {
     if (folder === "books") return 5
-    if (folder === "Hall of fame") return 38 // 24 imag + 14 img from international
+    if (folder === "Hall of fame") return 39 // 25 imag + 14 img from international
     if (folder === "community-outreach") return 12
     if (folder === "honors_awards") return 15
-    return 15 // Default for other folders like spirituality
+    if (folder === "spirituality") return 18 // Updated to 18 images
+    if (folder === "Awards") return 6 // Awards folder has 6 images
+    return 15 // Default for other folders
   }
 
   // Determine file extension based on folder
   const getFileExtension = () => {
     if (folder === "Hall of fame") return ".jpeg"
+    if (folder === "Awards") return ".jpg" // Awards uses .jpg
     return ".jpeg" // Default for all folders
   }
 
   const imageCount = getImageCount()
   const fileExtension = getFileExtension()
 
-  // Helper function to get image path
+  // Helper function to get image path with fallback for different extensions
   const getImagePath = (index: number) => {
     if (folder === "Hall of fame") {
-      // First 24 images use "imag" naming from Hall of fame folder, next 14 use "img" naming from international folder
-      if (index < 24) {
+      // First 25 images use "imag" naming from Hall of fame folder, next 14 use "img" naming from international folder
+      if (index < 25) {
         return `/Hall of fame/imag${index + 1}${fileExtension}`
       } else {
-        return `/international/img${index - 23}${fileExtension}` // img1 to img14 from international folder
+        return `/international/img${index - 24}${fileExtension}` // img1 to img14 from international folder
       }
     }
+    if (folder === "Awards") {
+      return `/Awards/img${index + 1}.jpg` // Try .jpg first for Awards: img1.jpg through img6.jpg
+    }
+    if (folder === "spirituality") {
+      return `/spirituality/image${index + 1}.jpeg` // Try .jpeg first for spirituality
+    }
     return `/${folder}/image${index + 1}${fileExtension}`
+  }
+
+  // Helper function to get fallback image path
+  const getFallbackImagePath = (index: number, primaryPath: string) => {
+    if (folder === "Awards") {
+      return `/Awards/img${index + 1}.JPEG` // Fallback to .JPEG for Awards
+    }
+    if (folder === "spirituality") {
+      return `/spirituality/image${index + 1}.jpg` // Fallback to .jpg for spirituality
+    }
+    return primaryPath
   }
 
   // Static image paths for circular gallery
@@ -92,8 +112,16 @@ export default function ImageGallery({
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                     onError={(e) => {
-                      // Fallback to placeholder if image doesn't exist
-                      e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`
+                      // Fallback to different extension for Awards folder, then placeholder
+                      if (folder === "Awards") {
+                        e.currentTarget.src = getFallbackImagePath(index, item.image)
+                        // Add second fallback for Awards folder
+                        e.currentTarget.onerror = () => {
+                          e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`
+                        }
+                      } else {
+                        e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`
+                      }
                     }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">

@@ -157,7 +157,7 @@ function Sidebar() {
         },
         {
             id: "/honors",
-            label: "Awards and Honors"
+            label: "Honors"
         },
         {
             id: "/papers",
@@ -169,7 +169,7 @@ function Sidebar() {
         },
         {
             id: "/spirituality",
-            label: "Spirituality"
+            label: "Blessings and Guidance"
         },
         {
             id: "/media",

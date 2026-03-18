@@ -79,14 +79,26 @@ export default function Home() {
                       Dr. Madhura Yadav
                     </h1>
                     <p className="text-lg sm:text-xl lg:text-2xl lg:text-3xl font-bold text-white">
-                      Dean, Student Welfare | Manipal University Jaipur
+                      Dean, Student Welfare, Manipal University Jaipur
                     </p>
                   </div>
                   
                   <div className="space-y-3 sm:space-y-4 text-white">
-                    <p className="text-base sm:text-lg lg:text-xl lg:text-2xl font-bold">Professor in Architecture | UNESCO Certified Mentor</p>
+                    <p className="text-base sm:text-lg lg:text-xl lg:text-2xl font-bold">Architect Planner | Sustainability Expert | UNESCO Certified Mentor</p>
                     <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed">
-                      An accomplished Architect Planner with over <strong className="text-white font-black">30 years</strong> of extensive experience in Administration, Academics, and Research. Currently serving as Dean of Faculty of Design at Manipal University Jaipur, where she has been founder head of all Design and Planning programs.
+                      Dr. Madhura Yadav is a visionary academic leader with over 30 years of distinguished experience in architecture, Design, Fine arts, urban planning, and sustainability. As Dean of the Faculty of Design at Manipal University Jaipur, she has pioneered the establishment of all Design and Planning programs, nurturing a generation of socially conscious and sustainability-driven professionals.
+                    </p>
+                    <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed">
+                      An expert in sustainability, Dr. Yadav, is widely recognized for her advocacy of eco-conscious materials, particularly bamboo—for construction and thermal comfort. She contributes as an expert to UPSC, AICTE, CoA, DST Rajasthan, and NITI Aayog, and played a pivotal role in drafting the Indian Standards for Bamboo. Her leadership extends to large-scale projects including City Development Plans, heritage conservation of forts, and slum rehabilitation in Maharashtra.
+                    </p>
+                    <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed">
+                      Dr. Yadav has received international acclaim for her research, including multiple awards and publications. A UNESCO-certified mentor in Community-Based Participatory Research, she also represents India in global policy reports such as the GUNI World Report on Higher Education.
+                    </p>
+                    <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed">
+                      With qualifications spanning architecture, planning, value education, and leadership training from ASHRAE, USA, she embodies interdisciplinary excellence. Her work not only bridges academia, policy, and community but also sets a benchmark for ethical, inclusive, and future-ready Architecture & Design education.
+                    </p>
+                    <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed">
+                      Dr. Madhura Yadav continues to inspire the next generation of professionals to create resilient, sustainable environments through knowledge, compassion, and action.
                     </p>
                   </div>
 
@@ -144,7 +156,7 @@ export default function Home() {
                       <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
                         <Target className="h-8 w-8 text-black" />
                       </div>
-                      <div className="text-5xl font-bold text-white mb-4 group-hover:scale-105 transition-transform duration-300">32+</div>
+                      <div className="text-5xl font-bold text-white mb-4 group-hover:scale-105 transition-transform duration-300">30+</div>
                       <p className="text-white text-lg font-medium">Years of Professional Experience</p>
                     </CardContent>
                   </Card>
@@ -261,8 +273,7 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold mb-3 text-black">Sustainability Expertise</h3>
                   <p className="text-gray-800 leading-relaxed">
-                    Delivered keynote addresses on Sustainable Architecture & Planning, Smart Villages, and Sustainable
-                    Rural Development across various universities and government organizations.
+                    Prof. (Dr.) Madhura Yadav is a recognised sustainability expert whose work brings together architecture, planning, green building, climate-conscious design, and value-based education. With decades of academic and professional experience, she has consistently advanced built environment practices that are environmentally responsible, context-sensitive, and future-ready.
                   </p>
                 </CardContent>
               </Card>
@@ -271,8 +282,7 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold mb-3 text-black">Bamboo Advocacy</h3>
                   <p className="text-gray-800 leading-relaxed">
-                    Active proponent of bamboo, focusing on its application in construction, furniture, and skill
-                    development. Contributed to the Indian Standard code for Bamboo.
+                    A strong voice in sustainable material innovation, Prof. Yadav has actively championed bamboo as a strategic material for ecological and resilient construction. Through her association with the India Bamboo Forum, BIS Bamboo Handbook, and national policy-level conversations, she has helped position bamboo as an important part of India's sustainable development future.
                   </p>
                 </CardContent>
               </Card>
@@ -281,18 +291,16 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold mb-3 text-black">Urban Planning Leadership</h3>
                   <p className="text-gray-800 leading-relaxed">
-                    Led the development of City Development Plans, Heritage Conservation of Forts, and Slum
-                    Rehabilitation Projects in Maharashtra.
+                    Prof. Yadav's leadership in urban planning reflects a rare combination of academic depth, field insight, and long-term vision. Her work spans urban growth, ecological sustainability, community participation, housing, and city development, demonstrating a strong commitment to shaping cities that are inclusive, resilient, and rooted in human needs.
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gray-200">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold mb-3 text-black">Research & Publications</h3>
+                  <h3 className="text-xl font-semibold mb-3 text-black">Research Publications</h3>
                   <p className="text-gray-800 leading-relaxed">
-                    Published 10 patents and extensively in international journals and conferences. Currently mentoring
-                    PhD scholars on sustainability themes.
+                    With an extensive body of published work across sustainability, architecture, planning, heritage, and material innovation, Prof. Yadav's research reflects both depth and relevance. Her publications engage with contemporary challenges in the built environment while contributing thoughtful, interdisciplinary perspectives to academic and professional discourse.
                   </p>
                 </CardContent>
               </Card>

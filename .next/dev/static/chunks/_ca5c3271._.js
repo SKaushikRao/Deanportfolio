@@ -157,7 +157,7 @@ function Sidebar() {
         },
         {
             id: "/honors",
-            label: "Awards and Honors"
+            label: "Honors"
         },
         {
             id: "/papers",
@@ -169,7 +169,7 @@ function Sidebar() {
         },
         {
             id: "/spirituality",
-            label: "Spirituality"
+            label: "Blessings and Guidance"
         },
         {
             id: "/media",
@@ -1070,18 +1070,24 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
         ;
         if (folder === "community-outreach") return 12;
         if (folder === "honors_awards") return 15;
-        return 15 // Default for other folders like spirituality
+        if (folder === "spirituality") return 18 // Updated to 18 images
+        ;
+        if (folder === "Awards") return 6 // Awards folder has 6 images
+        ;
+        return 15 // Default for other folders
         ;
     };
     // Determine file extension based on folder
     const getFileExtension = ()=>{
         if (folder === "Hall of fame") return ".jpeg";
+        if (folder === "Awards") return ".jpg" // Awards uses .jpg
+        ;
         return ".jpeg" // Default for all folders
         ;
     };
     const imageCount = getImageCount();
     const fileExtension = getFileExtension();
-    // Helper function to get image path
+    // Helper function to get image path with fallback for different extensions
     const getImagePath = (index)=>{
         if (folder === "Hall of fame") {
             // First 24 images use "imag" naming from Hall of fame folder, next 14 use "img" naming from international folder
@@ -1092,7 +1098,19 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                 ;
             }
         }
+        if (folder === "Awards") {
+            return `/Awards/img${index + 1}.jpg` // Try .jpg first for Awards: img1.jpg through img6.jpg
+            ;
+        }
         return `/${folder}/image${index + 1}${fileExtension}`;
+    };
+    // Helper function to get fallback image path
+    const getFallbackImagePath = (index, primaryPath)=>{
+        if (folder === "Awards") {
+            return `/Awards/img${index + 1}.JPEG` // Fallback to .JPEG for Awards
+            ;
+        }
+        return primaryPath;
     };
     // Static image paths for circular gallery
     const circularGalleryItems = Array.from({
@@ -1118,7 +1136,7 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                         children: galleryTitle
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 67,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1135,18 +1153,18 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                             items: circularGalleryItems
                         }, void 0, false, {
                             fileName: "[project]/components/ImageGallery.tsx",
-                            lineNumber: 69,
+                            lineNumber: 83,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 68,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ImageGallery.tsx",
-                lineNumber: 66,
+                lineNumber: 80,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1156,7 +1174,7 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                         children: gridTitle
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 82,
+                        lineNumber: 96,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1174,12 +1192,20 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                                                 className: "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300",
                                                 loading: "lazy",
                                                 onError: (e)=>{
-                                                    // Fallback to placeholder if image doesn't exist
-                                                    e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`;
+                                                    // Fallback to different extension for Awards folder, then placeholder
+                                                    if (folder === "Awards") {
+                                                        e.currentTarget.src = getFallbackImagePath(index, item.image);
+                                                        // Add second fallback for Awards folder
+                                                        e.currentTarget.onerror = ()=>{
+                                                            e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`;
+                                                        };
+                                                    } else {
+                                                        e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`;
+                                                    }
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ImageGallery.tsx",
-                                                lineNumber: 89,
+                                                lineNumber: 103,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1191,44 +1217,44 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                                                         children: item.text
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ImageGallery.tsx",
-                                                        lineNumber: 101,
+                                                        lineNumber: 123,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ImageGallery.tsx",
-                                                    lineNumber: 100,
+                                                    lineNumber: 122,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ImageGallery.tsx",
-                                                lineNumber: 99,
+                                                lineNumber: 121,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ImageGallery.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 102,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/ImageGallery.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 101,
                                     columnNumber: 15
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/components/ImageGallery.tsx",
-                                lineNumber: 86,
+                                lineNumber: 100,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 84,
+                        lineNumber: 98,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ImageGallery.tsx",
-                lineNumber: 80,
+                lineNumber: 94,
                 columnNumber: 7
             }, this)
         ]
