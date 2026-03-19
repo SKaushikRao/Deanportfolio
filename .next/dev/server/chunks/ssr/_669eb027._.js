@@ -1013,7 +1013,8 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
         if (folder === "books") return 5;
         if (folder === "Hall of fame") return 39 // 25 imag + 14 img from international
         ;
-        if (folder === "community-outreach") return 12;
+        if (folder === "community-outreach") return 9 // Reduced from 12 to 9 images
+        ;
         if (folder === "honors_awards") return 15;
         if (folder === "spirituality") return 18 // Updated to 18 images
         ;

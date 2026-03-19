@@ -21,7 +21,7 @@ export default function ImageGallery({
   const getImageCount = () => {
     if (folder === "books") return 5
     if (folder === "Hall of fame") return 39 // 25 imag + 14 img from international
-    if (folder === "community-outreach") return 12
+    if (folder === "community-outreach") return 3 // Show only first 3 images; missing ones will use stock placeholders
     if (folder === "honors_awards") return 15
     if (folder === "spirituality") return 18 // Updated to 18 images
     if (folder === "Awards") return 6 // Awards folder has 6 images
