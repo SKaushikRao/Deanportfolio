@@ -18,6 +18,7 @@ export default function Home() {
     { url: "/green-building-project.jpg", alt: "Green Building" },
     { url: "/heritage-conservation-architecture.jpg", alt: "Heritage Conservation" },
     { url: "/bamboo-construction-project.jpg", alt: "Bamboo Construction" },
+    { url: "/gallery/img14.JPEG", alt: "Gallery Image 14" },
   ]
 
   useEffect(() => {
