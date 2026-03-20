@@ -41,6 +41,7 @@ export default function Sidebar() {
     { id: "/papers", label: "Important Papers" },
     { id: "/professional-experience", label: "Professional Experience" },
     { id: "/spirituality", label: "Blessings and Guidance" },
+    { id: "/consultancy-projects", label: "Consultancy Projects" },
     { id: "/media", label: "Books" },
     { id: "/hall-of-fame", label: "Hall of Fame" },
     { id: "/community-outreach", label: "Community Outreach" },
