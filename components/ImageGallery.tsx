@@ -49,7 +49,9 @@ export default function ImageGallery({
       }
     }
     if (folder === "Awards") {
-      return `/Awards/img${index + 1}.jpg` // Try .jpg first for Awards: img1.jpg through img6.jpg
+      // Awards folder has mixed extensions: img1.jpg, img2.jpg, img3.jpeg, img4.jpeg, img5.JPG, img6.JPG
+      const awardExtensions = [".jpg", ".jpg", ".jpeg", ".jpeg", ".JPG", ".JPG"]
+      return `/Awards/img${index + 1}${awardExtensions[index]}`
     }
     if (folder === "spirituality") {
       return `/spirituality/image${index + 1}.jpeg` // Try .jpeg first for spirituality
@@ -60,7 +62,14 @@ export default function ImageGallery({
   // Helper function to get fallback image path
   const getFallbackImagePath = (index: number, primaryPath: string) => {
     if (folder === "Awards") {
-      return `/Awards/img${index + 1}.JPEG` // Fallback to .JPEG for Awards
+      // Try different extensions for Awards folder
+      const extensions = [".jpg", ".jpeg", ".JPG"]
+      const currentExt = primaryPath.split('.').pop()
+      for (const ext of extensions) {
+        if (ext !== currentExt) {
+          return `/Awards/img${index + 1}${ext}`
+        }
+      }
     }
     if (folder === "spirituality") {
       return `/spirituality/image${index + 1}.jpg` // Fallback to .jpg for spirituality
@@ -114,11 +123,18 @@ export default function ImageGallery({
                     onError={(e) => {
                       // Fallback to different extension for Awards folder, then placeholder
                       if (folder === "Awards") {
-                        e.currentTarget.src = getFallbackImagePath(index, item.image)
-                        // Add second fallback for Awards folder
+                        const extensions = [".jpg", ".jpeg", ".JPG"]
+                        let fallbackTried = 0
                         e.currentTarget.onerror = () => {
-                          e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`
+                          if (fallbackTried < extensions.length) {
+                            e.currentTarget.src = `/Awards/img${index + 1}${extensions[fallbackTried]}`
+                            fallbackTried++
+                          } else {
+                            e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`
+                          }
                         }
+                        // Trigger first fallback
+                        e.currentTarget.src = getFallbackImagePath(index, item.image)
                       } else {
                         e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`
                       }
