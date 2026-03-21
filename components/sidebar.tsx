@@ -45,6 +45,7 @@ export default function Sidebar() {
     { id: "/media", label: "Books" },
     { id: "/hall-of-fame", label: "Hall of Fame" },
     { id: "/community-outreach", label: "Community Outreach" },
+    { id: "/videos", label: "Videos" },
     { id: "/contact", label: "Contact" },
   ]
 

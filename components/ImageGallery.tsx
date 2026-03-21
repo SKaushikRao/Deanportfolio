@@ -20,7 +20,7 @@ export default function ImageGallery({
   // Determine image count based on folder
   const getImageCount = () => {
     if (folder === "books") return 5
-    if (folder === "Hall of fame") return 39 // 25 imag + 14 img from international
+    if (folder === "Hall of fame") return 39 // 25 imag + 14 img
     if (folder === "community-outreach") return 3 // Show only first 3 images; missing ones will use stock placeholders
     if (folder === "honors_awards") return 15
     if (folder === "spirituality") return 18 // Updated to 18 images
@@ -41,11 +41,11 @@ export default function ImageGallery({
   // Helper function to get image path with fallback for different extensions
   const getImagePath = (index: number) => {
     if (folder === "Hall of fame") {
-      // First 25 images use "imag" naming from Hall of fame folder, next 14 use "img" naming from international folder
+      // First 25 images use "imag" naming from Hall of fame folder, next 14 use "img" naming from Hall of fame folder
       if (index < 25) {
         return `/Hall of fame/imag${index + 1}${fileExtension}`
       } else {
-        return `/international/img${index - 24}${fileExtension}` // img1 to img14 from international folder
+        return `/Hall of fame/img${index - 24}${fileExtension}` // img1 to img14 from Hall of fame
       }
     }
     if (folder === "Awards") {
