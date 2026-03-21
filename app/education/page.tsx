@@ -58,7 +58,7 @@ export default function EducationPage() {
           <div className="absolute inset-0 bg-black/40" />
         </div>
         
-        <div className="relative z-10 max-w-5xl mx-auto px-4 py-8 sm:px-6 sm:py-10 lg:px-12 lg:py-16">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 py-8 sm:px-6 sm:py-10 lg:px-12 lg:pt-20 lg:pb-16">
           <div className="mb-8 sm:mb-12">
             <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-4 text-[#e6b815] text-center">Education Qualifications</h1>
             <div className="h-1 w-16 sm:w-24 bg-[#e6b815] rounded-full mx-auto"></div>

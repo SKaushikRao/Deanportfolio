@@ -1015,6 +1015,10 @@
     overflow-x: auto;
   }
 
+  .overflow-x-hidden {
+    overflow-x: hidden;
+  }
+
   .overflow-y-auto {
     overflow-y: auto;
   }
@@ -1403,6 +1407,14 @@
 
   .pt-12 {
     padding-top: calc(var(--spacing) * 12);
+  }
+
+  .pt-24 {
+    padding-top: calc(var(--spacing) * 24);
+  }
+
+  .pb-12 {
+    padding-bottom: calc(var(--spacing) * 12);
   }
 
   .text-center {
@@ -2209,6 +2221,12 @@
   }
 
   @media (min-width: 40rem) {
+    .sm\:pt-28 {
+      padding-top: calc(var(--spacing) * 28);
+    }
+  }
+
+  @media (min-width: 40rem) {
     .sm\:text-3xl {
       font-size: var(--text-3xl);
       line-height: var(--tw-leading, var(--text-3xl--line-height));
@@ -2404,6 +2422,18 @@
   @media (min-width: 64rem) {
     .lg\:py-16 {
       padding-block: calc(var(--spacing) * 16);
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:pt-20 {
+      padding-top: calc(var(--spacing) * 20);
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:pb-16 {
+      padding-bottom: calc(var(--spacing) * 16);
     }
   }
 

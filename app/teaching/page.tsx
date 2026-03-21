@@ -22,7 +22,7 @@ export default function TeachingPage() {
           <div className="absolute inset-0 bg-black/40" />
         </div>
         
-        <div className="relative z-10 max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
+        <div className="relative z-10 max-w-5xl mx-auto px-6 pt-24 pb-12 lg:px-12 lg:pt-20 lg:pb-16">
           <div className="mb-12">
             <h1 className="text-6xl font-bold mb-4 text-[#a1574c] text-center">Teaching Experience</h1>
             <div className="h-1 w-24 bg-[#a1574c] rounded-full mx-auto"></div>

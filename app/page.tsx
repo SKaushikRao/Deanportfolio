@@ -55,7 +55,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/20 backdrop-blur-md"></div>
 
           {/* Hero Content */}
-          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16">
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 sm:pt-28">
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center">
               {/* Profile Image - Left Side */}
               <div className={`relative group ${isLoaded ? 'animate-fade-in' : 'opacity-0'} flex-shrink-0`}>

@@ -8,7 +8,7 @@ export default function ContactPage() {
       <Sidebar />
 
       <main className="flex-1 lg:ml-80">
-        <div className="max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
+        <div className="max-w-5xl mx-auto px-6 pt-24 pb-12 lg:px-12 lg:pt-20 lg:pb-16">
           <div className="mb-12">
             <h1 className="text-6xl font-bold mb-4 text-gray-400 text-center">Contact</h1>
             <div className="h-1 w-24 bg-gray-400 rounded-full mx-auto"></div>

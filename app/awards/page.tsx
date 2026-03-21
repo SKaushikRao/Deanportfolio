@@ -79,7 +79,7 @@ export default function AwardsPage() {
           <div className="absolute inset-0 bg-black/40" />
         </div>
         
-        <div className="relative z-10 max-w-full mx-auto px-4 py-12 lg:px-8 lg:py-16">
+        <div className="relative z-10 max-w-full mx-auto px-4 pt-24 pb-12 lg:px-8 lg:pt-20 lg:pb-16">
           <div className="mb-16">
             <h1 className="text-5xl font-bold mb-4 text-[#e6b815] text-center">Awards</h1>
             <div className="h-1 w-24 bg-[#e6b815] rounded-full mx-auto"></div>

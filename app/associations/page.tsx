@@ -40,7 +40,7 @@ export default function AssociationsPage() {
           <div className="absolute inset-0 bg-black/40" />
         </div>
         
-        <div className="relative z-10 max-w-5xl mx-auto px-6 py-12 lg:px-12 lg:py-16">
+        <div className="relative z-10 max-w-5xl mx-auto px-6 pt-24 pb-12 lg:px-12 lg:pt-20 lg:pb-16">
           <div className="mb-12">
             <h1 className="text-5xl font-bold mb-4 text-[#809949] text-center">Professional Associations</h1>
             <div className="h-1 w-24 bg-[#809949] rounded-full mx-auto"></div>

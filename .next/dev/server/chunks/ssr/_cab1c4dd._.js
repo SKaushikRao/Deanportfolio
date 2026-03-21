@@ -14,6 +14,108 @@ function cn(...inputs) {
     return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$tailwind$2d$merge$2f$dist$2f$bundle$2d$mjs$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["twMerge"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$clsx$2f$dist$2f$clsx$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["clsx"])(inputs));
 }
 }),
+"[project]/components/ui/card.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Card",
+    ()=>Card,
+    "CardAction",
+    ()=>CardAction,
+    "CardContent",
+    ()=>CardContent,
+    "CardDescription",
+    ()=>CardDescription,
+    "CardFooter",
+    ()=>CardFooter,
+    "CardHeader",
+    ()=>CardHeader,
+    "CardTitle",
+    ()=>CardTitle
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/utils.ts [app-ssr] (ecmascript)");
+;
+;
+function Card({ className, ...props }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        "data-slot": "card",
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm', className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/components/ui/card.tsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, this);
+}
+function CardHeader({ className, ...props }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        "data-slot": "card-header",
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-2 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6', className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/components/ui/card.tsx",
+        lineNumber: 20,
+        columnNumber: 5
+    }, this);
+}
+function CardTitle({ className, ...props }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        "data-slot": "card-title",
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('leading-none font-semibold', className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/components/ui/card.tsx",
+        lineNumber: 33,
+        columnNumber: 5
+    }, this);
+}
+function CardDescription({ className, ...props }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        "data-slot": "card-description",
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('text-muted-foreground text-sm', className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/components/ui/card.tsx",
+        lineNumber: 43,
+        columnNumber: 5
+    }, this);
+}
+function CardAction({ className, ...props }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        "data-slot": "card-action",
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('col-start-2 row-span-2 row-start-1 self-start justify-self-end', className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/components/ui/card.tsx",
+        lineNumber: 53,
+        columnNumber: 5
+    }, this);
+}
+function CardContent({ className, ...props }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        "data-slot": "card-content",
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('px-6', className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/components/ui/card.tsx",
+        lineNumber: 66,
+        columnNumber: 5
+    }, this);
+}
+function CardFooter({ className, ...props }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        "data-slot": "card-footer",
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])('flex items-center px-6 [.border-t]:pt-6', className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/components/ui/card.tsx",
+        lineNumber: 76,
+        columnNumber: 5
+    }, this);
+}
+;
+}),
 "[project]/components/ui/button.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -341,15 +443,16 @@ function Sidebar() {
     }, void 0, true);
 }
 }),
-"[project]/app/awards/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"[project]/app/honors/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 __turbopack_context__.s([
     "default",
-    ()=>AwardsPage
+    ()=>HonorsPage
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/card.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$sidebar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/sidebar.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 "use client";
@@ -357,85 +460,77 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 ;
 ;
-function AwardsPage() {
+;
+function HonorsPage() {
     const [previewImage, setPreviewImage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [previewAlt, setPreviewAlt] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
     const openPreview = (src, alt)=>{
         setPreviewImage(src);
         setPreviewAlt(alt);
     };
-    const awardSections = [
+    const honorsList = [
+        "Expert member of ICOMOS National Scientific Committee in Working Group of Sustainable Development and in climate Change and Heritage",
+        "Nominated by BIS to represent India for the international Meeting on ISO/TC 165 Timber Structures Committee",
+        "Expert member of Bureau of Indian Standards for Bamboo Handbook",
+        "Expert member NITI Aayog on the subgroup of Bamboo",
+        "Expert member for the selection of layout for 18th National Scout Guide Jamboree, Rohat, Pali, Rajasthan",
+        "Expert member on UPSC panel",
+        "Distinguished Speaker in Plenary session of SANMANTRANA-2021 on Good Practices and Capacity Building for Sustainable Development Goals at International congress",
+        "Keynote address on Sustainable practices at Rajasthan Technical University",
+        "Keynote speaker for India Bamboo forum",
+        "Expert talk on Design of SMART village at DST Rajasthan",
+        "Keynote Speaker in National Conference on Spiritual Empowerment of Architects 2019 at Abu Road, India",
+        "Invited as an expert on DD Rajasthan for a talk on Career in Design",
+        "Invited as an expert by India Today television as a panelist for Outdoor Lighting",
+        "Invited as an expert by CNBC Awaz television as a panelist for Smart City",
+        "Member of Editorial Committee of International Journal of Urban Design",
+        "Member of Editorial Committee of International Journal of Built Environment, University of technology, Malaysia",
+        "Expert Member of AICTE to inspect Engineering Institutes",
+        "Expert Member of Council of Architecture to inspect Architecture schools",
+        "Conference Chair for 1st International Conference on Waste Management at Manipal University Jaipur"
+    ];
+    const honorSections = [
         {
-            title: "IGBC Award",
+            title: "Newspapers and Articles",
             images: [
-                "imag1.JPG",
-                "imag2.JPG",
-                "imag3.JPG",
-                "imag4.JPG",
-                "imag5.JPG",
-                "imag6.JPG",
-                "imag7.JPG",
-                "imag8.JPG",
-                "imag9.JPG",
-                "imag10.JPG",
-                "imag11.JPG",
-                "imag12.JPG"
+                "image1.jpeg",
+                "image2.jpeg",
+                "image3.jpeg",
+                "image4.jpeg",
+                "image5.jpeg",
+                "image6.jpeg",
+                "image7.jpeg",
+                "image9.jpeg"
             ]
         },
         {
-            title: "MUJ Excellence Award",
+            title: "Shri Nitin Gadkari",
             images: [
-                "imag13.jpg"
+                "image11.jpeg"
             ]
         },
         {
-            title: "Standing Ovation Award",
+            title: "Rajasthan TV Channel",
             images: [
-                "imag14.JPG"
+                "image12.jpeg"
             ]
         },
         {
-            title: "Education Leadership Award",
+            title: "CNBC Channel",
             images: [
-                "imag15.jpg",
-                "imag16.jpg"
+                "image14.jpeg"
             ]
         },
         {
-            title: "IBC Goel Memorial Award",
+            title: "Press",
             images: [
-                "imag18.jpeg"
+                "image17.jpeg"
             ]
         },
         {
-            title: "IGBC Fellow Award",
+            title: "IMRF institute of Higher Education",
             images: [
-                "imag19.jpg"
-            ]
-        },
-        {
-            title: "ASHRAE Award",
-            images: [
-                "imag20.jpeg"
-            ]
-        },
-        {
-            title: "World Education Congress Award",
-            images: [
-                "imag21.jpeg"
-            ]
-        },
-        {
-            title: "Venus VIFA 2017",
-            images: [
-                "imag22.JPG",
-                "imag23.JPG"
-            ]
-        },
-        {
-            title: "Indo-Pacific Architechture Excellence award",
-            images: [
-                "imag24.jpg"
+                "image18.jpeg"
             ]
         }
     ];
@@ -443,8 +538,8 @@ function AwardsPage() {
         className: "flex min-h-screen",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$sidebar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/app/awards/page.tsx",
-                lineNumber: 65,
+                fileName: "[project]/app/honors/page.tsx",
+                lineNumber: 71,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -455,62 +550,62 @@ function AwardsPage() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 src: "/pic_1.jpg",
-                                alt: "Awards Background",
+                                alt: "Awards and Honors Background",
                                 fill: true,
                                 className: "object-cover"
                             }, void 0, false, {
-                                fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 70,
+                                fileName: "[project]/app/honors/page.tsx",
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-black/20 backdrop-blur-sm"
                             }, void 0, false, {
-                                fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 77,
+                                fileName: "[project]/app/honors/page.tsx",
+                                lineNumber: 83,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-black/40"
                             }, void 0, false, {
-                                fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 79,
+                                fileName: "[project]/app/honors/page.tsx",
+                                lineNumber: 85,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/app/awards/page.tsx",
-                        lineNumber: 69,
+                        fileName: "[project]/app/honors/page.tsx",
+                        lineNumber: 75,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "relative z-10 max-w-full mx-auto px-4 pt-24 pb-12 lg:px-8 lg:pt-20 lg:pb-16",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mb-16",
+                                className: "mb-12",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        className: "text-5xl font-bold mb-4 text-[#e6b815] text-center",
-                                        children: "Awards"
+                                        className: "text-5xl font-bold mb-4 text-[#a1574c] text-center",
+                                        children: "Honors"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/awards/page.tsx",
-                                        lineNumber: 84,
+                                        fileName: "[project]/app/honors/page.tsx",
+                                        lineNumber: 90,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "h-1 w-24 bg-[#e6b815] rounded-full mx-auto"
+                                        className: "h-1 w-24 bg-[#a1574c] rounded-full mx-auto"
                                     }, void 0, false, {
-                                        fileName: "[project]/app/awards/page.tsx",
-                                        lineNumber: 85,
+                                        fileName: "[project]/app/honors/page.tsx",
+                                        lineNumber: 91,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 83,
+                                fileName: "[project]/app/honors/page.tsx",
+                                lineNumber: 89,
                                 columnNumber: 11
                             }, this),
-                            awardSections.map((section, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            honorSections.map((section, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                                     className: "mb-16",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -520,39 +615,39 @@ function AwardsPage() {
                                                     className: "text-3xl font-bold mb-4 text-white text-center",
                                                     children: section.title
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/awards/page.tsx",
-                                                    lineNumber: 91,
+                                                    fileName: "[project]/app/honors/page.tsx",
+                                                    lineNumber: 97,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "h-1 w-16 bg-white rounded-full mx-auto"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/app/awards/page.tsx",
-                                                    lineNumber: 92,
+                                                    fileName: "[project]/app/honors/page.tsx",
+                                                    lineNumber: 98,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "[project]/app/awards/page.tsx",
-                                            lineNumber: 90,
+                                            fileName: "[project]/app/honors/page.tsx",
+                                            lineNumber: 96,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex flex-wrap justify-center gap-6 md:gap-8",
                                             children: section.images.map((imgName, imgIdx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "relative group overflow-hidden rounded-lg shadow-lg cursor-pointer bg-black/20 backdrop-blur-sm border border-white/10 w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] max-w-lg",
-                                                    onClick: ()=>openPreview(`/Awards/${imgName}`, `${section.title} - Image ${imgIdx + 1}`),
+                                                    onClick: ()=>openPreview(`/honors_awards/${imgName}`, `${section.title} - Image ${imgIdx + 1}`),
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "relative w-full h-72 sm:h-80 md:h-[400px]",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                                src: `/Awards/${imgName}`,
+                                                                src: `/honors_awards/${imgName}`,
                                                                 alt: `${section.title} - Image ${imgIdx + 1}`,
                                                                 fill: true,
                                                                 className: "object-contain p-2 transition-transform duration-300 group-hover:scale-105"
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/awards/page.tsx",
-                                                                lineNumber: 102,
+                                                                fileName: "[project]/app/honors/page.tsx",
+                                                                lineNumber: 108,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -568,52 +663,121 @@ function AwardsPage() {
                                                                         strokeWidth: "2",
                                                                         d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"
                                                                     }, void 0, false, {
-                                                                        fileName: "[project]/app/awards/page.tsx",
-                                                                        lineNumber: 109,
+                                                                        fileName: "[project]/app/honors/page.tsx",
+                                                                        lineNumber: 115,
                                                                         columnNumber: 120
                                                                     }, this)
                                                                 }, void 0, false, {
-                                                                    fileName: "[project]/app/awards/page.tsx",
-                                                                    lineNumber: 109,
+                                                                    fileName: "[project]/app/honors/page.tsx",
+                                                                    lineNumber: 115,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
-                                                                fileName: "[project]/app/awards/page.tsx",
-                                                                lineNumber: 108,
+                                                                fileName: "[project]/app/honors/page.tsx",
+                                                                lineNumber: 114,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
-                                                        fileName: "[project]/app/awards/page.tsx",
-                                                        lineNumber: 101,
+                                                        fileName: "[project]/app/honors/page.tsx",
+                                                        lineNumber: 107,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, imgIdx, false, {
-                                                    fileName: "[project]/app/awards/page.tsx",
-                                                    lineNumber: 96,
+                                                    fileName: "[project]/app/honors/page.tsx",
+                                                    lineNumber: 102,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
-                                            fileName: "[project]/app/awards/page.tsx",
-                                            lineNumber: 94,
+                                            fileName: "[project]/app/honors/page.tsx",
+                                            lineNumber: 100,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, idx, true, {
-                                    fileName: "[project]/app/awards/page.tsx",
-                                    lineNumber: 89,
+                                    fileName: "[project]/app/honors/page.tsx",
+                                    lineNumber: 95,
                                     columnNumber: 13
-                                }, this))
+                                }, this)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "max-w-5xl mx-auto mb-16",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        className: "text-3xl font-bold mb-8 text-white text-center",
+                                        children: "Recognitions & Announcements"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/honors/page.tsx",
+                                        lineNumber: 125,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
+                                        className: "bg-[#3d3a37]/90 backdrop-blur-sm border-0 shadow-xl",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
+                                            className: "p-8",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "space-y-3",
+                                                children: honorsList.map((honor, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "group flex items-start gap-4 p-4 rounded-lg hover:bg-white/10 transition-all duration-200 hover:-translate-y-0.5",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "w-3 h-3 bg-[#a1574c] rounded-full mt-1.5 flex-shrink-0 group-hover:scale-125 transition-transform"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/honors/page.tsx",
+                                                                lineNumber: 134,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                className: "text-white leading-relaxed",
+                                                                children: honor
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/honors/page.tsx",
+                                                                lineNumber: 135,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, idx, true, {
+                                                        fileName: "[project]/app/honors/page.tsx",
+                                                        lineNumber: 130,
+                                                        columnNumber: 21
+                                                    }, this))
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/honors/page.tsx",
+                                                lineNumber: 128,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/honors/page.tsx",
+                                            lineNumber: 127,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/honors/page.tsx",
+                                        lineNumber: 126,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/honors/page.tsx",
+                                lineNumber: 124,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-12 h-0.5 bg-[#a1574c] w-full max-w-4xl mx-auto"
+                            }, void 0, false, {
+                                fileName: "[project]/app/honors/page.tsx",
+                                lineNumber: 144,
+                                columnNumber: 11
+                            }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/app/awards/page.tsx",
-                        lineNumber: 82,
+                        fileName: "[project]/app/honors/page.tsx",
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "[project]/app/awards/page.tsx",
-                lineNumber: 67,
+                fileName: "[project]/app/honors/page.tsx",
+                lineNumber: 73,
                 columnNumber: 7
             }, this),
             previewImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -632,27 +796,27 @@ function AwardsPage() {
                                     className: "object-contain",
                                     unoptimized: true
                                 }, void 0, false, {
-                                    fileName: "[project]/app/awards/page.tsx",
-                                    lineNumber: 128,
+                                    fileName: "[project]/app/honors/page.tsx",
+                                    lineNumber: 156,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 127,
+                                fileName: "[project]/app/honors/page.tsx",
+                                lineNumber: 155,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-white text-lg mt-4 font-semibold text-center",
                                 children: previewAlt
                             }, void 0, false, {
-                                fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 136,
+                                fileName: "[project]/app/honors/page.tsx",
+                                lineNumber: 164,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/app/awards/page.tsx",
-                        lineNumber: 126,
+                        fileName: "[project]/app/honors/page.tsx",
+                        lineNumber: 154,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -673,43 +837,43 @@ function AwardsPage() {
                                     strokeWidth: "2",
                                     d: "M6 18L18 6M6 6l12 12"
                                 }, void 0, false, {
-                                    fileName: "[project]/app/awards/page.tsx",
-                                    lineNumber: 146,
+                                    fileName: "[project]/app/honors/page.tsx",
+                                    lineNumber: 174,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 145,
+                                fileName: "[project]/app/honors/page.tsx",
+                                lineNumber: 173,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "sr-only",
                                 children: "Close preview"
                             }, void 0, false, {
-                                fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 148,
+                                fileName: "[project]/app/honors/page.tsx",
+                                lineNumber: 176,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/app/awards/page.tsx",
-                        lineNumber: 138,
+                        fileName: "[project]/app/honors/page.tsx",
+                        lineNumber: 166,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "[project]/app/awards/page.tsx",
-                lineNumber: 122,
+                fileName: "[project]/app/honors/page.tsx",
+                lineNumber: 150,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
-        fileName: "[project]/app/awards/page.tsx",
-        lineNumber: 64,
+        fileName: "[project]/app/honors/page.tsx",
+        lineNumber: 70,
         columnNumber: 5
     }, this);
 }
 }),
 ];
 
-//# sourceMappingURL=_2877c12a._.js.map
+//# sourceMappingURL=_cab1c4dd._.js.map
