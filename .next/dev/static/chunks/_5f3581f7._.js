@@ -172,6 +172,10 @@ function Sidebar() {
             label: "Blessings and Guidance"
         },
         {
+            id: "/consultancy-projects",
+            label: "Consultancy Projects"
+        },
+        {
             id: "/media",
             label: "Books"
         },
@@ -182,6 +186,10 @@ function Sidebar() {
         {
             id: "/community-outreach",
             label: "Community Outreach"
+        },
+        {
+            id: "/videos",
+            label: "Videos"
         },
         {
             id: "/contact",
@@ -199,18 +207,18 @@ function Sidebar() {
                     className: "h-10 w-10 text-white"
                 }, void 0, false, {
                     fileName: "[project]/components/sidebar.tsx",
-                    lineNumber: 59,
+                    lineNumber: 61,
                     columnNumber: 26
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                     className: "h-10 w-10 text-white"
                 }, void 0, false, {
                     fileName: "[project]/components/sidebar.tsx",
-                    lineNumber: 59,
+                    lineNumber: 61,
                     columnNumber: 67
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sidebar.tsx",
-                lineNumber: 53,
+                lineNumber: 55,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
@@ -226,7 +234,7 @@ function Sidebar() {
                                     children: "Dr. Madhura Yadav"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 73,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -234,13 +242,13 @@ function Sidebar() {
                                     children: "Portfolio"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sidebar.tsx",
-                            lineNumber: 70,
+                            lineNumber: 72,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -255,22 +263,22 @@ function Sidebar() {
                                             children: item.label
                                         }, void 0, false, {
                                             fileName: "[project]/components/sidebar.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 82,
                                             columnNumber: 19
                                         }, this)
                                     }, item.id, false, {
                                         fileName: "[project]/components/sidebar.tsx",
-                                        lineNumber: 79,
+                                        lineNumber: 81,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/sidebar.tsx",
-                                lineNumber: 77,
+                                lineNumber: 79,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/sidebar.tsx",
-                            lineNumber: 76,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -287,7 +295,7 @@ function Sidebar() {
                                                 className: "h-4 w-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sidebar.tsx",
-                                                lineNumber: 106,
+                                                lineNumber: 108,
                                                 columnNumber: 19
                                             }, this),
                                             "Light Mode"
@@ -298,7 +306,7 @@ function Sidebar() {
                                                 className: "h-4 w-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sidebar.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 113,
                                                 columnNumber: 19
                                             }, this),
                                             "Dark Mode"
@@ -306,7 +314,7 @@ function Sidebar() {
                                     }, void 0, true)
                                 }, void 0, false, {
                                     fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 100,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -314,24 +322,24 @@ function Sidebar() {
                                     children: "© 2025 Dr. Madhura Yadav"
                                 }, void 0, false, {
                                     fileName: "[project]/components/sidebar.tsx",
-                                    lineNumber: 116,
+                                    lineNumber: 118,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/sidebar.tsx",
-                            lineNumber: 97,
+                            lineNumber: 99,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sidebar.tsx",
-                    lineNumber: 68,
+                    lineNumber: 70,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/sidebar.tsx",
-                lineNumber: 63,
+                lineNumber: 65,
                 columnNumber: 7
             }, this),
             isSidebarOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -339,7 +347,7 @@ function Sidebar() {
                 onClick: ()=>setIsSidebarOpen(false)
             }, void 0, false, {
                 fileName: "[project]/components/sidebar.tsx",
-                lineNumber: 123,
+                lineNumber: 125,
                 columnNumber: 9
             }, this)
         ]
@@ -1066,9 +1074,9 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
     // Determine image count based on folder
     const getImageCount = ()=>{
         if (folder === "books") return 5;
-        if (folder === "Hall of fame") return 39 // 25 imag + 14 img from international
+        if (folder === "Hall of fame") return 39 // 25 imag + 14 img
         ;
-        if (folder === "community-outreach") return 9 // Reduced from 12 to 9 images
+        if (folder === "community-outreach") return 3 // Show only first 3 images; missing ones will use stock placeholders
         ;
         if (folder === "honors_awards") return 15;
         if (folder === "spirituality") return 18 // Updated to 18 images
@@ -1091,17 +1099,25 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
     // Helper function to get image path with fallback for different extensions
     const getImagePath = (index)=>{
         if (folder === "Hall of fame") {
-            // First 25 images use "imag" naming from Hall of fame folder, next 14 use "img" naming from international folder
+            // First 25 images use "imag" naming from Hall of fame folder, next 14 use "img" naming from Hall of fame folder
             if (index < 25) {
                 return `/Hall of fame/imag${index + 1}${fileExtension}`;
             } else {
-                return `/international/img${index - 24}${fileExtension}` // img1 to img14 from international folder
+                return `/Hall of fame/img${index - 24}${fileExtension}` // img1 to img14 from Hall of fame
                 ;
             }
         }
         if (folder === "Awards") {
-            return `/Awards/img${index + 1}.jpg` // Try .jpg first for Awards: img1.jpg through img6.jpg
-            ;
+            // Awards folder has mixed extensions: img1.jpg, img2.jpg, img3.jpeg, img4.jpeg, img5.JPG, img6.JPG
+            const awardExtensions = [
+                ".jpg",
+                ".jpg",
+                ".jpeg",
+                ".jpeg",
+                ".JPG",
+                ".JPG"
+            ];
+            return `/Awards/img${index + 1}${awardExtensions[index]}`;
         }
         if (folder === "spirituality") {
             return `/spirituality/image${index + 1}.jpeg` // Try .jpeg first for spirituality
@@ -1112,8 +1128,18 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
     // Helper function to get fallback image path
     const getFallbackImagePath = (index, primaryPath)=>{
         if (folder === "Awards") {
-            return `/Awards/img${index + 1}.JPEG` // Fallback to .JPEG for Awards
-            ;
+            // Try different extensions for Awards folder
+            const extensions = [
+                ".jpg",
+                ".jpeg",
+                ".JPG"
+            ];
+            const currentExt = primaryPath.split('.').pop();
+            for (const ext of extensions){
+                if (ext !== currentExt) {
+                    return `/Awards/img${index + 1}${ext}`;
+                }
+            }
         }
         if (folder === "spirituality") {
             return `/spirituality/image${index + 1}.jpg` // Fallback to .jpg for spirituality
@@ -1145,7 +1171,7 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                         children: galleryTitle
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 87,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1162,18 +1188,18 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                             items: circularGalleryItems
                         }, void 0, false, {
                             fileName: "[project]/components/ImageGallery.tsx",
-                            lineNumber: 89,
+                            lineNumber: 98,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 88,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ImageGallery.tsx",
-                lineNumber: 86,
+                lineNumber: 95,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1183,7 +1209,7 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                         children: gridTitle
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 102,
+                        lineNumber: 111,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1203,18 +1229,29 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                                                 onError: (e)=>{
                                                     // Fallback to different extension for Awards folder, then placeholder
                                                     if (folder === "Awards") {
-                                                        e.currentTarget.src = getFallbackImagePath(index, item.image);
-                                                        // Add second fallback for Awards folder
+                                                        const extensions = [
+                                                            ".jpg",
+                                                            ".jpeg",
+                                                            ".JPG"
+                                                        ];
+                                                        let fallbackTried = 0;
                                                         e.currentTarget.onerror = ()=>{
-                                                            e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`;
+                                                            if (fallbackTried < extensions.length) {
+                                                                e.currentTarget.src = `/Awards/img${index + 1}${extensions[fallbackTried]}`;
+                                                                fallbackTried++;
+                                                            } else {
+                                                                e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`;
+                                                            }
                                                         };
+                                                        // Trigger first fallback
+                                                        e.currentTarget.src = getFallbackImagePath(index, item.image);
                                                     } else {
                                                         e.currentTarget.src = `https://picsum.photos/seed/${folder}${index}/400/400`;
                                                     }
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ImageGallery.tsx",
-                                                lineNumber: 109,
+                                                lineNumber: 118,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1226,44 +1263,44 @@ function ImageGallery({ folder, title, galleryTitle = "Gallery", gridTitle = "Al
                                                         children: item.text
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/ImageGallery.tsx",
-                                                        lineNumber: 129,
+                                                        lineNumber: 145,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/ImageGallery.tsx",
-                                                    lineNumber: 128,
+                                                    lineNumber: 144,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/ImageGallery.tsx",
-                                                lineNumber: 127,
+                                                lineNumber: 143,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ImageGallery.tsx",
-                                        lineNumber: 108,
+                                        lineNumber: 117,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/ImageGallery.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 116,
                                     columnNumber: 15
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/components/ImageGallery.tsx",
-                                lineNumber: 106,
+                                lineNumber: 115,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/ImageGallery.tsx",
-                        lineNumber: 104,
+                        lineNumber: 113,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ImageGallery.tsx",
-                lineNumber: 100,
+                lineNumber: 109,
                 columnNumber: 7
             }, this)
         ]
