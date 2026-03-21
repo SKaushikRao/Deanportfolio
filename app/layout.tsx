@@ -4,14 +4,35 @@ import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Dr. Madhura Yadav - Portfolio",
-  description: "Professional portfolio of Dr. Madhura Yadav",
+  title: {
+    default: "Dr. Madhura Yadav | Architect, Dean & Sustainability Expert",
+    template: "%s | Dr. Madhura Yadav"
+  },
+  description: "Official portfolio of Dr. Madhura Yadav, Dean of Student Welfare at Manipal University Jaipur, renowned Architect Planner, Sustainability Expert, and UNESCO Certified Mentor.",
+  keywords: [
+    "Madhura Yadav",
+    "Dr. Madhura Yadav",
+    "Madhura Yadav Architect",
+    "Madhura Yadav Dean",
+    "Manipal University Jaipur Dean",
+    "Sustainability Expert India",
+    "Sustainable Architecture",
+    "Urban Planning Expert",
+    "Bamboo Construction Expert",
+    "UNESCO Certified Mentor"
+  ],
+  authors: [{ name: "Dr. Madhura Yadav", url: "https://www.drmadhurayadav.in" }],
+  creator: "Dr. Madhura Yadav",
+  publisher: "Dr. Madhura Yadav",
   metadataBase: new URL("https://www.drmadhurayadav.in"),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
-    title: "Dr. Madhura Yadav - Portfolio",
-    description: "Professional portfolio of Dr. Madhura Yadav",
+    title: "Dr. Madhura Yadav | Architect & Sustainability Expert",
+    description: "Official portfolio of Dr. Madhura Yadav, Dean of Student Welfare at Manipal University Jaipur, renowned Architect Planner and Sustainability Expert.",
     url: "https://www.drmadhurayadav.in",
-    siteName: "Dr. Madhura Yadav - Portfolio",
+    siteName: "Dr. Madhura Yadav Portfolio",
     images: [
       {
         url: "https://www.drmadhurayadav.in/images/image.jpg",
@@ -25,11 +46,22 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. Madhura Yadav - Portfolio",
-    description: "Professional portfolio of Dr. Madhura Yadav",
+    title: "Dr. Madhura Yadav | Architect & Sustainability Expert",
+    description: "Official portfolio of Dr. Madhura Yadav, Dean of Student Welfare at Manipal University Jaipur.",
     images: ["https://www.drmadhurayadav.in/images/image.jpg"],
   },
-  generator: "v0.app",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  generator: "Next.js",
   icons: {
     icon: [
       {
@@ -57,6 +89,32 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans antialiased overflow-x-hidden w-full`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Madhura Yadav",
+              honorificPrefix: "Dr.",
+              url: "https://www.drmadhurayadav.in",
+              image: "https://www.drmadhurayadav.in/images/image.jpg",
+              jobTitle: "Dean, Student Welfare",
+              worksFor: {
+                "@type": "Organization",
+                name: "Manipal University Jaipur"
+              },
+              alumniOf: [
+                {
+                  "@type": "Organization",
+                  name: "Maulana Azad National Institute of Technology (MANIT Bhopal)"
+                }
+              ],
+              description: "Dr. Madhura Yadav is a visionary academic leader, Architect Planner, Sustainability Expert, and UNESCO Certified Mentor.",
+              knowsAbout: ["Architecture", "Urban Planning", "Sustainability", "Bamboo Construction", "Green Building", "Heritage Conservation"]
+            })
+          }}
+        />
         {children}
         <Analytics />
       </body>

@@ -1405,10 +1405,6 @@
     padding-top: calc(var(--spacing) * 6);
   }
 
-  .pt-12 {
-    padding-top: calc(var(--spacing) * 12);
-  }
-
   .pt-24 {
     padding-top: calc(var(--spacing) * 24);
   }
@@ -1636,10 +1632,6 @@
 
   .opacity-60 {
     opacity: .6;
-  }
-
-  .opacity-80 {
-    opacity: .8;
   }
 
   .shadow-2xl {
@@ -2215,12 +2207,6 @@
   }
 
   @media (min-width: 40rem) {
-    .sm\:pt-16 {
-      padding-top: calc(var(--spacing) * 16);
-    }
-  }
-
-  @media (min-width: 40rem) {
     .sm\:pt-28 {
       padding-top: calc(var(--spacing) * 28);
     }
@@ -2416,12 +2402,6 @@
   @media (min-width: 64rem) {
     .lg\:px-12 {
       padding-inline: calc(var(--spacing) * 12);
-    }
-  }
-
-  @media (min-width: 64rem) {
-    .lg\:py-16 {
-      padding-block: calc(var(--spacing) * 16);
     }
   }
 
