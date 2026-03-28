@@ -5,7 +5,6 @@ import Sidebar from "@/components/sidebar"
 export default function VideosPage() {
   const videos = [
     "kzZofYSJkbs",
-    "qV9YTsj7YzI",
     "XYnplg1BBbA",
     "qX_il_tQ8jc",
     "1UG64roF76Q",

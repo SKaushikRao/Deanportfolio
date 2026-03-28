@@ -3,32 +3,18 @@
 import { useState, useEffect } from "react"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
-import { Menu, X, Moon, Sun } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function Sidebar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
-  const [isDarkMode, setIsDarkMode] = useState(false)
   const pathname = usePathname()
 
   useEffect(() => {
-    const theme = localStorage.getItem("theme")
-    if (theme === "dark") {
-      setIsDarkMode(true)
-      document.documentElement.classList.add("dark")
-    }
+    // Always set dark mode by default
+    document.documentElement.classList.add("dark")
+    localStorage.setItem("theme", "dark")
   }, [])
-
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode)
-    if (!isDarkMode) {
-      document.documentElement.classList.add("dark")
-      localStorage.setItem("theme", "dark")
-    } else {
-      document.documentElement.classList.remove("dark")
-      localStorage.setItem("theme", "light")
-    }
-  }
 
   const navigation = [
     { id: "/", label: "Home" },
@@ -95,26 +81,8 @@ export default function Sidebar() {
             </ul>
           </nav>
 
-          {/* Dark Mode Toggle */}
-          <div className="mt-auto pt-6 border-t border-sidebar-border space-y-4">
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={toggleDarkMode}
-              className="w-full justify-start gap-2 bg-transparent"
-            >
-              {isDarkMode ? (
-                <>
-                  <Sun className="h-4 w-4" />
-                  Light Mode
-                </>
-              ) : (
-                <>
-                  <Moon className="h-4 w-4" />
-                  Dark Mode
-                </>
-              )}
-            </Button>
+          {/* Footer */}
+          <div className="mt-auto pt-6 border-t border-sidebar-border">
             <p className="text-xs text-muted-foreground">© 2025 Dr. Madhura Yadav</p>
           </div>
         </div>

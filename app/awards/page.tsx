@@ -16,11 +16,7 @@ export default function AwardsPage() {
   const awardSections = [
     {
       title: "IGBC Award",
-      images: [
-        "imag1.JPG", "imag2.JPG", "imag3.JPG", "imag4.JPG", 
-        "imag5.JPG", "imag6.JPG", "imag7.JPG", "imag8.JPG", 
-        "imag9.JPG", "imag10.JPG", "imag11.JPG", "imag12.JPG"
-      ]
+      images: ["imag5.JPG"]
     },
     {
       title: "MUJ Excellence Award",
@@ -95,15 +91,15 @@ export default function AwardsPage() {
                 {section.images.map((imgName, imgIdx) => (
                   <div 
                     key={imgIdx} 
-                    className="relative group overflow-hidden rounded-lg shadow-lg cursor-pointer bg-black/20 backdrop-blur-sm border border-white/10 w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] max-w-lg"
+                    className="relative group overflow-hidden rounded-lg shadow-lg cursor-pointer bg-black/20 backdrop-blur-sm border border-white/10 w-full sm:w-48 md:w-56 lg:w-64"
                     onClick={() => openPreview(`/Awards/${imgName}`, `${section.title} - Image ${imgIdx + 1}`)}
                   >
-                    <div className="relative w-full h-72 sm:h-80 md:h-[400px]">
+                    <div className="relative w-full aspect-square">
                       <Image
                         src={`/Awards/${imgName}`}
                         alt={`${section.title} - Image ${imgIdx + 1}`}
                         fill
-                        className="object-contain p-2 transition-transform duration-300 group-hover:scale-105"
+                        className="object-cover transition-transform duration-300 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                         <svg className="w-12 h-12 text-white/90" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>

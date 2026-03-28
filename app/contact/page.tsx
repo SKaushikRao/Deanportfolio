@@ -21,15 +21,9 @@ export default function ContactPage() {
                 <h3 className="text-xl font-semibold mb-3 text-black">Email</h3>
                 <a
                   href="mailto:ymadhura@gmail.com"
-                  className="text-lg text-gray-800 hover:text-black block mb-1 transition-colors"
-                >
-                  ymadhura@gmail.com
-                </a>
-                <a
-                  href="mailto:madhura.yadav@jaipur.manipal.edu"
                   className="text-lg text-gray-800 hover:text-black block transition-colors"
                 >
-                  madhura.yadav@jaipur.manipal.edu
+                  ymadhura@gmail.com
                 </a>
               </CardContent>
             </Card>
