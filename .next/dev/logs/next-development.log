@@ -1,22 +1,14 @@
-[00:00:01.719] Server  LOG      ✓ Ready in 1197ms
-[00:00:09.084] Server  LOG      ○ Compiling / ...
-[00:00:12.782] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.173] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:13.173] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:13.173] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774690063140} /_vercel/insights/view
-[00:00:15.162] Browser WARN    Image with src "http://localhost:3000/sustainable-architecture-building-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:15.162] Browser WARN    Image with src "http://localhost:3000/university-campus-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:15.162] Browser WARN    Image with src "http://localhost:3000/gallery/img14.JPEG" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:15.162] Browser WARN    Image with src "http://localhost:3000/green-building-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:15.162] Browser WARN    Image with src "http://localhost:3000/heritage-conservation-architecture.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:15.162] Browser WARN    Image with src "http://localhost:3000/bamboo-construction-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:18.733] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774690068716} /_vercel/insights/view
-[00:00:20.645] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774690070619} /_vercel/insights/view
-[00:00:21.644] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774690071619} /_vercel/insights/view
-[00:01:50.603] Server  LOG      ✓ Compiled in 97ms
-[00:02:35.266] Server  LOG      ✓ Compiled in 131ms
-[00:02:35.329] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774690205294} /_vercel/insights/view
-[00:02:42.616] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774690212599} /_vercel/insights/view
-[00:03:22.443] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/videos color: rgb(120, 120, 120) color: inherit {"dp":"/videos","o":"http://localhost:3000/videos","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774690252421} /_vercel/insights/view
-[00:03:47.537] Server  LOG      ✓ Compiled in 65ms
-[00:03:51.062] Server  LOG      ✓ Compiled in 60ms
+[00:00:01.637] Server  LOG      ✓ Ready in 1087ms
+[00:00:05.555] Server  LOG      ○ Compiling / ...
+[00:00:08.199] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.519] Browser WARN    Image with src "http://localhost:3000/sustainable-architecture-building-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:00:08.519] Browser WARN    Image with src "http://localhost:3000/university-campus-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:00:08.519] Browser WARN    Image with src "http://localhost:3000/green-building-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:00:08.519] Browser WARN    Image with src "http://localhost:3000/heritage-conservation-architecture.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:00:08.519] Browser WARN    Image with src "http://localhost:3000/bamboo-construction-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:00:08.519] Browser WARN    Image with src "http://localhost:3000/gallery/img14.JPEG" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:00:09.200] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:09.200] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:09.200] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1774943980940} /_vercel/insights/view
+[00:01:22.768] Server  LOG      ✓ Compiled in 57ms
+[00:01:37.582] Server  LOG      ✓ Compiled in 46ms

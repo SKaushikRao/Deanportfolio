@@ -37,7 +37,7 @@ export default function Home() {
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-72">
+      <main className="flex-1">
         {/* Hero Section with Background */}
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
           {/* Background Image */}

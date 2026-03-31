@@ -682,10 +682,6 @@
     height: calc(var(--spacing) * 3);
   }
 
-  .h-4 {
-    height: calc(var(--spacing) * 4);
-  }
-
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
@@ -756,10 +752,6 @@
 
   .w-3 {
     width: calc(var(--spacing) * 3);
-  }
-
-  .w-4 {
-    width: calc(var(--spacing) * 4);
   }
 
   .w-6 {
@@ -927,10 +919,6 @@
 
   .justify-center {
     justify-content: center;
-  }
-
-  .justify-start {
-    justify-content: flex-start;
   }
 
   .gap-1\.5 {

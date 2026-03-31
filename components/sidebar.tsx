@@ -37,11 +37,11 @@ export default function Sidebar() {
 
   return (
     <>
-      {/* Mobile Menu Button */}
+      {/* Hamburger Menu Button - Visible on all screen sizes */}
       <Button
         variant="ghost"
         size="lg"
-        className="fixed top-4 left-4 z-50 lg:hidden bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 p-3"
+        className="fixed top-4 left-4 z-50 bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 p-3"
         onClick={() => setIsSidebarOpen(!isSidebarOpen)}
       >
         {isSidebarOpen ? <X className="h-10 w-10 text-white" /> : <Menu className="h-10 w-10 text-white" />}
@@ -51,7 +51,7 @@ export default function Sidebar() {
       <aside
         className={`fixed top-0 left-0 h-full w-80 bg-sidebar border-r border-sidebar-border transition-transform duration-300 z-40 ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } lg:translate-x-0 overflow-y-auto`}
+        } overflow-y-auto`}
       >
         <div className="p-6 flex flex-col h-full">
           {/* Header */}
@@ -88,9 +88,9 @@ export default function Sidebar() {
         </div>
       </aside>
 
-      {/* Mobile Sidebar Overlay */}
+      {/* Sidebar Overlay - Visible on all screen sizes when sidebar is open */}
       {isSidebarOpen && (
-        <div className="fixed inset-0 bg-black/50 z-30 lg:hidden" onClick={() => setIsSidebarOpen(false)} />
+        <div className="fixed inset-0 bg-black/50 z-30" onClick={() => setIsSidebarOpen(false)} />
       )}
     </>
   )
