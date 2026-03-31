@@ -8,7 +8,7 @@ export default function ConsultancyProjectsPage() {
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-72 relative">
+      <main className="flex-1 relative">
         {/* Background Image - same as spirituality page */}
         <div className="absolute inset-0">
           <Image

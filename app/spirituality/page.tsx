@@ -1,7 +1,7 @@
 "use client"
 
 import Sidebar from "@/components/sidebar"
-import ImageGallery from "@/components/ImageGallery"
+import SquareTileGallery from "@/components/SquareTileGallery"
 import Image from "next/image"
 
 export default function SpiritualityPage() {
@@ -9,7 +9,7 @@ export default function SpiritualityPage() {
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-72 relative">
+      <main className="flex-1 relative">
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
@@ -32,11 +32,10 @@ export default function SpiritualityPage() {
             <div className="h-1 w-24 bg-white rounded-full mx-auto"></div>
           </div>
 
-          <ImageGallery 
+          <SquareTileGallery 
             folder="spirituality"
-            title=""
-            galleryTitle=""
-            gridTitle="All Spiritual Images"
+            imageCount={18}
+            title="All Spiritual Images"
           />
         </div>
       </main>

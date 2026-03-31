@@ -1,25 +1,24 @@
 "use client"
 
 import Sidebar from "@/components/sidebar"
-import ImageGallery from "@/components/ImageGallery"
+import SquareTileGallery from "@/components/SquareTileGallery"
 
 export default function MediaPage() {
   return (
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-72">
+      <main className="flex-1">
         <div className="max-w-7xl mx-auto px-6 pt-24 pb-12 lg:px-12 lg:pt-20 lg:pb-16">
           <div className="mb-12">
             <h1 className="text-5xl font-bold mb-4 text-foreground">Books</h1>
             <div className="h-1 w-24 bg-primary rounded-full"></div>
           </div>
 
-          <ImageGallery 
+          <SquareTileGallery 
             folder="books"
-            title="Books"
-            galleryTitle="Books Gallery"
-            gridTitle="All Books"
+            imageCount={5}
+            title="All Books"
           />
         </div>
       </main>

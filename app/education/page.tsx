@@ -43,7 +43,7 @@ export default function EducationPage() {
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-80 relative">
+      <main className="flex-1 relative">
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image

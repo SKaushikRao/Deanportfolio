@@ -55,28 +55,29 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/20 backdrop-blur-md"></div>
 
           {/* Hero Content */}
-          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 sm:pt-28">
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center">
-              {/* Profile Image - Left Side */}
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 lg:pt-28 mobile-spacing">
+            <div className="flex flex-col gap-8 lg:gap-12 items-center justify-center text-center lg:text-left">
+              {/* Profile Image */}
               <div className={`relative group ${isLoaded ? 'animate-fade-in' : 'opacity-0'} flex-shrink-0`}>
-                <div className="relative w-64 sm:w-72 lg:w-80 h-80 lg:h-96 rounded-2xl overflow-hidden shadow-2xl transition-all duration-700 group-hover:shadow-3xl group-hover:scale-105">
+                <div className="relative w-48 sm:w-64 lg:w-80 h-64 sm:h-72 lg:h-96 rounded-xl sm:rounded-2xl overflow-hidden shadow-xl sm:shadow-2xl transition-all duration-700 group-hover:shadow-3xl group-hover:scale-105 mobile-image">
                   <Image
                     src="/images/image.jpg"
                     alt="Dr. Madhura Yadav"
                     fill
-                    className="object-cover"
+                    className="object-cover retina-image"
                     priority
+                    sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 40vw, 320px"
                   />
                   {/* Translucent overlay */}
                   <div className="absolute inset-0 bg-black/20 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
               </div>
 
-              {/* Text Content - Right Side */}
-              <div className={`flex-1 text-center lg:text-left ${isLoaded ? 'animate-slide-in-right' : 'opacity-0'} min-w-0 lg:ml-3`}>
-                <div className="space-y-4 sm:space-y-6">
+              {/* Text Content */}
+              <div className={`flex-1 ${isLoaded ? 'animate-slide-in-right' : 'opacity-0'} min-w-0`}>
+                <div className="space-y-4 sm:space-y-6 mobile-spacing">
                   <div>
-                    <h1 className="text-3xl sm:text-4xl lg:text-6xl lg:text-7xl font-black text-white mb-2 sm:mb-4 leading-tight">
+                    <h1 className="text-2xl sm:text-3xl lg:text-6xl lg:text-7xl font-black text-white mb-2 sm:mb-4 leading-tight">
                       Dr. Madhura Yadav
                     </h1>
                     <p className="text-lg sm:text-xl lg:text-2xl lg:text-3xl font-bold text-white">
@@ -85,17 +86,17 @@ export default function Home() {
                   </div>
                   
                   <div className="space-y-3 sm:space-y-4 text-white">
-                    <p className="text-base sm:text-lg lg:text-xl lg:text-2xl font-bold">Architect Planner | Sustainability Expert | UNESCO Certified Mentor</p>
-                    <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed">
+                    <p className="text-base sm:text-lg lg:text-xl lg:text-2xl font-bold small-mobile-text">Architect Planner | Sustainability Expert | UNESCO Certified Mentor</p>
+                    <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed small-mobile-text">
                       Dr. Madhura Yadav is a visionary academic leader with over 30 years of distinguished experience in architecture, Design, Fine arts, urban planning, and sustainability. As Dean of the Faculty of Design at Manipal University Jaipur, she has pioneered the establishment of all Design and Planning programs, nurturing a generation of socially conscious and sustainability-driven professionals.
                     </p>
-                    <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed">
+                    <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed small-mobile-text">
                       An expert in sustainability, Dr. Yadav, is widely recognized for her advocacy of eco-conscious materials, particularly bamboo—for construction and thermal comfort. She contributes as an expert to UPSC, AICTE, CoA, DST Rajasthan, and NITI Aayog, and played a pivotal role in drafting the Indian Standards for Bamboo. Her leadership extends to large-scale projects including City Development Plans, heritage conservation of forts, and slum rehabilitation in Maharashtra.
                     </p>
-                    <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed">
+                    <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed small-mobile-text">
                       Dr. Yadav has received international acclaim for her research, including multiple awards and publications. A UNESCO-certified mentor in Community-Based Participatory Research, she also represents India in global policy reports such as the GUNI World Report on Higher Education.
                     </p>
-                    <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed">
+                    <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed small-mobile-text">
                       With qualifications spanning architecture, planning, value education, and leadership training from ASHRAE, USA, she embodies interdisciplinary excellence. Her work not only bridges academia, policy, and community but also sets a benchmark for ethical, inclusive, and future-ready Architecture & Design education.
                     </p>
                     <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed">

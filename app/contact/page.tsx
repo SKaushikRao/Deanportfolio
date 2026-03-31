@@ -7,7 +7,7 @@ export default function ContactPage() {
     <div className="flex min-h-screen">
       <Sidebar />
 
-      <main className="flex-1 lg:ml-80">
+      <main className="flex-1">
         <div className="max-w-5xl mx-auto px-6 pt-24 pb-12 lg:px-12 lg:pt-20 lg:pb-16">
           <div className="mb-12">
             <h1 className="text-6xl font-bold mb-4 text-gray-400 text-center">Contact</h1>

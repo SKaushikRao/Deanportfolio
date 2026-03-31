@@ -41,23 +41,24 @@ export default function Sidebar() {
       <Button
         variant="ghost"
         size="lg"
-        className="fixed top-4 left-4 z-50 bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 p-3"
+        className="fixed top-4 left-4 z-50 bg-white/20 hover:bg-white/30 backdrop-blur-sm border border-white/30 p-3 touch-target"
         onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+        aria-label="Toggle navigation menu"
       >
-        {isSidebarOpen ? <X className="h-10 w-10 text-white" /> : <Menu className="h-10 w-10 text-white" />}
+        {isSidebarOpen ? <X className="h-8 w-8 sm:h-10 sm:w-10 text-white" /> : <Menu className="h-8 w-8 sm:h-10 sm:w-10 text-white" />}
       </Button>
 
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 h-full w-80 bg-sidebar border-r border-sidebar-border transition-transform duration-300 z-40 ${
+        className={`fixed top-0 left-0 h-full w-80 max-w-[85vw] bg-sidebar border-r border-sidebar-border transition-transform duration-300 z-40 ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } overflow-y-auto`}
+        } overflow-y-auto mobile-sidebar`}
       >
-        <div className="p-6 flex flex-col h-full">
+        <div className="p-4 sm:p-6 flex flex-col h-full">
           {/* Header */}
-          <div className="mb-8">
-            <h1 className="text-xl font-bold mb-1 text-sidebar-foreground text-balance">Dr. Madhura Yadav</h1>
-            <p className="text-sm text-muted-foreground">Portfolio</p>
+          <div className="mb-6 sm:mb-8">
+            <h1 className="text-lg sm:text-xl font-bold mb-1 text-sidebar-foreground text-balance">Dr. Madhura Yadav</h1>
+            <p className="text-xs sm:text-sm text-muted-foreground">Portfolio</p>
           </div>
 
           {/* Navigation */}
@@ -68,7 +69,7 @@ export default function Sidebar() {
                   <Link
                     href={item.id}
                     onClick={() => setIsSidebarOpen(false)}
-                    className={`block px-4 py-2.5 rounded-md transition-all duration-200 text-sm ${
+                    className={`block px-3 sm:px-4 py-2 sm:py-2.5 rounded-md transition-all duration-200 text-sm touch-target ${
                       pathname === item.id
                         ? "bg-sidebar-primary text-sidebar-primary-foreground font-medium"
                         : "text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
@@ -82,7 +83,7 @@ export default function Sidebar() {
           </nav>
 
           {/* Footer */}
-          <div className="mt-auto pt-6 border-t border-sidebar-border">
+          <div className="mt-auto pt-4 sm:pt-6 border-t border-sidebar-border">
             <p className="text-xs text-muted-foreground">© 2025 Dr. Madhura Yadav</p>
           </div>
         </div>
