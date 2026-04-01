@@ -428,8 +428,12 @@ function SquareTileGallery({ folder, imageCount, title }) {
         if (folder === "Hall of fame") {
             if (index < 25) {
                 return `/Hall of fame/imag${index + 1}.jpeg`;
-            } else {
-                return `/Hall of fame/International/img${index - 24}.jpeg`;
+            } else if (index < 27) {
+                return `/Hall of fame/imag${index + 1}.jpeg` // imag26, imag27 in main folder
+                ;
+            } else if (index < 50) {
+                return `/Hall of fame/img${index - 26}.jpeg` // img1-img23 all in main folder (starting from index 27)
+                ;
             }
         }
         if (folder === "community-outreach") {
@@ -452,12 +456,12 @@ function SquareTileGallery({ folder, imageCount, title }) {
                     children: title
                 }, void 0, false, {
                     fileName: "[project]/components/SquareTileGallery.tsx",
-                    lineNumber: 52,
+                    lineNumber: 54,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/SquareTileGallery.tsx",
-                lineNumber: 51,
+                lineNumber: 53,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -482,7 +486,7 @@ function SquareTileGallery({ folder, imageCount, title }) {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/components/SquareTileGallery.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 67,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -494,38 +498,38 @@ function SquareTileGallery({ folder, imageCount, title }) {
                                                 children: image.alt
                                             }, void 0, false, {
                                                 fileName: "[project]/components/SquareTileGallery.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 80,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/SquareTileGallery.tsx",
-                                            lineNumber: 77,
+                                            lineNumber: 79,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/SquareTileGallery.tsx",
-                                        lineNumber: 76,
+                                        lineNumber: 78,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/SquareTileGallery.tsx",
-                                lineNumber: 64,
+                                lineNumber: 66,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/SquareTileGallery.tsx",
-                            lineNumber: 63,
+                            lineNumber: 65,
                             columnNumber: 13
                         }, this)
                     }, index, false, {
                         fileName: "[project]/components/SquareTileGallery.tsx",
-                        lineNumber: 58,
+                        lineNumber: 60,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/SquareTileGallery.tsx",
-                lineNumber: 56,
+                lineNumber: 58,
                 columnNumber: 7
             }, this),
             previewImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -546,12 +550,12 @@ function SquareTileGallery({ folder, imageCount, title }) {
                                     sizes: "100vw"
                                 }, void 0, false, {
                                     fileName: "[project]/components/SquareTileGallery.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 97,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/SquareTileGallery.tsx",
-                                lineNumber: 94,
+                                lineNumber: 96,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -559,13 +563,13 @@ function SquareTileGallery({ folder, imageCount, title }) {
                                 children: previewAlt
                             }, void 0, false, {
                                 fileName: "[project]/components/SquareTileGallery.tsx",
-                                lineNumber: 104,
+                                lineNumber: 106,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/SquareTileGallery.tsx",
-                        lineNumber: 93,
+                        lineNumber: 95,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -587,12 +591,12 @@ function SquareTileGallery({ folder, imageCount, title }) {
                                     d: "M6 18L18 6M6 6l12 12"
                                 }, void 0, false, {
                                     fileName: "[project]/components/SquareTileGallery.tsx",
-                                    lineNumber: 114,
+                                    lineNumber: 116,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/SquareTileGallery.tsx",
-                                lineNumber: 113,
+                                lineNumber: 115,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -600,19 +604,19 @@ function SquareTileGallery({ folder, imageCount, title }) {
                                 children: "Close preview"
                             }, void 0, false, {
                                 fileName: "[project]/components/SquareTileGallery.tsx",
-                                lineNumber: 116,
+                                lineNumber: 118,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/SquareTileGallery.tsx",
-                        lineNumber: 106,
+                        lineNumber: 108,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/SquareTileGallery.tsx",
-                lineNumber: 89,
+                lineNumber: 91,
                 columnNumber: 9
             }, this)
         ]
@@ -673,7 +677,7 @@ function HallOfFamePage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SquareTileGallery$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             folder: "Hall of fame",
-                            imageCount: 39,
+                            imageCount: 50,
                             title: "All Personalities"
                         }, void 0, false, {
                             fileName: "[project]/app/hall-of-fame/page.tsx",

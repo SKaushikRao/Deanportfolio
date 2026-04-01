@@ -30,8 +30,10 @@ export default function SquareTileGallery({ folder, imageCount, title }: SquareT
     if (folder === "Hall of fame") {
       if (index < 25) {
         return `/Hall of fame/imag${index + 1}.jpeg`
-      } else {
-        return `/Hall of fame/International/img${index - 24}.jpeg`
+      } else if (index < 27) {
+        return `/Hall of fame/imag${index + 1}.jpeg` // imag26, imag27 in main folder
+      } else if (index < 50) {
+        return `/Hall of fame/img${index - 26}.jpeg` // img1-img23 all in main folder (starting from index 27)
       }
     }
     if (folder === "community-outreach") {

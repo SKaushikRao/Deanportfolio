@@ -345,7 +345,8 @@ function AwardsPage() {
         {
             title: "IGBC Award",
             images: [
-                "imag5.JPG"
+                "imag5.JPG",
+                "imag19.jpg"
             ]
         },
         {
@@ -368,19 +369,13 @@ function AwardsPage() {
             ]
         },
         {
-            title: "IBC Goel Memorial Award",
+            title: "Satya Goel Memorial Award",
             images: [
                 "imag18.jpeg"
             ]
         },
         {
-            title: "IGBC Fellow Award",
-            images: [
-                "imag19.jpg"
-            ]
-        },
-        {
-            title: "ASHRAE Award",
+            title: "ASHRAE Appreciation Award",
             images: [
                 "imag20.jpeg"
             ]
@@ -410,7 +405,7 @@ function AwardsPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$sidebar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/awards/page.tsx",
-                lineNumber: 61,
+                lineNumber: 57,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -426,27 +421,27 @@ function AwardsPage() {
                                 className: "object-cover"
                             }, void 0, false, {
                                 fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 66,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-black/20 backdrop-blur-sm"
                             }, void 0, false, {
                                 fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 73,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-black/40"
                             }, void 0, false, {
                                 fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 75,
+                                lineNumber: 71,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/awards/page.tsx",
-                        lineNumber: 65,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -460,20 +455,20 @@ function AwardsPage() {
                                         children: "Awards"
                                     }, void 0, false, {
                                         fileName: "[project]/app/awards/page.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 76,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "h-1 w-24 bg-[#e6b815] rounded-full mx-auto"
                                     }, void 0, false, {
                                         fileName: "[project]/app/awards/page.tsx",
-                                        lineNumber: 81,
+                                        lineNumber: 77,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 79,
+                                lineNumber: 75,
                                 columnNumber: 11
                             }, this),
                             awardSections.map((section, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -487,20 +482,20 @@ function AwardsPage() {
                                                     children: section.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/awards/page.tsx",
-                                                    lineNumber: 87,
+                                                    lineNumber: 83,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "h-1 w-16 bg-white rounded-full mx-auto"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/awards/page.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 84,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/awards/page.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 82,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -518,7 +513,7 @@ function AwardsPage() {
                                                                 className: "object-cover transition-transform duration-300 group-hover:scale-105"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/awards/page.tsx",
-                                                                lineNumber: 98,
+                                                                lineNumber: 94,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -535,51 +530,51 @@ function AwardsPage() {
                                                                         d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/awards/page.tsx",
-                                                                        lineNumber: 105,
+                                                                        lineNumber: 101,
                                                                         columnNumber: 120
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/awards/page.tsx",
-                                                                    lineNumber: 105,
+                                                                    lineNumber: 101,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/awards/page.tsx",
-                                                                lineNumber: 104,
+                                                                lineNumber: 100,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/awards/page.tsx",
-                                                        lineNumber: 97,
+                                                        lineNumber: 93,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, imgIdx, false, {
                                                     fileName: "[project]/app/awards/page.tsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 88,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/awards/page.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 86,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, idx, true, {
                                     fileName: "[project]/app/awards/page.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 81,
                                     columnNumber: 13
                                 }, this))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/awards/page.tsx",
-                        lineNumber: 78,
+                        lineNumber: 74,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/awards/page.tsx",
-                lineNumber: 63,
+                lineNumber: 59,
                 columnNumber: 7
             }, this),
             previewImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -599,12 +594,12 @@ function AwardsPage() {
                                     unoptimized: true
                                 }, void 0, false, {
                                     fileName: "[project]/app/awards/page.tsx",
-                                    lineNumber: 124,
+                                    lineNumber: 120,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 123,
+                                lineNumber: 119,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -612,13 +607,13 @@ function AwardsPage() {
                                 children: previewAlt
                             }, void 0, false, {
                                 fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 132,
+                                lineNumber: 128,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/awards/page.tsx",
-                        lineNumber: 122,
+                        lineNumber: 118,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -640,12 +635,12 @@ function AwardsPage() {
                                     d: "M6 18L18 6M6 6l12 12"
                                 }, void 0, false, {
                                     fileName: "[project]/app/awards/page.tsx",
-                                    lineNumber: 142,
+                                    lineNumber: 138,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 141,
+                                lineNumber: 137,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -653,25 +648,25 @@ function AwardsPage() {
                                 children: "Close preview"
                             }, void 0, false, {
                                 fileName: "[project]/app/awards/page.tsx",
-                                lineNumber: 144,
+                                lineNumber: 140,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/awards/page.tsx",
-                        lineNumber: 134,
+                        lineNumber: 130,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/awards/page.tsx",
-                lineNumber: 118,
+                lineNumber: 114,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/awards/page.tsx",
-        lineNumber: 60,
+        lineNumber: 56,
         columnNumber: 5
     }, this);
 }

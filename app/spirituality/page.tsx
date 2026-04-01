@@ -34,7 +34,7 @@ export default function SpiritualityPage() {
 
           <SquareTileGallery 
             folder="spirituality"
-            imageCount={18}
+            imageCount={26}
             title="All Spiritual Images"
           />
         </div>

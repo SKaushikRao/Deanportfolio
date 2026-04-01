@@ -16,7 +16,7 @@ export default function AwardsPage() {
   const awardSections = [
     {
       title: "IGBC Award",
-      images: ["imag5.JPG"]
+      images: ["imag5.JPG", "imag19.jpg"]
     },
     {
       title: "MUJ Excellence Award",
@@ -31,15 +31,11 @@ export default function AwardsPage() {
       images: ["imag15.jpg", "imag16.jpg"]
     },
     {
-      title: "IBC Goel Memorial Award",
+      title: "Satya Goel Memorial Award",
       images: ["imag18.jpeg"]
     },
     {
-      title: "IGBC Fellow Award",
-      images: ["imag19.jpg"]
-    },
-    {
-      title: "ASHRAE Award",
+      title: "ASHRAE Appreciation Award",
       images: ["imag20.jpeg"]
     },
     {

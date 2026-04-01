@@ -455,7 +455,7 @@ function HonorsPage() {
             ]
         },
         {
-            title: "Shri Nitin Gadkari",
+            title: "Interaction with Shri Nitin Gadkari",
             images: [
                 "image11.jpeg"
             ]
