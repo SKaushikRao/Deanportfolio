@@ -15,7 +15,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$
 ;
 const metadata = {
     title: {
-        default: "Dr. Madhura Yadav | Architect, Dean & Sustainability Expert",
+        default: "Dr. Madhura Yadav | Architect-Planner, Dean & Sustainability Expert",
         template: "%s | Dr. Madhura Yadav"
     },
     description: "Official portfolio of Dr. Madhura Yadav, Dean of Student Welfare at Manipal University Jaipur, renowned Architect Planner, Sustainability Expert, and UNESCO Certified Mentor.",

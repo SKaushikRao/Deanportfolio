@@ -97,7 +97,7 @@ export default function Home() {
                       Dr. Yadav has received international acclaim for her research, including multiple awards and publications. A UNESCO-certified mentor in Community-Based Participatory Research, she also represents India in global policy reports such as the GUNI World Report on Higher Education.
                     </p>
                     <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed small-mobile-text">
-                      With qualifications spanning architecture, planning, value education, and leadership training from ASHRAE, USA, she embodies interdisciplinary excellence. Her work not only bridges academia, policy, and community but also sets a benchmark for ethical, inclusive, and future-ready Architecture & Design education.
+                      With qualifications spanning architecture, planning, value education, and leadership training from ASHRAE, USA, she embodies interdisciplinary excellence. Her work not only bridges academia, policy, and community but also sets a benchmark for ethical, inclusive, and future-ready Architecture, Design & Planning education.
                     </p>
                     <p className="text-sm sm:text-base lg:text-lg lg:text-xl leading-relaxed">
                       Dr. Madhura Yadav continues to inspire the next generation of professionals to create resilient, sustainable environments through knowledge, compassion, and action.
@@ -380,7 +380,7 @@ export default function Home() {
                       <FileText className="h-8 w-8 text-black" />
                     </div>
                     <h3 className="text-lg font-semibold text-black group-hover:underline">Research</h3>
-                    <p className="text-sm text-gray-800 mt-2">Papers & patents</p>
+                    <p className="text-sm text-gray-800 mt-2">46 research papers published</p>
                   </CardContent>
                 </Card>
               </Link>
@@ -393,18 +393,6 @@ export default function Home() {
                     </div>
                     <h3 className="text-lg font-semibold text-black group-hover:underline">Honors</h3>
                     <p className="text-sm text-gray-800 mt-2">Key achievements</p>
-                  </CardContent>
-                </Card>
-              </Link>
-              
-              <Link href="/papers">
-                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
-                  <CardContent className="p-6">
-                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
-                      <FileText className="h-8 w-8 text-black" />
-                    </div>
-                    <h3 className="text-lg font-semibold text-black group-hover:underline">Papers</h3>
-                    <p className="text-sm text-gray-800 mt-2">Important publications</p>
                   </CardContent>
                 </Card>
               </Link>

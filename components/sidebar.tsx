@@ -24,7 +24,6 @@ export default function Sidebar() {
     { id: "/awards", label: "Awards" },
     { id: "/research", label: "Research and Patents" },
     { id: "/honors", label: "Honors" },
-    { id: "/papers", label: "Important Papers" },
     { id: "/professional-experience", label: "Professional Experience" },
     { id: "/spirituality", label: "Blessings and Guidance" },
     { id: "/consultancy-projects", label: "Consultancy Projects" },

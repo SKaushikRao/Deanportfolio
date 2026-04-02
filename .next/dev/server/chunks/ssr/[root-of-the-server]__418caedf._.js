@@ -180,7 +180,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 function ResearchPage() {
     const publications = [
         {
-            title: "User behavioral patterns in inclusive public open space: A case from Indian towns, Cities & Health",
+            title: "User behavioral patterns in inclusive public open space: A case from Indian towns",
             journal: "Cities & Health",
             authors: "Yadav, M., Gupta, A. and Nayak, B.K.",
             year: "(2025)"
@@ -205,13 +205,13 @@ function ResearchPage() {
         },
         {
             title: "Impact of Higher Education Campus Landscape on Students' Mental Health: A Systematic Review",
-            journal: "Indian Journal of Psychological Science",
+            journal: "Indian Journal of Psychological Science, 21(Special Issue)",
             authors: "Prabhu, M.K. and Yadav, M.",
             year: "(2025)"
         },
         {
             title: "Pharad block printing: A cultural treasure resurging in contemporary times",
-            journal: "TEXTILE",
+            journal: "TEXTILE, 23(2)",
             authors: "Mishra, P. and Yadav, M.",
             year: "(2025)"
         },
@@ -222,64 +222,58 @@ function ResearchPage() {
             year: "(2025)"
         },
         {
-            title: "Water, wheels and wisdom: Reviving Aurangabad Panchakki",
+            title: "Water, wheels and wisdom: Reviving the Aurangabad Panchakki",
             journal: "Journal of Cultural Heritage Management and Sustainable Development",
             authors: "Yadav, M., Shamra, R. and Ozarkar, A.",
             year: "(2025)"
         },
         {
             title: "Optimizing thermal efficiency of building envelopes with sustainable composite materials",
-            journal: "Buildings",
+            journal: "Buildings, 15(2), p. 230. doi: 10.3390/buildings15020230",
             authors: "Deshmukh, M. and Yadav, M.",
             year: "(2025)"
         },
         {
-            title: "Sustainable construction: The use of cork material in building industry",
+            title: "Sustainable construction: The use of cork material in the building industry",
             journal: "Materials for Renewable and Sustainable Energy",
-            authors: "Sharma, S. and Yadav, M.",
+            authors: "Yadav, M. and Singhal, I.",
             year: "(2024)"
         },
         {
             title: "Thermal comfort study of roof shapes and materials in Jaisalmer, India",
-            journal: "SSRG International Journal of Civil Engineering",
+            journal: "SSRG International Journal of Civil Engineering, 11(7), pp. 174–188. doi: 10.14445/23488352/IJCE-V11I7P112",
             authors: "Sharma, S. and Yadav, M.",
-            year: "(2023)"
+            year: "(2024)"
         },
         {
             title: "A thermal study of roof shapes and materials in hot dry climates: Insights from a simulation from Rajasthan, India",
-            journal: "ISVS e-journal",
-            authors: "Yadav, M. and Singhal, I.",
+            journal: "ISVS e-journal, 10(12)",
+            authors: "Sharma, S. and Yadav, M.",
             year: "(2023)"
         },
         {
             title: "Assessment of urban growth and ecological sustainability: Study of Mumbai, India",
             journal: "ISVS e-journal",
+            authors: "Yadav, M.",
+            year: "(2023)"
+        },
+        {
+            title: "Consumer behaviour towards the adoption of sustainable clothing",
+            journal: "in Proceedings of the International Conference of Creative Futures (ICCF 2022), Manipal University Jaipur, India, 20–21 May 2022",
             authors: "Mishra, P. and Yadav, M.",
             year: "(2023)"
         },
         {
-            title: "Consumer behaviour towards adoption of sustainable clothing",
-            journal: "Proceedings of the International Conference on Creative Futures (ICCF 2022)",
-            authors: "Mishra, P. and Yadav, M.",
-            year: "(2022)"
-        },
-        {
             title: "Post occupancy evaluation of elderly/senior housing projects in India",
-            journal: "Responsible Pedagogies in Architecture: Combating Climate Change. Cambridge: Cambridge Scholars Publishing",
-            authors: "Kuda, A. and Yadav, M.",
-            year: "(2022)"
+            journal: "in Responsible Pedagogies in Architecture: Combating Climate Change. Cambridge: Cambridge Scholars Publishing",
+            authors: "Sharma, S. and Yadav, M.",
+            year: "(2023)"
         },
         {
             title: "Opportunities and challenges of using nanomaterials and nanotechnology in architecture: An overview",
             journal: "Materials Today: Proceedings",
-            authors: "Prabhu, M.K. and Yadav, M.",
-            year: "(2023)"
-        },
-        {
-            title: "Examination of key landscape characteristics and evaluation tools for assessing the impact of higher education campus landscapes on students' well-being: A systematic review",
-            journal: "Multidisciplinary Reviews",
-            authors: "Prabhu, M.K., Yadav, M., Arya, B., Kumar, D., Sharma, M. and Kumar, H.",
-            year: "(2025)"
+            authors: "Kuda, A. and Yadav, M.",
+            year: "(2022)"
         },
         {
             title: "Waste to wealth: Overview of waste and recycled material in construction industry",
@@ -295,165 +289,225 @@ function ResearchPage() {
         },
         {
             title: "Fast fashion and its impact on the environment: An overview",
-            journal: "Journal of Contemporary Issues in Business and Government",
+            journal: "Journal of Contemporary Issues in Business and Government, 28(4)",
+            authors: "Mishra, P. and Yadav, M.",
+            year: "(2022)"
+        },
+        {
+            title: "Redefining design education for 21st century",
+            journal: "in Proceedings of the International Conference on Research into Design (ICoRD'21). Springer, IIT Mumbai, India",
             authors: "Yadav, M.",
             year: "(2021)"
         },
         {
-            title: "Redefining design education for 21st century",
-            journal: "in Proceedings of the International Conference on Research into Design (ICoRD'21)",
+            title: "Application of nano materials in architecture: An overview",
+            journal: "in Proceedings of the International Conference CRMSC-2021, Materials Today: Proceedings",
             authors: "Yadav, M. and Verma, A.",
             year: "(2021)"
         },
         {
-            title: "Application of nano materials in architecture: An overview",
-            journal: "in Proceedings of the International Conference CRMSC-2021",
+            title: "Biobased building materials for sustainable future: An overview",
+            journal: "in Proceedings of the International Conference CRMSC-2021, Materials Today: Proceedings",
             authors: "Yadav, M. and Agarwal, M.",
             year: "(2021)"
         },
         {
-            title: "Biobased building materials for sustainable future: An overview",
-            journal: "in Proceedings of the International Conference CRMSC-2021",
-            authors: "Yadav, M. and Mathur, A.",
-            year: "(2021)"
-        },
-        {
             title: "Bamboo as a sustainable material in the construction industry: An overview",
-            journal: "in Proceedings of the International Conference CRMSC-2021",
-            authors: "Yadav, M. and Agarwal, P.",
+            journal: "in Proceedings of the International Conference CRMSC-2021, Materials Today: Proceedings",
+            authors: "Yadav, M. and Mathur, A.",
             year: "(2021)"
         },
         {
             title: "Campus design of universities: An overview",
             journal: "Journal of Design & Built Environment",
+            authors: "Yadav, M. and Agarwal, P.",
+            year: "(2021)"
+        },
+        {
+            title: "Application of augmented reality and virtual reality in architecture and planning: An overview",
+            journal: "in Proceedings of the 6th International Conference on Signal and Image Processing (SIGI 2020). Chennai, India",
             authors: "Yadav, M. and Jisthu, P.",
             year: "(2020)"
         },
         {
-            title: "Application of augmented reality and virtual reality in architecture and planning: An overview",
-            journal: "in Proceedings of the 6th International Conference on Signal and Image Processing (SIGI 2020)",
-            authors: "Yadav, M.",
-            year: "(2018)"
-        },
-        {
             title: "Experiences and challenges of community participation in urban renewal projects: A case study of Bhendi Bazzar, Mumbai, India",
-            journal: "in Proceedings of the International Conference on Urban Redesign and Redevelopment",
+            journal: "in Proceedings of the International Conference on Urban Redesign and Redevelopment. Vancouver, Canada",
             authors: "Yadav, M.",
             year: "(2018)"
         },
         {
             title: "Environment management through meditation: A sustainable approach",
-            journal: "in Proceedings of the International Conference on Emerging Trends in Engineering Science & Technology",
+            journal: "in Proceedings of the International Conference on Emerging Trends in Engineering Science & Technology. Govt. Engineering College, Thrissur, Kerala, India",
             authors: "Yadav, M.",
             year: "(2018)"
         },
         {
             title: "Future cities: Envisioning human dimensions",
-            journal: "International Journal of Advance & Innovative Research",
+            journal: "International Journal of Advance & Innovative Research, 5(4 XVIII)",
             authors: "Yadav, M. and Simion, I.G.",
-            year: "(2017)"
+            year: "(2018)"
         },
         {
             title: "Analysis of natural ventilation systems in heritage buildings: A case study of Hawa Mahal, Jaipur, India",
             journal: "Journal of Indian Institute of Architects",
-            authors: "Yadav, M. and Joann, L.",
-            year: "(2015)"
+            authors: "Yadav, M. and Simion, I.G.",
+            year: "(2017)"
         },
         {
             title: "Study of roof types and technologies to reduce indoor air temperature: An overview",
-            journal: "Journal of Indian Institute of Architects",
-            authors: "Yadav, M. and Nayak, B.K.",
+            journal: "Journal of Indian Institute of Architects, 80(9), pp. 19–25",
+            authors: "Sharma, S. and Yadav, M.",
             year: "(2015)"
         },
         {
             title: "Green building rating systems through the lens of vernacular architecture",
             journal: "Journal of Indian Institute of Architects",
-            authors: "Yadav, M. and Nayak, B.K.",
+            authors: "Yadav, M. and Joann, L.",
             year: "(2015)"
         },
         {
             title: "Impact of urban form on hydrology: A case study of Mumbai, India",
-            journal: "in Proceedings of the International Congress of Association of Asian Planning Schools",
-            authors: "Yadav, M.",
+            journal: "in Proceedings of the International Congress of Association of Asian Planning Schools. University of Technology Malaysia, Malaysia",
+            authors: "Yadav, M. and Nayak, B.K.",
             year: "(2015)"
         },
         {
             title: "Architectural design pedagogy in the context of environmental sustainability",
-            journal: "in Proceedings of the International Conference on Reinventing Design Pedagogy & Contextual Aesthetics",
+            journal: "in Proceedings of the International Conference on Reinventing Design Pedagogy & Contextual Aesthetics. NIT Calicut, India",
             authors: "Yadav, M.",
-            year: "(2013)"
+            year: "(2015)"
         },
         {
             title: "Understanding architecture as a potent form of visual art",
-            journal: "in Proceedings of the 4th Annual International Conference on Visual and Performing Arts",
+            journal: "in Proceedings of the 4th Annual International Conference on Visual and Performing Arts. Athens Institute for Education and Research, Greece",
             authors: "Yadav, M.",
             year: "(2013)"
         },
         {
             title: "Appropriate residential typologies for Mumbai",
-            journal: "in Proceedings of the International Conference IES",
+            journal: "in Proceedings of the International Conference IES. Japan",
+            authors: "Yadav, M.",
+            year: "(2013)"
+        },
+        {
+            title: "Embodied energy in vernacular houses",
+            journal: "in Proceedings of the International Conference ISVS. Colombo, Sri Lanka",
             authors: "Yadav, M.",
             year: "(2010)"
         },
         {
-            title: "Embodied energy in vernacular houses",
-            journal: "in Proceedings of the International Conference ISVS",
-            authors: "Yadav, M.",
-            year: "(2008)"
-        },
-        {
             title: "Defining ecological regionalism: A theoretical perspective",
-            journal: "in Proceedings of the International Conference on Eco-Architecture",
+            journal: "in Proceedings of the International Conference on Eco-Architecture. Algarve, Portugal",
             authors: "Yadav, M.",
             year: "(2008)"
         },
         {
             title: "Transforming habitats: A case study of Mumbai",
-            journal: "in Proceedings of the International Conference ISVS-IV",
+            journal: "in Proceedings of the International Conference ISVS-IV. CEPT, Ahmedabad, India",
+            authors: "Yadav, M.",
+            year: "(2008)"
+        },
+        {
+            title: "Housing tenure for the urban poor: A case study of Mumbai city",
+            journal: "in Proceedings of the International Conference on Housing for the Urban Poor. Brisbane, Australia",
             authors: "Yadav, M.",
             year: "(2007)"
         },
         {
             title: "Heritage of Aurangabad: Problems and prospects",
-            journal: "in Proceedings of the National Conference on Heritage Conservation",
-            authors: "Yadav, M.",
-            year: "(2003)"
-        },
-        {
-            title: "Housing tenure for the urban poor: A case study of Mumbai city",
-            journal: "in Proceedings of the International Conference on Housing for the Urban Poor",
+            journal: "in Proceedings of the National Conference on Heritage Conservation. Jaipur, India",
             authors: "Yadav, M.",
             year: "(2004)"
         },
         {
             title: "Women empowerment through rainwater harvesting",
-            journal: "in Proceedings of the National Conference on Emerging Technologies for Women",
+            journal: "in Proceedings of the National Conference on Emerging Technologies for Women. Indore, India",
             authors: "Yadav, M.",
             year: "(2003)"
         },
         {
             title: "Sustainable urban development of Aurangabad city",
-            journal: "in Proceedings of the International Conference on Sustainable Habitats",
+            journal: "in Proceedings of the International Conference on Sustainable Habitats. Mumbai, India",
+            authors: "Yadav, M.",
+            year: "(2003)"
+        },
+        {
+            title: "The Therapeutic Campus: A Systematic Review of Green, Blue, and Grey Spaces' Impact on Student Mental Health Outcomes",
+            journal: "in 34th Annual Conference of Sports Psychology Association of India, Manipal University Jaipur, India, 17–18 April",
             authors: "Prabhu, M.K. and Yadav, M.",
             year: "(2025)"
         },
         {
-            title: "The Therapeutic Campus: A Systematic Review of Green, Blue, and Grey Spaces Impact on Student Mental Health Outcomes",
-            journal: "in 34th Annual Conference of Sports Psychology Association of India",
+            title: "Unveiling the threads of change: Exploring influences on youth's intentions for sustainable clothing adoption in India",
+            journal: "in Proceedings of the International Conference on Fashion as a Tool for Social Change (FTSC 2024): Cultural Preservation and Innovation, Woxsen University, Telangana, India, 5–6 August 2024",
             authors: "Mishra, P. and Yadav, M.",
             year: "(2024)"
         },
         {
-            title: "Unveiling the threads of change: Exploring influences on youth's intentions for sustainable clothing adoption in India",
-            journal: "in Proceedings of the International Conference on Fashion as a Tool for Social Change (FTSC 2024)",
+            title: "Restorative Benefits of Campus Landscapes in a Semi-Arid Indian University",
+            journal: "in International Conference on Multidisciplinary Approaches to Humanities & Social Sciences, Noida International University, India, 17–18 June",
             authors: "Prabhu, M.K. and Yadav, M.",
             year: "(2025)"
         },
         {
             title: "Meta-Synthesis of Campus-Landscape Theories: Building an Integrated Framework for Student Well-being",
-            journal: "in International Conference on Socially Conscious Built Environments",
+            journal: "in International Conference on Socially Conscious Built Environments, Manipal University Jaipur, India, 27–28 November",
             authors: "Prabhu, M.K. and Yadav, M.",
             year: "(2025)"
+        },
+        {
+            title: "Embodied energy in vernacular houses",
+            journal: "in Proceedings of the International Conference ISVS. Colombo, Sri Lanka",
+            authors: "Yadav, M.",
+            year: "(2010)"
+        },
+        {
+            title: "Defining ecological regionalism: A theoretical perspective",
+            journal: "in Proceedings of the International Conference on Eco-Architecture. Algarve, Portugal",
+            authors: "Yadav, M.",
+            year: "(2008)"
+        },
+        {
+            title: "Transforming habitats: A case study of Mumbai",
+            journal: "in Proceedings of the International Conference ISVS-IV. CEPT, Ahmedabad, India",
+            authors: "Yadav, M.",
+            year: "(2008)"
+        },
+        {
+            title: "Housing tenure for the urban poor: A case study of Mumbai city",
+            journal: "in Proceedings of the International Conference on Housing for the Urban Poor. Brisbane, Australia",
+            authors: "Yadav, M.",
+            year: "(2007)"
+        },
+        {
+            title: "Heritage of Aurangabad: Problems and prospects",
+            journal: "in Proceedings of the National Conference on Heritage Conservation. Jaipur, India",
+            authors: "Yadav, M.",
+            year: "(2004)"
+        },
+        {
+            title: "Women empowerment through rainwater harvesting",
+            journal: "in Proceedings of the National Conference on Emerging Technologies for Women. Indore, India",
+            authors: "Yadav, M.",
+            year: "(2003)"
+        },
+        {
+            title: "Sustainable urban development of Aurangabad city",
+            journal: "in Proceedings of the International Conference on Sustainable Habitats. Mumbai, India",
+            authors: "Yadav, M.",
+            year: "(2003)"
+        },
+        {
+            title: "The Therapeutic Campus: A Systematic Review of Green, Blue, and Grey Spaces' Impact on Student Mental Health Outcomes",
+            journal: "in 34th Annual Conference of Sports Psychology Association of India, Manipal University Jaipur, India, 17–18 April",
+            authors: "Prabhu, M.K. and Yadav, M.",
+            year: "(2025)"
+        },
+        {
+            title: "Unveiling the threads of change: Exploring influences on youth's intentions for sustainable clothing adoption in India",
+            journal: "in Proceedings of the International Conference on Fashion as a Tool for Social Change (FTSC 2024): Cultural Preservation and Innovation, Woxsen University, Telangana, India, 5–6 August 2024",
+            authors: "Mishra, P. and Yadav, M.",
+            year: "(2024)"
         }
     ];
     const patents = [
@@ -535,7 +589,7 @@ function ResearchPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$sidebar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/research/page.tsx",
-                lineNumber: 375,
+                lineNumber: 429,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -551,27 +605,27 @@ function ResearchPage() {
                                 className: "object-cover"
                             }, void 0, false, {
                                 fileName: "[project]/app/research/page.tsx",
-                                lineNumber: 380,
+                                lineNumber: 434,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-black/20 backdrop-blur-sm"
                             }, void 0, false, {
                                 fileName: "[project]/app/research/page.tsx",
-                                lineNumber: 387,
+                                lineNumber: 441,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-black/40"
                             }, void 0, false, {
                                 fileName: "[project]/app/research/page.tsx",
-                                lineNumber: 389,
+                                lineNumber: 443,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/research/page.tsx",
-                        lineNumber: 379,
+                        lineNumber: 433,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -585,20 +639,20 @@ function ResearchPage() {
                                         children: "Research and Patents"
                                     }, void 0, false, {
                                         fileName: "[project]/app/research/page.tsx",
-                                        lineNumber: 394,
+                                        lineNumber: 448,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "h-1 w-24 bg-[#809949] rounded-full mx-auto"
                                     }, void 0, false, {
                                         fileName: "[project]/app/research/page.tsx",
-                                        lineNumber: 395,
+                                        lineNumber: 449,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/research/page.tsx",
-                                lineNumber: 393,
+                                lineNumber: 447,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -614,7 +668,7 @@ function ResearchPage() {
                                                     children: "Research Publications"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/research/page.tsx",
-                                                    lineNumber: 403,
+                                                    lineNumber: 457,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -841,10 +895,14 @@ function ResearchPage() {
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                                     className: "font-semibold text-white mb-1",
-                                                                    children: publication.title
-                                                                }, void 0, false, {
+                                                                    children: [
+                                                                        idx + 1,
+                                                                        ". ",
+                                                                        publication.title
+                                                                    ]
+                                                                }, void 0, true, {
                                                                     fileName: "[project]/app/research/page.tsx",
-                                                                    lineNumber: 623,
+                                                                    lineNumber: 677,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -858,29 +916,29 @@ function ResearchPage() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/research/page.tsx",
-                                                                    lineNumber: 624,
+                                                                    lineNumber: 678,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, idx, true, {
                                                             fileName: "[project]/app/research/page.tsx",
-                                                            lineNumber: 622,
+                                                            lineNumber: 676,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/research/page.tsx",
-                                                    lineNumber: 404,
+                                                    lineNumber: 458,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/research/page.tsx",
-                                            lineNumber: 402,
+                                            lineNumber: 456,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/research/page.tsx",
-                                        lineNumber: 401,
+                                        lineNumber: 455,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
@@ -893,7 +951,7 @@ function ResearchPage() {
                                                     children: "Published Patents"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/research/page.tsx",
-                                                    lineNumber: 634,
+                                                    lineNumber: 688,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -978,7 +1036,7 @@ function ResearchPage() {
                                                                     className: "w-3 h-3 bg-[#809949] rounded-full mt-1.5 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/research/page.tsx",
-                                                                    lineNumber: 711,
+                                                                    lineNumber: 765,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -986,7 +1044,7 @@ function ResearchPage() {
                                                                     children: patent.patentNumber
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/research/page.tsx",
-                                                                    lineNumber: 712,
+                                                                    lineNumber: 766,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -994,7 +1052,7 @@ function ResearchPage() {
                                                                     children: patent.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/research/page.tsx",
-                                                                    lineNumber: 713,
+                                                                    lineNumber: 767,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1006,29 +1064,29 @@ function ResearchPage() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/research/page.tsx",
-                                                                    lineNumber: 714,
+                                                                    lineNumber: 768,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, idx, true, {
                                                             fileName: "[project]/app/research/page.tsx",
-                                                            lineNumber: 710,
+                                                            lineNumber: 764,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/research/page.tsx",
-                                                    lineNumber: 635,
+                                                    lineNumber: 689,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/research/page.tsx",
-                                            lineNumber: 633,
+                                            lineNumber: 687,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/research/page.tsx",
-                                        lineNumber: 632,
+                                        lineNumber: 686,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
@@ -1041,7 +1099,7 @@ function ResearchPage() {
                                                     children: "Books"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/research/page.tsx",
-                                                    lineNumber: 722,
+                                                    lineNumber: 776,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1054,12 +1112,12 @@ function ResearchPage() {
                                                                 children: "Responsible Pedagogies in Architecture: Combating Climate Change"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/research/page.tsx",
-                                                                lineNumber: 725,
+                                                                lineNumber: 779,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/research/page.tsx",
-                                                            lineNumber: 724,
+                                                            lineNumber: 778,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1069,12 +1127,12 @@ function ResearchPage() {
                                                                 children: "Creative Futures"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/research/page.tsx",
-                                                                lineNumber: 730,
+                                                                lineNumber: 784,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/research/page.tsx",
-                                                            lineNumber: 729,
+                                                            lineNumber: 783,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1085,7 +1143,7 @@ function ResearchPage() {
                                                                     children: "Coffee Table Book on Stepwells of India"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/research/page.tsx",
-                                                                    lineNumber: 733,
+                                                                    lineNumber: 787,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1093,61 +1151,61 @@ function ResearchPage() {
                                                                     children: "Ministry of Culture, Government of India"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/research/page.tsx",
-                                                                    lineNumber: 736,
+                                                                    lineNumber: 790,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/research/page.tsx",
-                                                            lineNumber: 732,
+                                                            lineNumber: 786,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/research/page.tsx",
-                                                    lineNumber: 723,
+                                                    lineNumber: 777,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/research/page.tsx",
-                                            lineNumber: 721,
+                                            lineNumber: 775,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/research/page.tsx",
-                                        lineNumber: 720,
+                                        lineNumber: 774,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/research/page.tsx",
-                                lineNumber: 398,
+                                lineNumber: 452,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "mt-12 h-0.5 bg-[#809949] w-full max-w-4xl mx-auto"
                             }, void 0, false, {
                                 fileName: "[project]/app/research/page.tsx",
-                                lineNumber: 744,
+                                lineNumber: 798,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/research/page.tsx",
-                        lineNumber: 392,
+                        lineNumber: 446,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/research/page.tsx",
-                lineNumber: 377,
+                lineNumber: 431,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/research/page.tsx",
-        lineNumber: 374,
+        lineNumber: 428,
         columnNumber: 5
     }, this);
 }

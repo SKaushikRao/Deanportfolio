@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin } from "lucide-react"
+import { Mail, Phone, MapPin, Linkedin, Instagram, Facebook } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import Sidebar from "@/components/sidebar"
 
@@ -56,15 +56,30 @@ export default function ContactPage() {
 
             <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gray-200">
               <CardContent className="p-8">
-                <Linkedin className="w-8 h-8 text-black mb-4" />
-                <h3 className="text-lg font-semibold mb-3 text-black">LinkedIn</h3>
+                <Instagram className="w-8 h-8 text-black mb-4" />
+                <h3 className="text-lg font-semibold mb-3 text-black">Instagram</h3>
                 <a
-                  href="https://www.linkedin.com/in/ymadhura-yadav-b047697"
+                  href="https://www.instagram.com/yadav.madhura/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-800 hover:text-black transition-colors break-all"
                 >
-                  linkedin.com/in/ymadhura-yadav-b047697
+                  @yadav.madhura
+                </a>
+              </CardContent>
+            </Card>
+
+            <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-gray-200">
+              <CardContent className="p-8">
+                <Facebook className="w-8 h-8 text-black mb-4" />
+                <h3 className="text-lg font-semibold mb-3 text-black">Facebook</h3>
+                <a
+                  href="https://www.facebook.com/ymadhura.yadav/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-800 hover:text-black transition-colors break-all"
+                >
+                  @ymadhura.yadav
                 </a>
               </CardContent>
             </Card>

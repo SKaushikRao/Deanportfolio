@@ -5,7 +5,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: {
-    default: "Dr. Madhura Yadav | Architect, Dean & Sustainability Expert",
+    default: "Dr. Madhura Yadav | Architect-Planner, Dean & Sustainability Expert",
     template: "%s | Dr. Madhura Yadav"
   },
   description: "Official portfolio of Dr. Madhura Yadav, Dean of Student Welfare at Manipal University Jaipur, renowned Architect Planner, Sustainability Expert, and UNESCO Certified Mentor.",
