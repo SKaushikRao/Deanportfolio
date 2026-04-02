@@ -851,15 +851,25 @@ function ResearchPage() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "group p-4 border-l-4 border-[#809949] hover:bg-white/10 transition-colors rounded-r-lg",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "font-semibold text-white group-hover:text-white/80",
-                                                                children: "Creative Futures"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/app/research/page.tsx",
-                                                                lineNumber: 514,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        }, void 0, false, {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                    className: "font-semibold text-white group-hover:text-white/80",
+                                                                    children: "The Future of creative Industries A global perspective"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/research/page.tsx",
+                                                                    lineNumber: 514,
+                                                                    columnNumber: 21
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "text-sm text-white/80 mt-1",
+                                                                    children: "- A cambridge publication"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/app/research/page.tsx",
+                                                                    lineNumber: 515,
+                                                                    columnNumber: 21
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
                                                             fileName: "[project]/app/research/page.tsx",
                                                             lineNumber: 513,
                                                             columnNumber: 19
@@ -872,7 +882,7 @@ function ResearchPage() {
                                                                     children: "Coffee Table Book on Stepwells of India"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/research/page.tsx",
-                                                                    lineNumber: 517,
+                                                                    lineNumber: 518,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -880,13 +890,13 @@ function ResearchPage() {
                                                                     children: "Ministry of Culture, Government of India"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/research/page.tsx",
-                                                                    lineNumber: 520,
+                                                                    lineNumber: 521,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/research/page.tsx",
-                                                            lineNumber: 516,
+                                                            lineNumber: 517,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
@@ -916,7 +926,7 @@ function ResearchPage() {
                                 className: "mt-12 h-0.5 bg-[#809949] w-full max-w-4xl mx-auto"
                             }, void 0, false, {
                                 fileName: "[project]/app/research/page.tsx",
-                                lineNumber: 528,
+                                lineNumber: 529,
                                 columnNumber: 11
                             }, this)
                         ]

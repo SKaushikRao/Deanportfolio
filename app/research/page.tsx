@@ -511,7 +511,8 @@ const publications: Publication[] = [
                     </h3>
                   </div>
                   <div className="group p-4 border-l-4 border-[#809949] hover:bg-white/10 transition-colors rounded-r-lg">
-                    <h3 className="font-semibold text-white group-hover:text-white/80">Creative Futures</h3>
+                    <h3 className="font-semibold text-white group-hover:text-white/80">The Future of creative Industries A global perspective</h3>
+                    <p className="text-sm text-white/80 mt-1">- A cambridge publication</p>
                   </div>
                   <div className="group p-4 border-l-4 border-[#809949] hover:bg-white/10 transition-colors rounded-r-lg">
                     <h3 className="font-semibold text-white group-hover:text-white/80">
