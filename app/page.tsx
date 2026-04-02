@@ -184,7 +184,7 @@ export default function Home() {
                       <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
                         <BookOpen className="h-8 w-8 text-black" />
                       </div>
-                      <div className="text-5xl font-bold text-white mb-4 group-hover:scale-105 transition-transform duration-300">10</div>
+                      <div className="text-5xl font-bold text-white mb-4 group-hover:scale-105 transition-transform duration-300">12</div>
                       <p className="text-white text-lg font-medium">Patents Published</p>
                     </CardContent>
                   </Card>
