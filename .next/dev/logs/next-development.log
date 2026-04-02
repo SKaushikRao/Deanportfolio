@@ -1,236 +1,55 @@
-[00:00:01.553] Server  LOG      ✓ Ready in 1014ms
-[00:00:07.546] Server  LOG      ○ Compiling / ...
-[00:00:08.999] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.726] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:09.726] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:09.726] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775127777183} /_vercel/insights/view
-[00:00:18.411] Browser WARN    Image with src "http://localhost:3000/sustainable-architecture-building-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:18.411] Browser WARN    Image with src "http://localhost:3000/university-campus-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:18.411] Browser WARN    Image with src "http://localhost:3000/heritage-conservation-architecture.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:18.412] Browser WARN    Image with src "http://localhost:3000/gallery/img14.JPEG" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:18.412] Browser WARN    Image with src "http://localhost:3000/bamboo-construction-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:18.412] Browser WARN    Image with src "http://localhost:3000/green-building-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:00:32.821] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775127800287} /_vercel/insights/view
-[00:00:40.653] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775127808104} /_vercel/insights/view
-[00:02:23.877] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775127911342} /_vercel/insights/view
-[00:03:01.033] Server  LOG      ✓ Compiled in 163ms
-[00:03:30.066] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775127977519} /_vercel/insights/view
-[00:03:50.365] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775127997825} /_vercel/insights/view
-[00:05:27.485] Browser ERROR   ./app/research/page.tsx:309:21
-Parsing ecmascript source code failed
-  307 |                       <p className="text-sm text-white/80">{publication.authors} {publication.year} {publication.journal}</p>
-  308 |                     </div>
-> 309 |                   ))}
-      |                     ^
-  310 |                 </div>
-  311 |               </CardContent>
-  312 |             </Card>
-
-Expected '</', got '}'
-[00:05:36.550] Browser ERROR   ./app/research/page.tsx:309:21
-Parsing ecmascript source code failed
-  307 |                       <p className="text-sm text-white/80">{publication.authors} {publication.year} {publication.journal}</p>
-  308 |                     </div>
-> 309 |                   ))}
-      |                     ^
-  310 |                 </div>
-  311 |               </CardContent>
-  312 |             </Card>
-
-Expected '</', got '}'
-[00:05:43.531] Server  ERROR    ⨯ ./app/research/page.tsx:309:21
-Parsing ecmascript source code failed
-  307 |                       <p className="text-sm text-white/80">{publication.authors} {publication.year} {publication.journal}</p>
-  308 |                     </div>
-> 309 |                   ))}
-      |                     ^
-  310 |                 </div>
-  311 |               </CardContent>
-  312 |             </Card>
-
-Expected '</', got '}'
-
-
-[00:05:43.667] Browser ERROR   ./app/research/page.tsx:309:21
-Parsing ecmascript source code failed
-  307 |                       <p className="text-sm text-white/80">{publication.authors} {publication.year} {publication.journal}</p>
-  308 |                     </div>
-> 309 |                   ))}
-      |                     ^
-  310 |                 </div>
-  311 |               </CardContent>
-  312 |             </Card>
-
-Expected '</', got '}'
-[00:05:44.231] Browser ERROR   ./app/research/page.tsx:309:21
-Parsing ecmascript source code failed
-  307 |                       <p className="text-sm text-white/80">{publication.authors} {publication.year} {publication.journal}</p>
-  308 |                     </div>
-> 309 |                   ))}
-      |                     ^
-  310 |                 </div>
-  311 |               </CardContent>
-  312 |             </Card>
-
-Expected '</', got '}'
-[00:05:44.231] Browser ERROR   ./app/research/page.tsx:309:21
-Parsing ecmascript source code failed
-  307 |                       <p className="text-sm text-white/80">{publication.authors} {publication.year} {publication.journal}</p>
-  308 |                     </div>
-> 309 |                   ))}
-      |                     ^
-  310 |                 </div>
-  311 |               </CardContent>
-  312 |             </Card>
-
-Expected '</', got '}'
-[00:05:44.669] Browser ERROR   ./app/research/page.tsx:309:21
-Parsing ecmascript source code failed
-  307 |                       <p className="text-sm text-white/80">{publication.authors} {publication.year} {publication.journal}</p>
-  308 |                     </div>
-> 309 |                   ))}
-      |                     ^
-  310 |                 </div>
-  311 |               </CardContent>
-  312 |             </Card>
-
-Expected '</', got '}'
-[00:05:44.873] Browser ERROR   uncaughtError: Error: ./app/research/page.tsx:309:21
-Parsing ecmascript source code failed
-  307 |                       <p className="text-sm text-white/80">{publication.authors} {publication.year} {publication.journal}</p>
-  308 |                     </div>
-> 309 |                   ))}
-      |                     ^
-  310 |                 </div>
-  311 |               </CardContent>
-  312 |             </Card>
-
-Expected '</', got '}'
-
-
-[00:05:45.500] Browser ERROR   ./app/research/page.tsx:309:21
-Parsing ecmascript source code failed
-  307 |                       <p className="text-sm text-white/80">{publication.authors} {publication.year} {publication.journal}</p>
-  308 |                     </div>
-> 309 |                   ))}
-      |                     ^
-  310 |                 </div>
-  311 |               </CardContent>
-  312 |             </Card>
-
-Expected '</', got '}'
-[00:05:45.500] Browser ERROR   ./app/research/page.tsx:309:21
-Parsing ecmascript source code failed
-  307 |                       <p className="text-sm text-white/80">{publication.authors} {publication.year} {publication.journal}</p>
-  308 |                     </div>
-> 309 |                   ))}
-      |                     ^
-  310 |                 </div>
-  311 |               </CardContent>
-  312 |             </Card>
-
-Expected '</', got '}'
-[00:06:04.910] Browser ERROR   ./app/research/page.tsx:27:3
-Parsing ecmascript source code failed
-  25 |       year: "(2025)"
-  26 |     },
-> 27 |   return (
-     |   ^^^^^^
-  28 |     <div className="flex min-h-screen">
-  29 |       <Sidebar />
-  30 |
-
-Expression expected
-[00:06:30.475] Browser ERROR   ./app/research/page.tsx:676:21
-Parsing ecmascript source code failed
-  674 |                       <p className="text-sm text-white/80">{publication.authors} {publication.year} {publication.journal}</p>
-  675 |                     </div>
-> 676 |                   ))}
-      |                     ^
-  677 |                 </div>
-  678 |               </CardContent>
-  679 |             </Card>
-
-Expected '</', got '}'
-[00:06:40.950] Server  LOG      ✓ Compiled in 43ms
-[00:06:41.599] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:41.878] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:06:41.878] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/research","route":"/research"}
-[00:06:41.878] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128169345} /_vercel/insights/view
-[00:08:14.375] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128261829} /_vercel/insights/view
-[00:08:30.755] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128278221} /_vercel/insights/view
-[00:11:41.679] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128469118} /_vercel/insights/view
-[00:11:43.928] Browser WARN    Image with src "http://localhost:3000/sustainable-architecture-building-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:11:43.928] Browser WARN    Image with src "http://localhost:3000/university-campus-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:11:43.929] Browser WARN    Image with src "http://localhost:3000/gallery/img14.JPEG" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:11:43.929] Browser WARN    Image with src "http://localhost:3000/heritage-conservation-architecture.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:11:43.929] Browser WARN    Image with src "http://localhost:3000/bamboo-construction-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:11:43.929] Browser WARN    Image with src "http://localhost:3000/green-building-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:12:00.315] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/associations color: rgb(120, 120, 120) color: inherit {"dp":"/associations","o":"http://localhost:3000/associations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128487782} /_vercel/insights/view
-[00:12:03.616] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/education color: rgb(120, 120, 120) color: inherit {"dp":"/education","o":"http://localhost:3000/education","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128491075} /_vercel/insights/view
-[00:12:07.585] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/teaching color: rgb(120, 120, 120) color: inherit {"dp":"/teaching","o":"http://localhost:3000/teaching","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128495050} /_vercel/insights/view
-[00:12:11.354] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/awards color: rgb(120, 120, 120) color: inherit {"dp":"/awards","o":"http://localhost:3000/awards","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128498792} /_vercel/insights/view
-[00:12:13.569] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128501033} /_vercel/insights/view
-[00:12:47.206] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128534657} /_vercel/insights/view
-[00:12:54.044] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128541505} /_vercel/insights/view
-[00:12:54.766] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128542234} /_vercel/insights/view
-[00:12:55.860] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128543328} /_vercel/insights/view
-[00:15:54.679] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128722147} /_vercel/insights/view
-[00:16:10.196] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128737637} /_vercel/insights/view
-[00:16:13.492] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:13.684] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:16:13.684] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/papers","route":"/papers"}
-[00:16:13.684] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/papers color: rgb(120, 120, 120) color: inherit {"dp":"/papers","o":"http://localhost:3000/papers","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128741148} /_vercel/insights/view
-[00:16:14.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:14.450] Browser WARN    Image with src "http://localhost:3000/sustainable-architecture-building-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:16:14.450] Browser WARN    Image with src "http://localhost:3000/university-campus-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:16:14.450] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:16:14.450] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:16:14.450] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128741874} /_vercel/insights/view
-[00:16:14.450] Browser WARN    Image with src "http://localhost:3000/green-building-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:16:14.450] Browser WARN    Image with src "http://localhost:3000/heritage-conservation-architecture.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:16:14.450] Browser WARN    Image with src "http://localhost:3000/bamboo-construction-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:16:14.450] Browser WARN    Image with src "http://localhost:3000/gallery/img14.JPEG" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:16:15.255] Server  LOG      ✓ Compiled in 61ms
-[00:16:29.056] Server  LOG      ✓ Compiled in 67ms
-[00:16:29.571] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128757038} /_vercel/insights/view
-[00:16:30.293] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128757758} /_vercel/insights/view
-[00:16:32.178] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/consultancy-projects color: rgb(120, 120, 120) color: inherit {"dp":"/consultancy-projects","o":"http://localhost:3000/consultancy-projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128759640} /_vercel/insights/view
-[00:16:33.288] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128760755} /_vercel/insights/view
-[00:16:34.081] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128761545} /_vercel/insights/view
-[00:16:34.821] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128762289} /_vercel/insights/view
-[00:16:35.709] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/hall-of-fame color: rgb(120, 120, 120) color: inherit {"dp":"/hall-of-fame","o":"http://localhost:3000/hall-of-fame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128763166} /_vercel/insights/view
-[00:16:37.767] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128765223} /_vercel/insights/view
-[00:16:39.125] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128766592} /_vercel/insights/view
-[00:20:23.787] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775128991246} /_vercel/insights/view
-[00:20:58.856] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775129026323} /_vercel/insights/view
-[00:21:09.499] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/media color: rgb(120, 120, 120) color: inherit {"dp":"/media","o":"http://localhost:3000/media","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775129036955} /_vercel/insights/view
-[00:23:54.438] Server  LOG      ✓ Compiled in 63ms
-[00:25:12.189] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775129279653} /_vercel/insights/view
-[00:27:46.721] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:46.958] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:27:46.958] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/research","route":"/research"}
-[00:27:46.958] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775129434420} /_vercel/insights/view
-[00:28:56.646] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:56.802] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:28:56.802] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/research","route":"/research"}
-[00:28:56.802] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775129504266} /_vercel/insights/view
-[00:28:57.381] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:57.381] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:28:57.381] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/research","route":"/research"}
-[00:28:57.381] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775129504908} /_vercel/insights/view
-[00:28:57.599] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:57.865] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:58.058] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:58.326] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:28:58.465] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:28:58.465] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/research","route":"/research"}
-[00:28:58.465] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775129505932} /_vercel/insights/view
-[00:32:01.637] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775129689086} /_vercel/insights/view
-[00:32:02.323] Browser WARN    Image with src "http://localhost:3000/sustainable-architecture-building-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:32:02.323] Browser WARN    Image with src "http://localhost:3000/university-campus-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:32:02.323] Browser WARN    Image with src "http://localhost:3000/heritage-conservation-architecture.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:32:02.323] Browser WARN    Image with src "http://localhost:3000/green-building-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:32:02.323] Browser WARN    Image with src "http://localhost:3000/gallery/img14.JPEG" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:32:02.323] Browser WARN    Image with src "http://localhost:3000/bamboo-construction-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:32:45.600] Server  LOG      ✓ Compiled in 42ms
+[00:00:01.066] Server  LOG      ✓ Ready in 680ms
+[00:01:03.470] Server  LOG      ○ Compiling / ...
+[00:01:05.716] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:06.628] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:06.628] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:06.628] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130012225} /_vercel/insights/view
+[00:01:07.166] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:07.359] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:07.359] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:01:07.360] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130013441} /_vercel/insights/view
+[00:01:07.871] Browser WARN    Image with src "http://localhost:3000/sustainable-architecture-building-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:01:07.871] Browser WARN    Image with src "http://localhost:3000/university-campus-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:01:07.871] Browser WARN    Image with src "http://localhost:3000/green-building-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:01:07.871] Browser WARN    Image with src "http://localhost:3000/heritage-conservation-architecture.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:01:07.871] Browser WARN    Image with src "http://localhost:3000/bamboo-construction-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:01:07.871] Browser WARN    Image with src "http://localhost:3000/gallery/img14.JPEG" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:01:15.054] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130021141} /_vercel/insights/view
+[00:01:46.667] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:46.840] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:46.840] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/research","route":"/research"}
+[00:01:46.840] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130052929} /_vercel/insights/view
+[00:02:18.088] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:18.233] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:18.233] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/research","route":"/research"}
+[00:02:18.233] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130084323} /_vercel/insights/view
+[00:02:18.684] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:19.508] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:19.639] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:19.639] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/research","route":"/research"}
+[00:02:19.639] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130085729} /_vercel/insights/view
+[00:03:02.491] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:02.638] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:02.638] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/research","route":"/research"}
+[00:03:02.638] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130128727} /_vercel/insights/view
+[00:03:05.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:05.282] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:05.282] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/research","route":"/research"}
+[00:03:05.282] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130131438} /_vercel/insights/view
+[00:03:05.447] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:05.579] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:05.580] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/research","route":"/research"}
+[00:03:05.580] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130131665} /_vercel/insights/view
+[00:05:14.670] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:15.599] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:15.599] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/research","route":"/research"}
+[00:05:15.599] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/research color: rgb(120, 120, 120) color: inherit {"dp":"/research","o":"http://localhost:3000/research","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130261187} /_vercel/insights/view
+[00:05:27.393] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130273463} /_vercel/insights/view
+[00:05:28.905] Browser WARN    Image with src "http://localhost:3000/sustainable-architecture-building-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:05:28.905] Browser WARN    Image with src "http://localhost:3000/university-campus-design.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:05:28.905] Browser WARN    Image with src "http://localhost:3000/heritage-conservation-architecture.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:05:28.905] Browser WARN    Image with src "http://localhost:3000/gallery/img14.JPEG" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:05:28.905] Browser WARN    Image with src "http://localhost:3000/green-building-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:05:28.905] Browser WARN    Image with src "http://localhost:3000/bamboo-construction-project.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:05:34.858] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130280947} /_vercel/insights/view
+[00:05:36.615] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775130282704} /_vercel/insights/view

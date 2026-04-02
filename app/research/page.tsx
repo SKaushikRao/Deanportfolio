@@ -17,7 +17,7 @@ interface Patent {
 }
 
 export default function ResearchPage() {
-  const publications: Publication[] = [
+const publications: Publication[] = [
     {
       title: "User behavioral patterns in inclusive public open space: A case from Indian towns",
       journal: "Cities & Health",
@@ -37,20 +37,20 @@ export default function ResearchPage() {
       year: "(2025)"
     },
     {
-      title: "Examination of key landscape characteristics and evaluation tools for assessing the impact of higher education campus landscapes on students' well-being: A systematic review",
-      journal: "Multidisciplinary Reviews",
+      title: "Examination of key landscape characteristics and evaluation tools for assessing the impact of higher education campus landscapes on students’ well-being: A systematic review",
+      journal: "Multidisciplinary Reviews,",
       authors: "Prabhu, M.K., Yadav, M., Arya, B., Kumar, D., Sharma, M. and Kumar, H.",
       year: "(2025)"
     },
     {
-      title: "Impact of Higher Education Campus Landscape on Students' Mental Health: A Systematic Review",
-      journal: "Indian Journal of Psychological Science, 21(Special Issue)",
+      title: "Impact of Higher Education Campus Landscape on Students’ Mental Health: A Systematic Review",
+      journal: "Indian Journal of Psychological Science, 21(Special Issue),",
       authors: "Prabhu, M.K. and Yadav, M.",
       year: "(2025)"
     },
     {
       title: "Pharad block printing: A cultural treasure resurging in contemporary times",
-      journal: "TEXTILE, 23(2)",
+      journal: "TEXTILE, 23(2),",
       authors: "Mishra, P. and Yadav, M.",
       year: "(2025)"
     },
@@ -86,7 +86,7 @@ export default function ResearchPage() {
     },
     {
       title: "A thermal study of roof shapes and materials in hot dry climates: Insights from a simulation from Rajasthan, India",
-      journal: "ISVS e-journal, 10(12)",
+      journal: "ISVS e-journal, 10(12),",
       authors: "Sharma, S. and Yadav, M.",
       year: "(2023)"
     },
@@ -128,13 +128,13 @@ export default function ResearchPage() {
     },
     {
       title: "Fast fashion and its impact on the environment: An overview",
-      journal: "Journal of Contemporary Issues in Business and Government, 28(4)",
+      journal: "Journal of Contemporary Issues in Business and Government, 28(4),",
       authors: "Mishra, P. and Yadav, M.",
       year: "(2022)"
     },
     {
       title: "Redefining design education for 21st century",
-      journal: "in Proceedings of the International Conference on Research into Design (ICoRD'21). Springer, IIT Mumbai, India",
+      journal: "in Proceedings of the International Conference on Research into Design (ICoRD’21). Springer, IIT Mumbai, India",
       authors: "Yadav, M.",
       year: "(2021)"
     },
@@ -183,7 +183,7 @@ export default function ResearchPage() {
     {
       title: "Future cities: Envisioning human dimensions",
       journal: "International Journal of Advance & Innovative Research, 5(4 XVIII)",
-      authors: "Yadav, M. and Simion, I.G.",
+      authors: "Yadav, M.",
       year: "(2018)"
     },
     {
@@ -224,7 +224,7 @@ export default function ResearchPage() {
     },
     {
       title: "Appropriate residential typologies for Mumbai",
-      journal: "in Proceedings of the International Conference IES. Japan",
+      journal: "in Proceedings of the International Conference on IES. Japan",
       authors: "Yadav, M.",
       year: "(2013)"
     },
@@ -271,13 +271,13 @@ export default function ResearchPage() {
       year: "(2003)"
     },
     {
-      title: "The Therapeutic Campus: A Systematic Review of Green, Blue, and Grey Spaces' Impact on Student Mental Health Outcomes",
+      title: "The Therapeutic Campus: A Systematic Review of Green, Blue, and Grey Spaces’ Impact on Student Mental Health Outcomes",
       journal: "in 34th Annual Conference of Sports Psychology Association of India, Manipal University Jaipur, India, 17–18 April",
       authors: "Prabhu, M.K. and Yadav, M.",
       year: "(2025)"
     },
     {
-      title: "Unveiling the threads of change: Exploring influences on youth's intentions for sustainable clothing adoption in India",
+      title: "Unveiling the threads of change: Exploring influences on youth’s intentions for sustainable clothing adoption in India",
       journal: "in Proceedings of the International Conference on Fashion as a Tool for Social Change (FTSC 2024): Cultural Preservation and Innovation, Woxsen University, Telangana, India, 5–6 August 2024",
       authors: "Mishra, P. and Yadav, M.",
       year: "(2024)"
@@ -293,60 +293,6 @@ export default function ResearchPage() {
       journal: "in International Conference on Socially Conscious Built Environments, Manipal University Jaipur, India, 27–28 November",
       authors: "Prabhu, M.K. and Yadav, M.",
       year: "(2025)"
-    },
-    {
-      title: "Embodied energy in vernacular houses",
-      journal: "in Proceedings of the International Conference ISVS. Colombo, Sri Lanka",
-      authors: "Yadav, M.",
-      year: "(2010)"
-    },
-    {
-      title: "Defining ecological regionalism: A theoretical perspective",
-      journal: "in Proceedings of the International Conference on Eco-Architecture. Algarve, Portugal",
-      authors: "Yadav, M.",
-      year: "(2008)"
-    },
-    {
-      title: "Transforming habitats: A case study of Mumbai",
-      journal: "in Proceedings of the International Conference ISVS-IV. CEPT, Ahmedabad, India",
-      authors: "Yadav, M.",
-      year: "(2008)"
-    },
-    {
-      title: "Housing tenure for the urban poor: A case study of Mumbai city",
-      journal: "in Proceedings of the International Conference on Housing for the Urban Poor. Brisbane, Australia",
-      authors: "Yadav, M.",
-      year: "(2007)"
-    },
-    {
-      title: "Heritage of Aurangabad: Problems and prospects",
-      journal: "in Proceedings of the National Conference on Heritage Conservation. Jaipur, India",
-      authors: "Yadav, M.",
-      year: "(2004)"
-    },
-    {
-      title: "Women empowerment through rainwater harvesting",
-      journal: "in Proceedings of the National Conference on Emerging Technologies for Women. Indore, India",
-      authors: "Yadav, M.",
-      year: "(2003)"
-    },
-    {
-      title: "Sustainable urban development of Aurangabad city",
-      journal: "in Proceedings of the International Conference on Sustainable Habitats. Mumbai, India",
-      authors: "Yadav, M.",
-      year: "(2003)"
-    },
-    {
-      title: "The Therapeutic Campus: A Systematic Review of Green, Blue, and Grey Spaces' Impact on Student Mental Health Outcomes",
-      journal: "in 34th Annual Conference of Sports Psychology Association of India, Manipal University Jaipur, India, 17–18 April",
-      authors: "Prabhu, M.K. and Yadav, M.",
-      year: "(2025)"
-    },
-    {
-      title: "Unveiling the threads of change: Exploring influences on youth's intentions for sustainable clothing adoption in India",
-      journal: "in Proceedings of the International Conference on Fashion as a Tool for Social Change (FTSC 2024): Cultural Preservation and Innovation, Woxsen University, Telangana, India, 5–6 August 2024",
-      authors: "Mishra, P. and Yadav, M.",
-      year: "(2024)"
     }
   ]
 
@@ -456,223 +402,7 @@ export default function ResearchPage() {
               <CardContent className="p-8">
                 <h2 className="text-2xl font-bold mb-6 text-[#809949]">Research Publications</h2>
                 <div className="space-y-4">
-                  {[
-                    {
-                      title: "User behavioral patterns in inclusive public open space: A case from Indian towns, Cities & Health",
-                      journal: "Cities & Health",
-                      authors: "Yadav, M., Gupta, A. and Nayak, B.K.",
-                      year: "(2025)"
-                    },
-                    {
-                      title: "Simulation-based investigation of ETFE and autoheal polymers for energy efficiency and thermal comfort in adaptive building envelopes",
-                      journal: "International Journal of Applied Mathematics",
-                      authors: "Yadav, M. and Kuda, A.",
-                      year: "(2025)"
-                    },
-                    {
-                      title: "Performance of PTFE-based adaptive building facades for climate resilience: A simulation-driven analysis",
-                      journal: "International Journal of Engineering, Science and Information Technology",
-                      authors: "Yadav, M., Kuda, A. and Ali, S.M.",
-                      year: "(2025)"
-                    },
-                    {
-                      title: "Examination of key landscape characteristics and evaluation tools for assessing the impact of higher education campus landscapes on students' well-being: A systematic review",
-                      journal: "Multidisciplinary Reviews",
-                      authors: "Prabhu, M.K., Yadav, M., Arya, B., Kumar, D., Sharma, M. and Kumar, H.",
-                      year: "(2025)"
-                    },
-                    {
-                      title: "Impact of Higher Education Campus Landscape on Students' Mental Health: A Systematic Review",
-                      journal: "Indian Journal of Psychological Science",
-                      authors: "Prabhu, M.K. and Yadav, M.",
-                      year: "(2025)"
-                    },
-                    {
-                      title: "Pharad block printing: A cultural treasure resurging in contemporary times",
-                      journal: "TEXTILE",
-                      authors: "Mishra, P. and Yadav, M.",
-                      year: "(2025)"
-                    },
-                    {
-                      title: "A systematic literature review on inclusive public open spaces: Accessibility standards and universal design principles",
-                      journal: "Urban Sciences",
-                      authors: "Yadav, M., Gupta, A. and Nayak, B.K.",
-                      year: "(2025)"
-                    },
-                    {
-                      title: "Waste to wealth: Overview of waste and recycled material in construction industry",
-                      journal: "Materials Today: Proceedings",
-                      authors: "Yadav, M. and Sinha, S.",
-                      year: "(2022)"
-                    },
-                    {
-                      title: "Opportunities and challenges of hempcrete as a building material for construction: An overview",
-                      journal: "Materials Today: Proceedings",
-                      authors: "Yadav, M. and Saini, A.",
-                      year: "(2022)"
-                    },
-                    {
-                      title: "Fast fashion and its impact on the environment: An overview",
-                      journal: "Journal of Contemporary Issues in Business and Government",
-                      authors: "Yadav, M.",
-                      year: "(2021)"
-                    },
-                    {
-                      title: "Redefining design education for 21st century",
-                      journal: "in Proceedings of the International Conference on Research into Design (ICoRD'21)",
-                      authors: "Yadav, M. and Verma, A.",
-                      year: "(2021)"
-                    },
-                    {
-                      title: "Application of nano materials in architecture: An overview",
-                      journal: "in Proceedings of the International Conference CRMSC-2021",
-                      authors: "Yadav, M. and Agarwal, M.",
-                      year: "(2021)"
-                    },
-                    {
-                      title: "Biobased building materials for sustainable future: An overview",
-                      journal: "in Proceedings of the International Conference CRMSC-2021",
-                      authors: "Yadav, M. and Mathur, A.",
-                      year: "(2021)"
-                    },
-                    {
-                      title: "Bamboo as a sustainable material in the construction industry: An overview",
-                      journal: "in Proceedings of the International Conference CRMSC-2021",
-                      authors: "Yadav, M. and Agarwal, P.",
-                      year: "(2021)"
-                    },
-                    {
-                      title: "Campus design of universities: An overview",
-                      journal: "Journal of Design & Built Environment",
-                      authors: "Yadav, M. and Jisthu, P.",
-                      year: "(2020)"
-                    },
-                    {
-                      title: "Application of augmented reality and virtual reality in architecture and planning: An overview",
-                      journal: "in Proceedings of the 6th International Conference on Signal and Image Processing (SIGI 2020)",
-                      authors: "Yadav, M.",
-                      year: "(2018)"
-                    },
-                    {
-                      title: "Experiences and challenges of community participation in urban renewal projects: A case study of Bhendi Bazzar, Mumbai, India",
-                      journal: "in Proceedings of the International Conference on Urban Redesign and Redevelopment",
-                      authors: "Yadav, M.",
-                      year: "(2018)"
-                    },
-                    {
-                      title: "Environment management through meditation: A sustainable approach",
-                      journal: "in Proceedings of the International Conference on Emerging Trends in Engineering Science & Technology",
-                      authors: "Yadav, M.",
-                      year: "(2018)"
-                    },
-                    {
-                      title: "Future cities: Envisioning human dimensions",
-                      journal: "International Journal of Advance & Innovative Research",
-                      authors: "Yadav, M. and Simion, I.G.",
-                      year: "(2017)"
-                    },
-                    {
-                      title: "Analysis of natural ventilation systems in heritage buildings: A case study of Hawa Mahal, Jaipur, India",
-                      journal: "Journal of Indian Institute of Architects",
-                      authors: "Yadav, M. and Joann, L.",
-                      year: "(2015)"
-                    },
-                    {
-                      title: "Study of roof types and technologies to reduce indoor air temperature: An overview",
-                      journal: "Journal of Indian Institute of Architects",
-                      authors: "Yadav, M. and Nayak, B.K.",
-                      year: "(2015)"
-                    },
-                    {
-                      title: "Green building rating systems through the lens of vernacular architecture",
-                      journal: "Journal of Indian Institute of Architects",
-                      authors: "Yadav, M. and Nayak, B.K.",
-                      year: "(2015)"
-                    },
-                    {
-                      title: "Impact of urban form on hydrology: A case study of Mumbai, India",
-                      journal: "in Proceedings of the International Congress of Association of Asian Planning Schools",
-                      authors: "Yadav, M.",
-                      year: "(2015)"
-                    },
-                    {
-                      title: "Architectural design pedagogy in the context of environmental sustainability",
-                      journal: "in Proceedings of the International Conference on Reinventing Design Pedagogy & Contextual Aesthetics",
-                      authors: "Yadav, M.",
-                      year: "(2013)"
-                    },
-                    {
-                      title: "Understanding architecture as a potent form of visual art",
-                      journal: "in Proceedings of the 4th Annual International Conference on Visual and Performing Arts",
-                      authors: "Yadav, M.",
-                      year: "(2013)"
-                    },
-                    {
-                      title: "Appropriate residential typologies for Mumbai",
-                      journal: "in Proceedings of the International Conference IES",
-                      authors: "Yadav, M.",
-                      year: "(2010)"
-                    },
-                    {
-                      title: "Embodied energy in vernacular houses",
-                      journal: "in Proceedings of the International Conference ISVS",
-                      authors: "Yadav, M.",
-                      year: "(2008)"
-                    },
-                    {
-                      title: "Defining ecological regionalism: A theoretical perspective",
-                      journal: "in Proceedings of the International Conference on Eco-Architecture",
-                      authors: "Yadav, M.",
-                      year: "(2008)"
-                    },
-                    {
-                      title: "Transforming habitats: A case study of Mumbai",
-                      journal: "in Proceedings of the International Conference ISVS-IV",
-                      authors: "Yadav, M.",
-                      year: "(2007)"
-                    },
-                    {
-                      title: "Heritage of Aurangabad: Problems and prospects",
-                      journal: "in Proceedings of the National Conference on Heritage Conservation",
-                      authors: "Yadav, M.",
-                      year: "(2003)"
-                    },
-                    {
-                      title: "Housing tenure for the urban poor: A case study of Mumbai city",
-                      journal: "in Proceedings of the International Conference on Housing for the Urban Poor",
-                      authors: "Yadav, M.",
-                      year: "(2004)"
-                    },
-                    {
-                      title: "Women empowerment through rainwater harvesting",
-                      journal: "in Proceedings of the National Conference on Emerging Technologies for Women",
-                      authors: "Yadav, M.",
-                      year: "(2003)"
-                    },
-                    {
-                      title: "Sustainable urban development of Aurangabad city",
-                      journal: "in Proceedings of the International Conference on Sustainable Habitats",
-                      authors: "Prabhu, M.K. and Yadav, M.",
-                      year: "(2025)"
-                    },
-                    {
-                      title: "The Therapeutic Campus: A Systematic Review of Green, Blue, and Grey Spaces Impact on Student Mental Health Outcomes",
-                      journal: "in 34th Annual Conference of Sports Psychology Association of India",
-                      authors: "Mishra, P. and Yadav, M.",
-                      year: "(2024)"
-                    },
-                    {
-                      title: "Unveiling the threads of change: Exploring influences on youth's intentions for sustainable clothing adoption in India",
-                      journal: "in Proceedings of the International Conference on Fashion as a Tool for Social Change (FTSC 2024)",
-                      authors: "Prabhu, M.K. and Yadav, M.",
-                      year: "(2025)"
-                    },
-                    {
-                      title: "Meta-Synthesis of Campus-Landscape Theories: Building an Integrated Framework for Student Well-being",
-                      journal: "in International Conference on Socially Conscious Built Environments",
-                      authors: "Prabhu, M.K. and Yadav, M.",
-                      year: "(2025)"
-                    }].map((publication: Publication, idx: number) => (
+                  {publications.map((publication: Publication, idx: number) => (
                     <div key={idx} className="p-4 border-l-4 border-[#809949] hover:bg-white/10 transition-colors rounded-r-lg">
                       <h3 className="font-semibold text-white mb-1">{idx + 1}. {publication.title}</h3>
                       <p className="text-sm text-white/80">{publication.authors} {publication.year} {publication.journal}</p>
