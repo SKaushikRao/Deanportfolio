@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { ChevronLeft, ChevronRight, Award, BookOpen, Target } from "lucide-react"
+import { ChevronLeft, ChevronRight, Award, BookOpen, Target, GraduationCap, Users, FileText, Briefcase, Heart, Library, Video, Phone, Mail } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Sidebar from "@/components/sidebar"
@@ -309,66 +309,198 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Quick Links */}
+          {/* Quick Links - All Navigation Items */}
           <section>
             <h2 className="text-4xl font-bold mb-6 text-gray-400 text-center">Explore More</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <Link href="/">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Users className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Home</h3>
+                    <p className="text-sm text-gray-800 mt-2">Main page and overview</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              
               <Link href="/education">
                 <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-black group-hover:underline">
-                      Education Qualifications
-                    </h3>
-                    <p className="text-sm text-gray-800 mt-2">
-                      Ph.D., M.Plann., B.Arch. and more certifications
-                    </p>
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <GraduationCap className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Education</h3>
+                    <p className="text-sm text-gray-800 mt-2">Qualifications & degrees</p>
                   </CardContent>
                 </Card>
               </Link>
-
+              
+              <Link href="/associations">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Users className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Associations</h3>
+                    <p className="text-sm text-gray-800 mt-2">Professional groups</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              
               <Link href="/teaching">
                 <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-black group-hover:underline">Teaching Experience</h3>
-                    <p className="text-sm text-gray-800 mt-2">30 years U.G., 20 years P.G. & Research</p>
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <BookOpen className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Teaching</h3>
+                    <p className="text-sm text-gray-800 mt-2">30 years experience</p>
                   </CardContent>
                 </Card>
               </Link>
-
+              
               <Link href="/awards">
                 <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-black group-hover:underline">Awards & Recognition</h3>
-                    <p className="text-sm text-gray-800 mt-2">View all prestigious awards received</p>
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Award className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Awards</h3>
+                    <p className="text-sm text-gray-800 mt-2">Recognition & honors</p>
                   </CardContent>
                 </Card>
               </Link>
-
+              
               <Link href="/research">
                 <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-black group-hover:underline">Research & Patents</h3>
-                    <p className="text-sm text-gray-800 mt-2">Publications, patents, and research projects</p>
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <FileText className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Research</h3>
+                    <p className="text-sm text-gray-800 mt-2">Papers & patents</p>
                   </CardContent>
                 </Card>
               </Link>
-
+              
+              <Link href="/honors">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Target className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Honors</h3>
+                    <p className="text-sm text-gray-800 mt-2">Key achievements</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              
+              <Link href="/papers">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <FileText className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Papers</h3>
+                    <p className="text-sm text-gray-800 mt-2">Important publications</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              
               <Link href="/professional-experience">
                 <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-black group-hover:underline">
-                      Professional Experience
-                    </h3>
-                    <p className="text-sm text-gray-800 mt-2">Major projects and consultancy work</p>
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Briefcase className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Experience</h3>
+                    <p className="text-sm text-gray-800 mt-2">Projects & work</p>
                   </CardContent>
                 </Card>
               </Link>
-
+              
+              <Link href="/spirituality">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Heart className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Spirituality</h3>
+                    <p className="text-sm text-gray-800 mt-2">Blessings & guidance</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              
+              <Link href="/consultancy-projects">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Briefcase className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Consultancy</h3>
+                    <p className="text-sm text-gray-800 mt-2">Projects & work</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              
+              <Link href="/media">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Library className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Books</h3>
+                    <p className="text-sm text-gray-800 mt-2">Publications</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              
+              <Link href="/hall-of-fame">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Users className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Hall of Fame</h3>
+                    <p className="text-sm text-gray-800 mt-2">Personalities</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              
+              <Link href="/community-outreach">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Heart className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Community</h3>
+                    <p className="text-sm text-gray-800 mt-2">Outreach work</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              
+              <Link href="/videos">
+                <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Video className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Videos</h3>
+                    <p className="text-sm text-gray-800 mt-2">Media content</p>
+                  </CardContent>
+                </Card>
+              </Link>
+              
               <Link href="/contact">
                 <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer h-full bg-gray-200">
                   <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold text-black group-hover:underline">Get in Touch</h3>
-                    <p className="text-sm text-gray-800 mt-2">Contact information and social links</p>
+                    <div className="flex items-center justify-center w-16 h-16 bg-gray-300 rounded-full mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Phone className="h-8 w-8 text-black" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-black group-hover:underline">Contact</h3>
+                    <p className="text-sm text-gray-800 mt-2">Get in touch</p>
                   </CardContent>
                 </Card>
               </Link>
