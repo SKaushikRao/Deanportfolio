@@ -17,7 +17,7 @@ export default function HallOfFamePage() {
 
           <SquareTileGallery 
             folder="Hall of fame"
-            imageCount={50}
+            imageCount={52}
             title="All Personalities"
           />
         </div>
